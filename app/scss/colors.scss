@@ -1,0 +1,51 @@
+.branding{
+  background-color: #eee;
+}
+
+.branding .columns{
+  background-color: #ddd;
+}
+
+.title.container{
+  background-color: #57bae3;
+}
+
+.title.container .columns{
+  background-color: #7cc3e1;
+}
+
+.contents .container{
+  background-color: #efefef;
+}
+
+.contents .container .columns{
+  background-color: #fff;
+  margin-top: -1em;
+}
+
+.nav.container {
+  background-color: #f4955b;
+}
+
+.nav.container .columns{
+  background-color: #f6ab7d;
+}
+
+.sidebar{
+  background-color: #eee !important;
+}
+
+
+a{
+  color: #f66710;
+  &.btn.btn-link{
+    &:hover{
+      color: #f66710;
+    }
+    color: #f66710;
+  }
+}
+
+.btn.btn-primary{
+  background-color: #f66710;
+}

@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+  {% block content %}
+
+    <div class="container">
+      <div class="columns">
+        <div class="col-9">
+          {{ contents|safe }}
+        </div>
+        <div class="col-3">
+          <div class="columns sidebar">
+
+          {% for post in siblings %}
+            {% if post.locale === locale and post.title != title %}
+                <div class="col-12">
+                  {% include 'includes/card.html' %}
+                </div>
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endblock %}

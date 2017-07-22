@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="{{locale}}">
+<head>
+  <title>{{title}} -- {{sitename}} -- {{locale}}</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+  <script type="text/javascript">
+    const locale = "{{locale}}";
+  </script>
+  <link rel='stylesheet'  href='/assets/styles.bundle.css' />
+</head>
+<body>
+
+  <div class="container nav">
+    <div class="columns">
+      <div class="col-12">
+        <header class="navbar">
+          <section class="navbar-section">
+            <a class="btn btn-link" href="/{{locale}}/investigations">Investigations</a>
+            <a class="btn btn-link" href="/{{locale}}/database">Database</a>
+          </section>
+          <section class="navbar-section">
+            <a class="btn btn-link" href="{{ url | l('ar')}}">
+              {% if locale === "ar"%}<b>{%endif%}
+              ar
+              {% if locale === "ar"%}</b>{%endif%}
+            </a>
+            <a class="btn btn-link" href="{{ url | l('en')}}">
+              {% if locale === "en"%}<b>{%endif%}
+              en
+              {% if locale === "en"%}</b>{%endif%}
+            </a>
+          </section>
+          <section class="navbar-section">
+            <div class="input-group input-inline">
+              <input class="form-input" type="text" placeholder="search" />
+              <button class="btn btn-primary input-group-btn">Search</button>
+            </div>
+          </section>
+        </header>
+      </div>
+    </div>
+  </div>
+
+  <div class="container branding">
+    <div class="columns">
+      <div class="col-4">
+
+      </div>
+      <div class="col-4">
+        <a href="/">
+          <img src="/assets/syrian_archive_logo_portrait.png" />
+        </a>
+      </div>
+      <div class="col-4">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="js-root"></div>
+
+  <div class="container title">
+    <div class="columns">
+      <div class="col-12">
+        {% block title %}
+          <h2>{{ title }}</h2>
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+
+  <article class="contents">
+    {% block content %}
+    {% endblock %}
+  </article>
+
+
+
+  <script src="/assets/app.bundle.js"></script>
+</body>
+</html>
