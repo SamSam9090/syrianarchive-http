@@ -88,6 +88,7 @@ export default class Investigations extends Component {
         after: '',
         page: 1,
       },
+      stats: { page: 1 },
       selectedUnit: {}
     };
   }
@@ -107,7 +108,7 @@ export default class Investigations extends Component {
         body: JSON.stringify(f)
       })
       .then(r => r.json())
-      .then(d => this.setState({ds: d, filters: f}))
+      .then(d => this.setState({ds: d.units, filters: f, stats: d.stats}))
       .then(() => console.log(this.state));
   }
 
@@ -176,6 +177,10 @@ export default class Investigations extends Component {
           </div>
           <div className="col-6">
             <h3>Incidents</h3>
+            page {this.state.stats.page}
+            - {this.state.stats.current}
+            /{this.state.stats.total} verified evidences
+            <hr />
             {map(i =>
               <div>
                 <div>{i.reference_code}</div>
