@@ -15,7 +15,7 @@ const timeMeOut = (func) => {
   clearTimeout(timeout);
   timeout = setTimeout(() => {
     func();
-  }, 300);
+  }, 500);
 };
 
 const violationtypes = [
