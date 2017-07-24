@@ -15,7 +15,7 @@ const timeMeOut = (func) => {
   clearTimeout(timeout);
   timeout = setTimeout(() => {
     func();
-  }, 500);
+  }, 300);
 };
 
 const violationtypes = [
@@ -178,9 +178,9 @@ export default class Investigations extends Component {
             <h3>Incidents</h3>
             {map(i =>
               <div>
-                <div>{i.dem.reference_code}</div>
-                <div>{i.dem.incident_date} - {i.dem.description}</div>
-                <button onClick={() => this.selectUnit(i.dem)}>S</button>
+                <div>{i.reference_code}</div>
+                <div>{i.incident_date} - {i.description}</div>
+                <button onClick={() => this.selectUnit(i)}>S</button>
                 <hr />
               </div>
             , this.state.ds)}
