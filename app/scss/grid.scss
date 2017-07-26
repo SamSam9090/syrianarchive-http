@@ -3,7 +3,7 @@ img {
 }
 
 .columns {
-  max-width:1200px;
+  max-width:1400px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -13,4 +13,47 @@ img {
 }
 
 body{
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: #fbfbfb;
+}
+
+.top{
+  position: absolute;
+  background-color: rgba(0,0,0,.2);
+  a, .btn.btn-link{
+    color: white;
+  }
+}
+
+.contents{
+  padding-top:3em;
+  p{
+    padding-bottom: 2em;
+  }
+}
+
+
+.card{
+  background-color: white;
+  .card-title{
+    font-size: 1.2em;
+    margin-bottom:0px;
+  }
+  font-size: 1em;
+  .card-image{
+    max-height:20em;
+    overflow: hidden;
+  }
+
+}
+
+
+.database{
+  .filters{
+    background-color: #aaa;
+    h5{
+      font-family: "Lato";
+    }
+  }
 }

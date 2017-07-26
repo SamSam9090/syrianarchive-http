@@ -4,14 +4,14 @@
 
     <div class="container">
       <div class="columns">
-        <div class="col-4">
+        <div class="col-6">
           {{ contents|safe }}
         </div>
-        <div class="col-8">
+        <div class="col-6">
           <div class="columns">
           {% for post in siblings %}
             {% if post.locale === locale and post.title != title %}
-              <div class="col-6">
+              <div class="col-12">
                   {% include 'includes/card.html' %}
                 </div>
             {% endif %}

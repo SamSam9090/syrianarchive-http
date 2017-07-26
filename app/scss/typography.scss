@@ -5,11 +5,28 @@
  }
 
  h1, h2, h3, h4, h5, h6{
-   font-family: 'Lato', sans-serif;
+   font-family: 'Merriweather', serif;
    font-weight:200;
  }
 
 p {
   font-family: 'Merriweather', serif;
+
+}
+
+.title{
+  background-position: center center;
+  background-size: cover;
+  background-image: url('/assets/main_back.jpg');
+
+    h1{
+      color: white;
+      margin-top: 4em;
+
+    }
+    .desc{
+      color:white;
+      margin-bottom: 1em;
+    }
 
 }

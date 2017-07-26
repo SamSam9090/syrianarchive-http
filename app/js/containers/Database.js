@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import {map, merge, omit} from 'lodash/fp';
 import Select from 'react-select';
 import {databaseApiUrl} from '../../../env';
+import ListEvidence from './listevidence';
 
 import t from '../../../translations';
 
@@ -154,14 +155,13 @@ export default class Investigations extends Component {
   }
   render() {
     return (
-      <div className="container">
-        <div className="columns">
-          <div className="col-3">
-            <h6>{ t('Violations Evidence Database', locale)}</h6>
-            <h3>Filters</h3>
-
-            <h5>Search</h5>
+      <div className="container database">
+        <div className="columns filters">
+          <div className="col-2">
+            <h5>{ t('Search', locale)}</h5>
             <input type="text" onChange={this.search} />
+          </div>
+          <div className="col-2">
             <h5>Type of Violation</h5>
             <Select
               name="type_of_violation"
@@ -169,25 +169,33 @@ export default class Investigations extends Component {
               options={violationtypes}
               onChange={this.typechange}
             />
-            <h5>after date</h5>
-            <input id="date" type="text" onChange={this.afterchange} />
-            <h5>before date</h5>
-            <input id="date" type="text" onChange={this.beforechange} />
-            <hr />
           </div>
-          <div className="col-6">
-            <h3>Incidents</h3>
+          <div className="col-2">
+            <h5>After Date</h5>
+            <input id="date" type="text" onChange={this.afterchange} />
+          </div>
+          <div className="col-2">
+            <h5>Fefore Date</h5>
+            <input id="date" type="text" onChange={this.beforechange} />
+          </div>
+          <div className="col-2">
+            <h5>Location</h5>
+            <input id="date" type="text" onChange={this.beforechange} />
+          </div>
+          <div className="col-2">
+            <h5>Weapons Used</h5>
+            <input id="date" type="text" onChange={this.beforechange} />
+          </div>
+          <hr />
+        </div>
+        <div className="columns">
+          <div className="col-9">
             page {this.state.stats.page}
             - {this.state.stats.current}
             /{this.state.stats.total} verified evidences
             <hr />
             {map(i =>
-              <div>
-                <div>{i.reference_code}</div>
-                <div>{i.incident_date} - {i.description}</div>
-                <button onClick={() => this.selectUnit(i)}>S</button>
-                <hr />
-              </div>
+              <ListEvidence unit={i} selector={() => this.selectUnit(i)} />
             , this.state.ds)}
           </div>
           <div className="col-3">
