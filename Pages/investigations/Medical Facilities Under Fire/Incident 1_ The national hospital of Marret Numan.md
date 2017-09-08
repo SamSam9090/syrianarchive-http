@@ -1,4 +1,3 @@
-
 ---
 layout: investigations.html
 title: Medical Facilities Under Fire
@@ -6,6 +5,7 @@ date: 2017-07-01
 desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
+
 
 # Incident 1: The national hospital of Marret Numan - Syrian Archive
 
