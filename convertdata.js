@@ -4,7 +4,7 @@ import collections from 'metalsmith-collections';
 import markdown from 'metalsmith-markdown';
 // import permalinks from 'metalsmith-permalinks';
 import multiLanguage from 'metalsmith-multi-language';
-import {each, merge, keys, concat} from 'lodash';
+import {each, merge, keys, concat, map, compact} from 'lodash';
 import filetree from 'metalsmith-filetree';
 
 import nunjucks from 'nunjucks';
@@ -82,7 +82,10 @@ Metalsmith(__dirname)
           const b2f = `${c.path.substring(1)}/index.html`;
           ff.push(f[b2f]);
         });
-        v.siblings = ff; //eslint-disable-line
+        v.siblings = compact(ff); //eslint-disable-line
+        console.log(v);
+        console.log(map(v.siblings, s => s.path));
+        console.log('-----------------d');
       }
     });
     d();
