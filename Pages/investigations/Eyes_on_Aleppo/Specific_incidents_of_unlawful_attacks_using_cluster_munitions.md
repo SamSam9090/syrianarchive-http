@@ -1,6 +1,6 @@
 ---
 layout: investigations.html
-title: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
+title: Specific incidents of unlawful attacks using cluster munitions - Eyes on Aleppo
 date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/Al_Farouq_Idlib.jpeg
