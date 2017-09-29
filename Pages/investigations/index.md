@@ -1,6 +1,7 @@
 ---
 layout: investigationshome.html
 title: Investigations
+date: 2017-03-03
 ---
 
 The Syrian Archive makes a lot of investigations.

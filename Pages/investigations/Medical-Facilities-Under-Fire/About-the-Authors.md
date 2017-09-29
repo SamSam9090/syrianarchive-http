@@ -1,7 +1,7 @@
 ---
 layout: investigations.html
 title: About the Authors - Medical Facilities Under Fire
-date: 2017-07-01
+date: 2017-07-01T00:01:18.055Z
 desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---

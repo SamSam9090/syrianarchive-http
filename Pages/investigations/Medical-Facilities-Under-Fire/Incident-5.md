@@ -1,7 +1,7 @@
 ---
 layout: investigations.html
 title: Incident 5 - Medical Facilities Under Fire
-date: 2017-07-01
+date: 2017-07-01T00:10:18.055Z
 desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---

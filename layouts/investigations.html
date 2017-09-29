@@ -12,16 +12,7 @@
         </div>
 
         <div class="col-4">
-          <div class="columns ">
-
-          {% for post in siblings %}
-            {% if post.locale === locale and post.title != title %}
-                <div class="col-12">
-                  {% include 'includes/card.html' %}
-                </div>
-            {% endif %}
-          {% endfor %}
-          </div>
+          {% include 'includes/cardlist.html' %}
         </div>
       </div>
     </div>
