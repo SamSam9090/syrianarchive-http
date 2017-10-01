@@ -14,17 +14,11 @@ The Syrian Archive has collected, securely stored, verified, and make publicly a
 An analysis of videos of violations disaggregated by the following types of violations:
 
 1. Arbitrary and forced displacement;  
-
 2. Sieges and economic, social and cultural rights;  
-
 3. Specially protected persons and objects;  
-
 4. Unlawful attacks;  
-
 5. Use of illegal weapons;  
-
 6. Violation of children's rights, and;  
-
 7. Other types of violations.
 
 In many cases, videos document several different types of violations. For example, an attack on a hospital with a chemical or incendiary munition could potentially be categorised both as violations against "Specially protected persons and objects" due to the special status of hospitals, as well as a violation of "Use of illegal munitions." For the purpose of clarity, and in order not to misleadingly double-count the number of videos, each video has been categorised under only one type of violation, the dominant violation identified in each video. Returning to categorise specific videos under multiple violation categories is a subject of further research. A summary table of violations by type and date is provided below:
@@ -87,10 +81,9 @@ The Syrian Archive was similarly able to determine that drones were used unlawfu
 
 ### **Geolocation of violations by location**
 
-The Syrian Archive has [geolocated all 1748 videos in the dataset][1] related to human rights violations in Aleppo city and the surrounding suburbs as shown below. Two types of geolocation have been conducted: 
+The Syrian Archive has [geolocated all 1748 videos in the dataset][1] related to human rights violations in Aleppo city and the surrounding suburbs as shown below. Two types of geolocation have been conducted:
 
 1. Basic geolocation; and  
-
 2. Advanced geolocation.
 
 Basic geolocation refers to the location where the incident happened based on the video title, video footage, accent of the reporter as well as in cross referencing the incident with other reports about the same incident from different groups such as human rights organisations, humanitarian and medical organisations, citizen journalists, et cetera.

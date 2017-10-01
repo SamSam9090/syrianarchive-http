@@ -7,7 +7,7 @@ image: /assets/Al_Farouq_Idlib.jpeg
 ---
 # (II) Research Methodology - Syrian Archive
 
-This section will provide an overview of the methodology used by the Syrian Archive in carrying out this research. The methodology section will be broken into the following sub-sections: 
+This section will provide an overview of the methodology used by the Syrian Archive in carrying out this research. The methodology section will be broken into the following sub-sections:
 
 A) Identification, collection and secure preservation methodology;  
 B) Initial verification methodology;  
@@ -15,17 +15,13 @@ C) In-depth verification methodology.
 
 ## A. Identification, collection and secure preservation methodology
 
-The Syrian Archive has divided its collection and archival methodology into five distinct steps: 
+The Syrian Archive has divided its collection and archival methodology into five distinct steps:
 
 1. Establish database of credible sources for content;  
-
 2. Establish database of credible sources for verification;  
-
 3. Establish standardised metadata schema;  
-
 4. Record additional metadata, and;  
-
-5. Collect, store, hash, and timestamp visual evidence from verified sources. 
+5. Collect, store, hash, and timestamp visual evidence from verified sources.
 
 These five steps are presented and outlined in greater detail in the visualisation below
 
@@ -35,7 +31,7 @@ These five steps are presented and outlined in greater detail in the visualisati
 
 The Syrian Archive has identified more than three hundred sources through following credible and verified social media accounts and channels of individual citizen journalists and larger media houses, such as. YouTube, Facebook and Telegram. Many of those providing video documentation began to do so in late 2011 or early 2012 and have published their work in other credible media outlets as well. It is important to note that many if not all of these sources are partisan, and thus require caution with regards to their claims.  
 
-Trusted sources report from different cities in Syria in order to spread news and information about alleged violations occurring in their areas. The Syrian Archive works with field reporters like Yasser Al-Haj, a journalist from Aleppo who began his career in 2012 and continues working until today. 
+Trusted sources report from different cities in Syria in order to spread news and information about alleged violations occurring in their areas. The Syrian Archive works with field reporters like Yasser Al-Haj, a journalist from Aleppo who began his career in 2012 and continues working until today.
 
 The Syrian Archive also works with local and international news agencies, human rights organisations, as well as the Syrian Civil Defense (more colloquially known as the White Helmets) team, local field clinics and hospitals. Additionally, some video evidence analysed was sent to the Syrian Archive directly by reporters and was not previously been posted on social media platforms.
 
@@ -68,16 +64,12 @@ To ensure that the original content is not lost due to removal on corporate plat
 
 ## B. Initial verification methodology
 
-Similar to the archival and collection methodology, the initial verification methodology is also broken into five distinct steps: 
+Similar to the archival and collection methodology, the initial verification methodology is also broken into five distinct steps:
 
 1. Aggregate metadata from visual evidence;  
-
 2. Verify the source of the video;  
-
 3. Verify the location of the video;  
-
 4. Verify the dates in which the video was filmed and uploaded, and;  
-
 5. Publish verified video evidence on the Syrian Archive's online database.  
 
 These five steps will be discussed in further detail.
