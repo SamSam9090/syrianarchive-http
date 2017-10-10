@@ -73,11 +73,17 @@
   </div>
 
   <article class="contents">
+    {% block jstop %}
+    {% endblock %}
+
     {% block content %}
     {% endblock %}
   </article>
 
-  <div id="js-root"></div>
+  {% block jsbottom %}
+    <div id="js-root"></div>
+  {% endblock %}
+
 
 
 

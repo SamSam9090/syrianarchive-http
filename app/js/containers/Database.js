@@ -3,10 +3,14 @@
 import React, { Component } from 'react';
 import {map, merge, omit} from 'lodash/fp';
 import Select from 'react-select';
+import DatePicker from 'react-datepicker';
+
 import {databaseApiUrl} from '../../../env';
 import ListEvidence from './listevidence';
 
 import t from '../../../translations';
+
+import {violationtypes} from '../violationtypes';
 
 const mapW = map.convert({cap: false});
 
@@ -18,57 +22,6 @@ const timeMeOut = (func) => {
     func();
   }, 500);
 };
-
-const violationtypes = [
-  {
-    value: 'Massacres_and_other_unlawful_killing',
-    label: 'Massacres_and_other_unlawful_killing'
-  },
-  {
-    value: 'Arbitrary_arrest_and_unlawful_detention',
-    label: 'Arbitrary_arrest_and_unlawful_detention'
-  },
-  {
-    value: 'Hostage_taking',
-    label: 'Hostage_taking'
-  },
-  {
-    value: 'Enforced_disappearance',
-    label: 'Enforced_disappearance'
-  },
-  {
-    value: 'Torture_and_ill_treatment_of_detainees',
-    label: 'Torture_and_ill_treatment_of_detainees'
-  },
-  {
-    value: 'Sexual_and_gender_based_violence',
-    label: 'Sexual_and_gender_based_violence'
-  },
-  {
-    value: 'Violations_of_childrens_rights',
-    label: 'Violations_of_childrens_rights'
-  },
-  {
-    value: 'Unlawful_attacks',
-    label: 'Unlawful_attacks'
-  },
-  {
-    value: 'Violations_against_specifically_protected_persons_and_objects',
-    label: 'Violations_against_specifically_protected_persons_and_objects'
-  },
-  {
-    value: 'Use_of_illegal_weapons',
-    label: 'Use_of_illegal_weapons'
-  },
-  {
-    value: 'Sieges_and_violations_of_economic_social_and_cultural_rights',
-    label: 'Sieges_and_violations_of_economic_social_and_cultural_rights'
-  },
-  {
-    value: 'Arbitrary_and_forcible_displacement',
-    label: 'Arbitrary_and_forcible_displacement'
-  },
-];
 
 export default class Investigations extends Component {
   constructor(props) {
@@ -90,12 +43,27 @@ export default class Investigations extends Component {
         page: 1,
       },
       stats: { page: 1 },
+      meta: {},
       selectedUnit: {}
     };
   }
 
   componentDidMount() {
-    this.updateFilters({});
+    this.getMeta()
+      .then(() => this.updateFilters({}))
+      .catch(console.log);
+  }
+
+  getMeta() {
+    return fetch(`${databaseApiUrl}/meta`, // eslint-disable-line
+      {
+        method: 'get',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(r => r.json())
+      .then(r => this.setState({meta: r}));
   }
 
   updateFilters(filters) {
@@ -128,8 +96,15 @@ export default class Investigations extends Component {
     this.updateFilters({type_of_violation: v});
   }
 
+  selectchange(key, val) {
+    console.log('indishit');
+    const v = val ? val.value : '';
+    this.updateFilters({[key]: v});
+  }
+
   afterchange(e) {
-    const date = e.target.value;
+    console.log(e);
+    const date = e;
     timeMeOut(() => {
       const d = Date.parse(date);
       console.log(d);
@@ -140,7 +115,7 @@ export default class Investigations extends Component {
   }
 
   beforechange(e) {
-    const date = e.target.value;
+    const date = e;
     timeMeOut(() => {
       const d = Date.parse(date);
       console.log(d);
@@ -153,14 +128,25 @@ export default class Investigations extends Component {
   selectUnit(u) {
     this.setState(merge(this.state, {selectedUnit: u}));
   }
+
   render() {
     return (
       <div className="container database">
+
+        <div className="columns stats">
+          <div className="col-8">
+            {this.state.meta.verified} verified units
+            {this.state.meta.total} collected
+          </div>
+        </div>
+
         <div className="columns filters">
+
           <div className="col-2">
             <h5>{ t('Search', locale)}</h5>
             <input type="text" onChange={this.search} />
           </div>
+
           <div className="col-2">
             <h5>Type of Violation</h5>
             <Select
@@ -170,24 +156,48 @@ export default class Investigations extends Component {
               onChange={this.typechange}
             />
           </div>
+
           <div className="col-2">
             <h5>After Date</h5>
-            <input id="date" type="text" onChange={this.afterchange} />
+            <DatePicker
+              selected={this.state.filters.after}
+              onChange={this.afterchange}
+              dateFormat="YYYY-MM-DD"
+            />
           </div>
+
           <div className="col-2">
             <h5>Fefore Date</h5>
-            <input id="date" type="text" onChange={this.beforechange} />
+            <DatePicker
+              selected={this.state.filters.before}
+              onChange={this.beforechange}
+              dateFormat="YYYY-MM-DD"
+            />
           </div>
+
           <div className="col-2">
             <h5>Location</h5>
-            <input id="date" type="text" onChange={this.beforechange} />
+            <Select
+              name="location"
+              value={this.state.filters.location}
+              options={map(w => ({value: w, label: w}), this.state.meta.locations)}
+              onChange={v => this.selectchange('location', v)}
+            />
           </div>
+
           <div className="col-2">
             <h5>Weapons Used</h5>
-            <input id="date" type="text" onChange={this.beforechange} />
+            <Select
+              name="weapons_used"
+              value={this.state.filters.weapons_used}
+              options={map(w => ({value: w, label: w}), this.state.meta.weapons)}
+              onChange={v => this.selectchange('weapons_used', v)}
+            />
           </div>
+
           <hr />
         </div>
+
         <div className="columns">
           <div className="col-9">
             page {this.state.stats.page}
