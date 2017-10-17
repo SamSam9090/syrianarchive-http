@@ -5,6 +5,7 @@ date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
+
 # Eyes on Aleppo: Visual Evidence Analysis of Human Rights Violations Committed in Aleppo [July - Dec 2016] - Syrian Archive
 
 ## (I) Introduction
