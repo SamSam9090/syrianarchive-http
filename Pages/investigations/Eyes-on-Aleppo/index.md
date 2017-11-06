@@ -5,6 +5,7 @@ date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
+
 # Eyes on Aleppo: Visual Evidence Analysis of Human Rights Violations Committed in Aleppo [July - Dec 2016] - Syrian Archive
 
 ## (I) Introduction
@@ -17,13 +18,13 @@ Since its founding in 2014, the Syrian Archive have collaborated with organisati
 
 The following [visual evidence dataset][2] complements and supports recent efforts by different groups which have been assisted by the Syrian Archive to report human right violations in Aleppo between July and Dec 2016. Those efforts include:
 
-*   UN Human Rights Council (Feb. 2017): “[Report of the Independent International Commission of Inquiry on the Syrian Arab Republic](http://www.ohchr.org/EN/HRBodies/HRC/IICISyria/Pages/IndependentInternationalCommission.aspx)”
+* UN Human Rights Council (Feb. 2017): “[Report of the Independent International Commission of Inquiry on the Syrian Arab Republic](http://www.ohchr.org/EN/HRBodies/HRC/IICISyria/Pages/IndependentInternationalCommission.aspx)”
 
-*   Atlantic Council (Feb. 2017): “[Breaking Aleppo](http://www.publications.atlanticcouncil.org/breakingaleppo/wp-content/uploads/2017/02/BreakingAleppo.pdf)”
+* Atlantic Council (Feb. 2017): “[Breaking Aleppo](http://www.publications.atlanticcouncil.org/breakingaleppo/wp-content/uploads/2017/02/BreakingAleppo.pdf)”
 
-*   Human Rights Watch (Feb. 2017): “[Coordinated Chemical Attacks on Aleppo”](https://www.hrw.org/news/2017/02/13/syria-coordinated-chemical-attacks-aleppo)
+* Human Rights Watch (Feb. 2017): “[Coordinated Chemical Attacks on Aleppo”](https://www.hrw.org/news/2017/02/13/syria-coordinated-chemical-attacks-aleppo)
 
-*   Various investigations by (July 2016 - March 2017 ) [Bellingcat](https://www.bellingcat.com/?s=syria).
+* Various investigations by (July 2016 - March 2017 ) [Bellingcat](https://www.bellingcat.com/?s=syria).
 
 In this report, the Syrian Archive will describe and investigate a new [visual evidence dataset of 1748 videos][2] of human rights violations in Aleppo city and the surrounding suburbs in the period between July 2016 and Dec 2016.
 
@@ -47,13 +48,13 @@ While attacks and violations have been committed by all parties including the [I
 [(VI) Pattern of attacks against specifically protected persons and object][9]  
 [(VII) Further research][10]  
 
-### [**_Download PDF of the report][11] _**
+**[Download PDF of the report]**[11]
 
 [1]: http://www.ohchr.org/EN/HRBodies/HRC/IICISyria/Pages/IndependentInternationalCommission.aspx
 [2]: https://syrianarchive.org/database/?type_of_violation=&location=1&startDate=01%2F07%2F2016&endDate=31%2F12%2F2016
 [3]: https://www.bellingcat.com/?s=syria
 [4]: https://airwars.org/civilian-casualty-claims/
-[5]: https://syrianarchive.org/p/page/visual_evidence_Aleppo_methodology/
+[5]: Research-Methodology.md
 [6]: https://syrianarchive.org/p/page/visual_evidence_aleppo_findings/
 [7]: https://syrianarchive.org/p/page/visual_evidence_aleppo_incendiary/
 [8]: https://syrianarchive.org/p/page/visual_evidence_aleppo_cluster/
