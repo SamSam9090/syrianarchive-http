@@ -8,7 +8,9 @@
   <div class="card-body">
     {{post.desc}}
     <hr />
+    {% if post.date %}
     <i><small>{{post.date|string|truncate(15, false, '') }}</small></i>
+    {% endif %}
   </div>
   <div class="card-footer">
   </div>
