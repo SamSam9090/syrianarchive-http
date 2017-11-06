@@ -1,5 +1,5 @@
 <div class="columns">
-{% for post in siblings  | sort(false, true, 'date')%}
+{% for post in siblings  | sort(true, true, 'date')%}
   {% if post.locale === locale and post.title != title %}
     <div class="col-12">
         {% include 'includes/card.html' %}
