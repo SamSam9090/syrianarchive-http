@@ -1,8 +1,8 @@
 ---
 layout: investigations.html
-title: Dataset of Verified Videos About Chemical Weapons Attacks in Syria
+title: قاعدة بيانات بالهجمات الكيماوية ضد المدنيين في سوريا
 date: 2017-09-13
-desc: Dataset of Verified Videos About Chemical Weapons Attacks in Syria
+desc: بيان حول الأدلة البصرية التي جمعها الأرشيف السوري كقاعدة بيانات عن الهجمات الكيماوية ضد المدنيين في سوريا
 image: /assets/cover-photo-web.width-800.png
 ---
 

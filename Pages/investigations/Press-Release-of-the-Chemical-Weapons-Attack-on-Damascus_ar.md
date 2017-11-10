@@ -1,8 +1,8 @@
 ---
 layout: investigations.html
-title: Press Release of the Chemical Weapons Attack on Damascus
+title: بيان صحفي حول الضربات الكيماوية في سوريا
 date: 2015-08-21
-desc: The Syrian Archive Team on the 2nd anniversary of the chemical weapons attack on Ghouta, Syria
+desc: بيان صحفي حول الضربات الكيماوية في سوريا في الذكرى الثانية لمجزرة الكيماوي التي ارتُكبت في الغوطة الشرقية لدمشق.
 image: /assets/media_activist_in_Damascus.jpg
 ---
 

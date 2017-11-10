@@ -1,8 +1,8 @@
 ---
 layout: investigations.html
-title: Fact Checking Russia’s Claim That It Didn’t Bomb A Mosque in Syria
+title: التحقّق من استهداف جامع عمر بن الخطاب من قبل الطيران الروسي
 date: 2017-07-01
-desc: Fact Checking Russia’s Claim That It Didn’t Bomb A Mosque in Syria
+desc: ترجمة للتقرير الذي نشرته البيلنغ كات عن استهداف جامع عُمر بن الخطاب في مدينة جسر الشغور بمحافظة إدلب
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
 
@@ -96,7 +96,7 @@ image: /assets/Al_Farouq_Idlib.jpeg
 
 من الملفت للنظر أن [صورة القمر الصناعي التي نشرتها وزارة الدفاع ](http://eng.mil.ru/images/2015-10-29_mosque-EN.jpg)الروسيّة في المنشور سابق الذكر باللغة الإنكليزية احتوت على صندوق تسميةٍ أبيض اللون يُغطي موقع جامع بن الخطاب. دون أن ندري إن تمّ هذا عن قصد!
 
-![](/assets/Comparison(1).jpg)
+![](/assets/Comparison1.jpg)
 
 [نشرت كذلك تنسيقية جسر الشغور خبرًا مع بعض الصور ](https://www.facebook.com/jisralshughour9/posts/985959911449785)مؤكّدةً أسماء الجوامع، وأن جامع "عمر بن الخطاب" هو الوحيد الذي تم استهدافه من قبل الطيران الحربي الروسي.
 

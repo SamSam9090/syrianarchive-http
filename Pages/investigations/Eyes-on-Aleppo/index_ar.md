@@ -1,8 +1,8 @@
 ---
 layout: investigations.html
-title: Eyes on Aleppo
+title: عين على حلب
 date: 2017-03-29
-desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
+desc: عين على حلب: تحليل الأدلّة البصرية لانتهاكات حقوق الإنسان
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: investigations.html
-title: Dataset of Russian Attacks Against Syria's Civilians
+title: قاعدة بيانات بالهجمات الروسية ضد المدنيين في سوريا
 date: 2017-05-13
-desc: Dataset of Russian Attacks Against Syria's Civilians
+desc: بيان حول الأدلة البصرية التي جمعها الأرشيف السوري كقاعدة بيانات عن الهجمات الروسية ضد المدنيين في سوريا
 image: /assets/cover-photo-web.width-800.png
 ---
 # قاعدة بيانات بالهجمات الروسية ضد المدنيين في سوريا
@@ -51,7 +51,7 @@ image: /assets/cover-photo-web.width-800.png
 
 ### أولا: التحقق من المصدر الذي قام بنشر الفيديو
 
-* *حدّدنا 98 مصدراً** بالإضافة لقنواتهم على اليوتيوب والفيسبوك والتلغرام. بدأ عملهم في أواخر سنة 2011 أو في بداية سنة 2012 وكانوا ذوي مصداقية في عملهم وتقاريرهم. أما بالنسبة للموقع الجغرافي للمصادر فهم يعملون من محافظات وأماكن مختلفة لنشر الأخبار والمعلومات حول الانتهاكات التي تحدث في مناطقهم.
+* **حدّدنا 98 مصدراً** بالإضافة لقنواتهم على اليوتيوب والفيسبوك والتلغرام. بدأ عملهم في أواخر سنة 2011 أو في بداية سنة 2012 وكانوا ذوي مصداقية في عملهم وتقاريرهم. أما بالنسبة للموقع الجغرافي للمصادر فهم يعملون من محافظات وأماكن مختلفة لنشر الأخبار والمعلومات حول الانتهاكات التي تحدث في مناطقهم.
 
 * يعد المراسلون الميدانيون الجزء الأكبر من هذه المصادر ومنهم الإعلامي ياسر الدوماني الذي بدأ عمله في سنة 2011 في دوما إلى الآن، أو هاشم العبد الله الذي بدأ عمله في سنة 2011 بإدلب.
 
@@ -61,14 +61,12 @@ image: /assets/cover-photo-web.width-800.png
 
 <div class="tableauPlaceholder" id="viz1471964762684" style="position: relative"><noscript><a href='https:&#47;&#47;syrianarchive.org&#47;'><img alt='Sheet 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;At&#47;Attackedlocations-sourcesSep2015March2016&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class="tableauViz" style="display:none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"><param name="site_root" value=""><param name="name" value="Attackedlocations-sourcesSep2015March2016/Sheet3"><param name="tabs" value="no"><param name="toolbar" value="yes"><param name="static_image" value="https://public.tableau.com/static/images/At/Attackedlocations-sourcesSep2015March2016/Sheet3/1.png"><param name="animate_transition" value="yes"><param name="display_static_image" value="yes"><param name="display_spinner" value="yes"><param name="display_overlay" value="yes"><param name="display_count" value="yes"></object></div><script type="text/javascript">                    var divElement = document.getElementById('viz1471964762684');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-### **ثانيا: جمع وتحليل قاعدة بيانات الفيديوهات**
-
+### ثانيا: جمع وتحليل قاعدة بيانات الفيديوهات
 *   صنّف فريق الأرشيف السوري البيانات (الآلاف من الفيديوهات) التي تدل على هجمات روسية ضد المدنيين بعد جمعها من 98 مصدر.
 
 *   استخدمنا ملف اكسل للقيام بهذه العملية كما نرى في الأسفل.
 
 ![screenshot](/assets/sheet.png)
-
 ### ثالثا: التحقق من الموقع الجغرافي
 
 * حدّد فريق الأرشيف السوري الموقع الجغرافي لجميع الفيديوهات التي تدل على هجمات روسية ضد المدنيين.
