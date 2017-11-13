@@ -124,12 +124,12 @@ export default class Database extends Component {
 
         <div className="columns stats">
           <div className="col-8">
-            Database:
+            Results:
             50 of {this.state.stats.current} Evidences.
             (page {this.state.stats.page})
           </div>
           <div className="col-4">
-            {this.state.meta.verified} total verified units
+            {this.state.meta.verified} verified public units
             {this.state.meta.total} total collected
           </div>
         </div>
@@ -191,7 +191,9 @@ export default class Database extends Component {
               />
             </div>
 
-            <button className="btn" onClick={this.resetFilters}>Reset</button>
+            <div className="filter">
+              <button className="btn" onClick={this.resetFilters}>Reset</button>
+            </div>
           </div>
 
           <div className="col-9 db">
