@@ -8,7 +8,7 @@ import ListEvidence from './listevidence';
 import Unit from './Unit';
 
 import t from '../../../translations';
-import {api, timeMeOut, updateQS, removeHash} from './helpers';
+import {api, timeMeOut, updateQS, query} from './helpers';
 
 import {violationtypes} from '../violationtypes';
 
@@ -22,6 +22,7 @@ export default class Database extends Component {
     this.beforechange = this.beforechange.bind(this);
     this.selectUnit = this.selectUnit.bind(this);
     this.clearUnit = this.clearUnit.bind(this);
+    this.resetFilters = this.resetFilters.bind(this);
 
     this.state = {
       ds: [],
@@ -31,6 +32,7 @@ export default class Database extends Component {
         before: '',
         after: '',
         page: 1,
+        unit: '',
       },
       stats: { page: 1 },
       meta: {},
@@ -40,9 +42,9 @@ export default class Database extends Component {
 
   componentDidMount() {
     this.getMeta()
-      .then(() => this.updateFilters({}))
+      .then(() => this.updateFilters(query()))
       .catch(console.log);
-    const h = window.location.hash.substr(1);
+    const h = query().unit;
     if (h) {
       return api.get(`units/${h}`)
         .then(r => this.selectUnit(r));
@@ -62,7 +64,9 @@ export default class Database extends Component {
 
   search(e) {
     const term = e.target.value;
-    timeMeOut(() => this.updateFilters({term}));
+    const f = merge(this.state.filters, {term});
+    this.setState({filters: f});
+    timeMeOut(() => this.updateFilters(f));
   }
 
   typechange(val) {
@@ -96,13 +100,20 @@ export default class Database extends Component {
   }
 
   clearUnit() {
-    this.setState({selectedUnit: {}});
-    removeHash();
+    this.setState({selectedUnit: {}, filters: {unit: ''}});
+    updateQS(merge(this.state.filters, {unit: ''}));
   }
 
   selectUnit(u) {
-    this.setState(merge(this.state, {selectedUnit: u}));
-    window.location.hash = u.reference_code;
+    this.setState(merge(this.state, {selectedUnit: u, filters: {unit: u.reference_code}}));
+    updateQS(merge(this.state.filters, {unit: u.reference_code}));
+  }
+
+  resetFilters() {
+    const f = {};
+    return api.post('units', f)
+      .then(d => this.setState({ds: d.units, filters: f, stats: d.stats}))
+      .then(() => updateQS(f));
   }
 
   render() {
@@ -129,7 +140,7 @@ export default class Database extends Component {
 
             <div className="filter">
               <h5>{ t('Search', locale)}</h5>
-              <input type="text" onChange={this.search} />
+              <input value={this.state.filters.term} type="text" onChange={this.search} />
             </div>
 
             <div className="filter">
@@ -179,6 +190,8 @@ export default class Database extends Component {
                 onChange={v => this.selectchange('weapons_used', v)}
               />
             </div>
+
+            <button className="btn" onClick={this.resetFilters}>Reset</button>
           </div>
 
           <div className="col-9 db">

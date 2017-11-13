@@ -1,5 +1,6 @@
 /* global locale */
-import {reduce} from 'lodash/fp';
+import moment from 'moment';
+import {reduce, each, omit, isEmpty, compact} from 'lodash/fp';
 import {databaseApiUrl} from '../../../env';
 
 const reduceW = reduce.convert({cap: false});
@@ -10,6 +11,21 @@ export const unitTitle = u =>
   u[`online_title_${locale}`];
 
 export const querystring = reduceW((a, v, k) => (v ? `${a}${k}=${v}&` : a), '?');
+
+export const query = () => {
+  const search = location.search.substring(1);
+  const ks = compact(search.split('&'));
+  const dict = {};
+  each(i => {
+    const k = i.split('=')[0];
+    const v = decodeURI(i.split('=')[1]);
+    dict[k] = v;
+    if (k === 'before' || k === 'after') {
+      dict[k] = moment.unix(v / 1000);
+    }
+  })(ks);
+  return omit(isEmpty, dict);
+};
 
 export const api = {
   get: resource => fetch(`${databaseApiUrl}/${resource}`, // eslint-disable-line
@@ -42,12 +58,9 @@ export const timeMeOut = (func) => {
 export const updateQS = fs => {
   const h = window.location.hash;
   const myURL = [location.protocol, '//', location.host, location.pathname].join('');
-  window.history.pushState(fs, document.title, `${myURL}${querystring(fs)}${h}`);
+  const qs = querystring(fs).slice(0, -1);
+  window.history.pushState({}, document.title, `${myURL}${qs}${h}`);
   return document.location;
 };
 
-export const removeHash = () => {
-  history.pushState("", document.title, window.location.href.replace(/\#(.+)/, '').replace(/http(s?)\:\/\/([^\/]+)/, '')) // eslint-disable-line
-};
-
-export default {unitTitle, querystring, timeMeOut, updateQS, removeHash};
+export default {unitTitle, querystring, timeMeOut, updateQS, query};
