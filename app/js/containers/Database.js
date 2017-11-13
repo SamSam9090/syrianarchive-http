@@ -1,18 +1,17 @@
 /* global locale */
 
 import React, { Component } from 'react';
-import {map, merge, omit} from 'lodash/fp';
+import {map, merge} from 'lodash/fp';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 
 import {databaseApiUrl} from '../../../env';
 import ListEvidence from './listevidence';
+import Unit from './Unit';
 
 import t from '../../../translations';
 
 import {violationtypes} from '../violationtypes';
-
-const mapW = map.convert({cap: false});
 
 let timeout = null;
 
@@ -23,7 +22,7 @@ const timeMeOut = (func) => {
   }, 500);
 };
 
-export default class Investigations extends Component {
+export default class Database extends Component {
   constructor(props) {
     super(props);
     this.search = this.search.bind(this);
@@ -127,11 +126,15 @@ export default class Investigations extends Component {
 
   selectUnit(u) {
     this.setState(merge(this.state, {selectedUnit: u}));
+    window.location.hash = u.reference_code;
   }
 
   render() {
     return (
       <div className="container database">
+
+        <Unit unit={this.state.selectedUnit} />
+
 
         <div className="columns stats">
           <div className="col-8">
@@ -199,7 +202,7 @@ export default class Investigations extends Component {
         </div>
 
         <div className="columns">
-          <div className="col-9">
+          <div className="col-12">
             page {this.state.stats.page}
             - {this.state.stats.current}
             /{this.state.stats.total} verified evidences
@@ -208,13 +211,14 @@ export default class Investigations extends Component {
               <ListEvidence unit={i} selector={() => this.selectUnit(i)} />
             , this.state.ds)}
           </div>
-          <div className="col-3">
-            {mapW((v, k) =>
-              <div><b>{k}</b>: {String(v)}</div>
-            , omit('type_of_violation', this.state.selectedUnit))}
+        </div>
 
+        <div className="columns">
+          <div className="col-12">
+            <h3>and {this.state.stats.current} more.  Contact us for the full set</h3>
           </div>
         </div>
+
       </div>
     );
   }

@@ -10,3 +10,13 @@ html.ar{
   $color:#91c76a;
   @import "rtl";
 }
+
+.unit{
+  video{
+    width: 100%;
+    height: auto;
+  }
+  .meta{
+    padding: 2rem;
+  }
+}
