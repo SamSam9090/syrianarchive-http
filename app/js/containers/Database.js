@@ -1,26 +1,16 @@
 /* global locale */
-
 import React, { Component } from 'react';
 import {map, merge} from 'lodash/fp';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 
-import {databaseApiUrl} from '../../../env';
 import ListEvidence from './listevidence';
 import Unit from './Unit';
 
 import t from '../../../translations';
+import {api, timeMeOut, updateQS} from './helpers';
 
 import {violationtypes} from '../violationtypes';
-
-let timeout = null;
-
-const timeMeOut = (func) => {
-  clearTimeout(timeout);
-  timeout = setTimeout(() => {
-    func();
-  }, 500);
-};
 
 export default class Database extends Component {
   constructor(props) {
@@ -54,40 +44,19 @@ export default class Database extends Component {
   }
 
   getMeta() {
-    return fetch(`${databaseApiUrl}/meta`, // eslint-disable-line
-      {
-        method: 'get',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
-      .then(r => r.json())
-      .then(r => this.setState({meta: r}));
+    return api.get('meta').then(r => this.setState({meta: r}));
   }
 
   updateFilters(filters) {
     const f = merge(this.state.filters, filters);
-    fetch(`${databaseApiUrl}/units`, // eslint-disable-line
-      {
-        method: 'post',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(f)
-      })
-      .then(r => r.json())
+    return api.post('units', f)
       .then(d => this.setState({ds: d.units, filters: f, stats: d.stats}))
-      .then(() => console.log(this.state));
+      .then(() => updateQS(f));
   }
 
   search(e) {
-    console.log(e.target.value);
     const term = e.target.value;
     timeMeOut(() => this.updateFilters({term}));
-    // clearTimeout(timeout);
-    // timeout = setTimeout(() => {
-    //   this.updateFilters({term});
-    // }, 500);
   }
 
   typechange(val) {
@@ -96,17 +65,14 @@ export default class Database extends Component {
   }
 
   selectchange(key, val) {
-    console.log('indishit');
     const v = val ? val.value : '';
     this.updateFilters({[key]: v});
   }
 
   afterchange(e) {
-    console.log(e);
     const date = e;
     timeMeOut(() => {
       const d = Date.parse(date);
-      console.log(d);
       if (d) {
         this.updateFilters({after: date});
       }
@@ -117,7 +83,6 @@ export default class Database extends Component {
     const date = e;
     timeMeOut(() => {
       const d = Date.parse(date);
-      console.log(d);
       if (d) {
         this.updateFilters({before: date});
       }
