@@ -8,7 +8,7 @@ import ListEvidence from './listevidence';
 import Unit from './Unit';
 
 import t from '../../../translations';
-import {api, timeMeOut, updateQS} from './helpers';
+import {api, timeMeOut, updateQS, removeHash} from './helpers';
 
 import {violationtypes} from '../violationtypes';
 
@@ -97,7 +97,7 @@ export default class Database extends Component {
 
   clearUnit() {
     this.setState({selectedUnit: {}});
-    window.location.hash = '';
+    removeHash();
   }
 
   selectUnit(u) {
@@ -189,7 +189,8 @@ export default class Database extends Component {
         </div>
 
         <div className="columns">
-          <div className="col-12">
+          <div className="col-3" />
+          <div className="col-9">
             <h3>and {this.state.stats.current} more.  Contact us for the full set</h3>
           </div>
         </div>

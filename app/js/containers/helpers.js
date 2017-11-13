@@ -46,4 +46,8 @@ export const updateQS = fs => {
   return document.location;
 };
 
-export default {unitTitle, querystring, timeMeOut, updateQS};
+export const removeHash = () => {
+  history.pushState("", document.title, window.location.href.replace(/\#(.+)/, '').replace(/http(s?)\:\/\/([^\/]+)/, '')) // eslint-disable-line
+};
+
+export default {unitTitle, querystring, timeMeOut, updateQS, removeHash};
