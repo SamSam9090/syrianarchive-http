@@ -44,10 +44,7 @@ export default class Database extends Component {
     const h = window.location.hash.substr(1);
     if (h) {
       return api.get(`units/${h}`)
-        .then(r => {
-          this.setState({selectedUnit: r});
-          return '';
-        });
+        .then(r => this.selectUnit(r));
     }
   }
 
@@ -100,6 +97,11 @@ export default class Database extends Component {
   selectUnit(u) {
     this.setState(merge(this.state, {selectedUnit: u}));
     window.location.hash = u.reference_code;
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 
   render() {
