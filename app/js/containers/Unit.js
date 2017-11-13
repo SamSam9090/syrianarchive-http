@@ -16,7 +16,8 @@ export default class Unit extends Component {
     if (isEmpty(i)) {
       return <div />;
     }
-    return (
+
+    const content = (
       <div className="columns unit">
         <div className="col-6 meta">
 
@@ -77,8 +78,25 @@ export default class Unit extends Component {
 
 
         </div>
+      </div>);
+    return (
+      <div className="modal modal-lg active">
+        <div className="modal-overlay" />
+        <div className="modal-container">
+          <div className="modal-header">
+            <button onClick={this.props.clear} className="btn btn-clear float-right" />
+            <div className="modal-title h5">{i.reference_code}</div>
+          </div>
+          <div className="modal-body">
+            <div className="content">
+              {content}
+            </div>
+          </div>
+          <div className="modal-footer">
+            <button onClick={this.props.clear} className="btn">Close</button>
+          </div>
+        </div>
       </div>
-
     );
   }
 }

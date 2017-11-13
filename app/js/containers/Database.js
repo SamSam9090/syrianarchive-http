@@ -21,6 +21,7 @@ export default class Database extends Component {
     this.afterchange = this.afterchange.bind(this);
     this.beforechange = this.beforechange.bind(this);
     this.selectUnit = this.selectUnit.bind(this);
+    this.clearUnit = this.clearUnit.bind(this);
 
     this.state = {
       ds: [],
@@ -94,94 +95,93 @@ export default class Database extends Component {
     });
   }
 
+  clearUnit() {
+    this.setState({selectedUnit: {}});
+    window.location.hash = '';
+  }
+
   selectUnit(u) {
     this.setState(merge(this.state, {selectedUnit: u}));
     window.location.hash = u.reference_code;
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
   }
 
   render() {
     return (
       <div className="container database">
 
-        <Unit unit={this.state.selectedUnit} />
-
+        <Unit unit={this.state.selectedUnit} clear={this.clearUnit} />
 
         <div className="columns stats">
           <div className="col-8">
-            {this.state.meta.verified} verified units
-            {this.state.meta.total} collected
+            Database:
+            50 of {this.state.stats.current} Evidences.
+            (page {this.state.stats.page})
+          </div>
+          <div className="col-4">
+            {this.state.meta.verified} total verified units
+            {this.state.meta.total} total collected
           </div>
         </div>
 
-        <div className="columns filters">
+        <div className="columns dbwrapper">
 
-          <div className="col-2">
-            <h5>{ t('Search', locale)}</h5>
-            <input type="text" onChange={this.search} />
+          <div className="col-3 filters">
+
+            <div className="filter">
+              <h5>{ t('Search', locale)}</h5>
+              <input type="text" onChange={this.search} />
+            </div>
+
+            <div className="filter">
+              <h5>Type of Violation</h5>
+              <Select
+                name="type_of_violation"
+                value={this.state.filters.type_of_violation}
+                options={violationtypes}
+                onChange={this.typechange}
+              />
+            </div>
+
+            <div className="filter">
+              <h5>After Date</h5>
+              <DatePicker
+                selected={this.state.filters.after}
+                onChange={this.afterchange}
+                dateFormat="YYYY-MM-DD"
+              />
+            </div>
+
+            <div className="filter">
+              <h5>Fefore Date</h5>
+              <DatePicker
+                selected={this.state.filters.before}
+                onChange={this.beforechange}
+                dateFormat="YYYY-MM-DD"
+              />
+            </div>
+
+            <div className="filter">
+              <h5>Location</h5>
+              <Select
+                name="location"
+                value={this.state.filters.location}
+                options={map(w => ({value: w, label: w}), this.state.meta.locations)}
+                onChange={v => this.selectchange('location', v)}
+              />
+            </div>
+
+            <div className="filter">
+              <h5>Weapons Used</h5>
+              <Select
+                name="weapons_used"
+                value={this.state.filters.weapons_used}
+                options={map(w => ({value: w, label: w}), this.state.meta.weapons)}
+                onChange={v => this.selectchange('weapons_used', v)}
+              />
+            </div>
           </div>
 
-          <div className="col-2">
-            <h5>Type of Violation</h5>
-            <Select
-              name="type_of_violation"
-              value={this.state.filters.type_of_violation}
-              options={violationtypes}
-              onChange={this.typechange}
-            />
-          </div>
-
-          <div className="col-2">
-            <h5>After Date</h5>
-            <DatePicker
-              selected={this.state.filters.after}
-              onChange={this.afterchange}
-              dateFormat="YYYY-MM-DD"
-            />
-          </div>
-
-          <div className="col-2">
-            <h5>Fefore Date</h5>
-            <DatePicker
-              selected={this.state.filters.before}
-              onChange={this.beforechange}
-              dateFormat="YYYY-MM-DD"
-            />
-          </div>
-
-          <div className="col-2">
-            <h5>Location</h5>
-            <Select
-              name="location"
-              value={this.state.filters.location}
-              options={map(w => ({value: w, label: w}), this.state.meta.locations)}
-              onChange={v => this.selectchange('location', v)}
-            />
-          </div>
-
-          <div className="col-2">
-            <h5>Weapons Used</h5>
-            <Select
-              name="weapons_used"
-              value={this.state.filters.weapons_used}
-              options={map(w => ({value: w, label: w}), this.state.meta.weapons)}
-              onChange={v => this.selectchange('weapons_used', v)}
-            />
-          </div>
-
-          <hr />
-        </div>
-
-        <div className="columns">
-          <div className="col-12">
-            page {this.state.stats.page}
-            - {this.state.stats.current}
-            /{this.state.stats.total} verified evidences
-            <hr />
+          <div className="col-9 db">
             {map(i =>
               <ListEvidence unit={i} selector={() => this.selectUnit(i)} />
             , this.state.ds)}
