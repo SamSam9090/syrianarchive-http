@@ -41,6 +41,18 @@ export default class Database extends Component {
     this.getMeta()
       .then(() => this.updateFilters({}))
       .catch(console.log);
+    const h = window.location.hash.substr(1);
+    console.log('aaaaaaaaaaaa', h);
+    console.log(`units/${h}`);
+    if (h) {
+      return api.get(`units/${h}`)
+        .then(r => {
+          console.log(r);
+          console.log('wehheheheheh');
+          this.setState({selectedUnit: r});
+          return '';
+        });
+    }
   }
 
   getMeta() {

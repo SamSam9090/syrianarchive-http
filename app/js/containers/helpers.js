@@ -9,7 +9,7 @@ export const unitTitle = u =>
   u.description ||
   u[`online_title_${locale}`];
 
-export const querystring = reduceW((a, v, k) => (v ? `${a}&${k}=${v}` : a), '');
+export const querystring = reduceW((a, v, k) => (v ? `${a}${k}=${v}&` : a), '?');
 
 export const api = {
   get: resource => fetch(`${databaseApiUrl}/${resource}`, // eslint-disable-line
@@ -32,7 +32,6 @@ export const api = {
 };
 
 let timeout = null;
-
 export const timeMeOut = (func) => {
   clearTimeout(timeout);
   timeout = setTimeout(() => {
@@ -41,8 +40,9 @@ export const timeMeOut = (func) => {
 };
 
 export const updateQS = fs => {
-  const myURL = window.location.href.split('?')[0];
-  window.history.pushState(fs, document.title, `${myURL}?${querystring(fs)}`);
+  const h = window.location.hash;
+  const myURL = [location.protocol, '//', location.host, location.pathname].join('');
+  window.history.pushState(fs, document.title, `${myURL}${querystring(fs)}${h}`);
   return document.location;
 };
 
