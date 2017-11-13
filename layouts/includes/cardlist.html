@@ -1,4 +1,3 @@
-<div class="columns">
 {% for post in siblings  | sort(true, true, 'date')%}
   {% if post.locale === locale and post.title != title %}
     <div class="col-12">
@@ -6,4 +5,3 @@
       </div>
   {% endif %}
 {% endfor %}
-</div>

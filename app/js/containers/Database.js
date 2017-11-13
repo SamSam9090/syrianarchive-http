@@ -124,9 +124,7 @@ export default class Database extends Component {
 
         <div className="columns stats">
           <div className="col-8">
-            Results:
-            50 of {this.state.stats.current} Evidences.
-            (page {this.state.stats.page})
+            Results: {this.state.stats.current} (page {this.state.stats.page})
           </div>
           <div className="col-4">
             {this.state.meta.verified} verified public units

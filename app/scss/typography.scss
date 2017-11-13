@@ -11,7 +11,7 @@
 
 p {
   font-family: 'Merriweather', serif;
-
+  line-height: 1.6em;
 }
 
 .title{
@@ -22,11 +22,51 @@ p {
     h1{
       color: white;
       margin-top: 4em;
-
+      font-size: 6rem;
     }
     .desc{
       color:white;
       margin-bottom: 1em;
     }
 
+}
+
+article.contents {
+  box-shadow: 0px 9px 5px 9px black;
+}
+
+article.contents .investigation{
+  margin-top:3rem;
+}
+
+article.contents h1{
+  font-size: 4rem;
+}
+
+article.contents p {
+  max-width: 40em;
+  padding-bottom: 2em;
+}
+
+article.contents ul li {
+  list-style: none;
+  &:before{
+    content: '➤';
+    color:teal;
+    margin-left: -1.5em;
+    margin-top: 0em;
+    position: absolute;
+  }
+  p{
+    padding-bottom: 1em;
+  }
+}
+
+article.contents ol{
+  margin-bottom: 2em;
+  li{
+    p {
+        display: inline;
+    }
+  }
 }
