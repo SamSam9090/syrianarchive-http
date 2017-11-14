@@ -4,6 +4,12 @@ import Investigations from './Investigations';
 import Database from './Database';
 import Home from './Home';
 
+import {store} from '../store';
+
+import {getMeta} from '../redux/actions';
+
+store.dispatch(getMeta());
+
 export default class App extends Component {
 
   render() {

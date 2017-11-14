@@ -1,6 +1,9 @@
 /* global locale */
 import React, { Component } from 'react';
-import {map, merge} from 'lodash/fp';
+import { connect } from 'react-redux';
+import {withRouter} from 'react-router-dom';
+
+import {map} from 'lodash/fp';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 
@@ -8,75 +11,54 @@ import ListEvidence from './listevidence';
 import Unit from './Unit';
 
 import t from '../../../translations';
-import {api, timeMeOut, updateQS, query} from './helpers';
+import {timeMeOut} from './helpers';
+import {params} from '../params';
 
 import {violationtypes} from '../violationtypes';
 
-export default class Database extends Component {
+import {updateFilters, resetFilters, selectUnit, retrieveUnit, unsetUnit} from '../redux/actions';
+
+export class DatabaseComponent extends Component {
   constructor(props) {
     super(props);
     this.search = this.search.bind(this);
-    this.updateFilters = this.updateFilters.bind(this);
     this.typechange = this.typechange.bind(this);
     this.afterchange = this.afterchange.bind(this);
     this.beforechange = this.beforechange.bind(this);
-    this.selectUnit = this.selectUnit.bind(this);
-    this.clearUnit = this.clearUnit.bind(this);
-    this.resetFilters = this.resetFilters.bind(this);
 
     this.state = {
-      ds: [],
-      filters: {
-        term: '',
-        type_of_violation: '',
-        before: '',
-        after: '',
-        page: 1,
-        unit: '',
-      },
-      stats: { page: 1 },
-      meta: {},
-      selectedUnit: {}
+      searchterm: params.filters.term || this.props.filters.term,
+      typing: false,
     };
   }
 
   componentDidMount() {
-    this.getMeta()
-      .then(() => this.updateFilters(query()))
-      .catch(console.log);
-    const h = query().unit;
+    // stuff in url gets priority over stuff from localstorage
+    const h = params.unit;
     if (h) {
-      return api.get(`units/${h}`)
-        .then(r => this.selectUnit(r));
+      this.props.getUnit(h);
     }
-  }
-
-  getMeta() {
-    return api.get('meta').then(r => this.setState({meta: r}));
-  }
-
-  updateFilters(filters) {
-    const f = merge(this.state.filters, filters);
-    return api.post('units', f)
-      .then(d => this.setState({ds: d.units, filters: f, stats: d.stats}))
-      .then(() => updateQS(f));
+    this.props.update(params.filters);
   }
 
   search(e) {
+    this.setState({typing: true});
     const term = e.target.value;
-    const f = merge(this.state.filters, {term});
-    this.setState({filters: f});
-    timeMeOut(() => this.updateFilters(f));
+    this.setState({searchterm: term});
+    timeMeOut(() => {
+      this.props.update({term});
+      this.setState({typing: false});
+    });
   }
 
   typechange(val) {
     const v = val ? val.value : '';
-    this.updateFilters({type_of_violation: v});
+    this.props.update({type_of_violation: v});
   }
 
   selectchange(key, val) {
     const v = val ? val.value : '';
-    this.updateFilters({[key]: v});
+    this.props.update({[key]: v});
   }
 
   afterchange(e) {
@@ -84,7 +66,7 @@ export default class Database extends Component {
     timeMeOut(() => {
       const d = Date.parse(date);
       if (d) {
-        this.updateFilters({after: date});
+        this.props.update({after: date});
       }
     });
   }
@@ -94,41 +76,33 @@ export default class Database extends Component {
     timeMeOut(() => {
       const d = Date.parse(date);
       if (d) {
-        this.updateFilters({before: date});
+        this.props.update({before: date});
       }
     });
   }
 
   clearUnit() {
     this.setState({selectedUnit: {}, filters: {unit: ''}});
-    updateQS(merge(this.state.filters, {unit: ''}));
   }
 
   selectUnit(u) {
-    this.setState(merge(this.state, {selectedUnit: u, filters: {unit: u.reference_code}}));
-    updateQS(merge(this.state.filters, {unit: u.reference_code}));
-  }
-
-  resetFilters() {
-    const f = {};
-    return api.post('units', f)
-      .then(d => this.setState({ds: d.units, filters: f, stats: d.stats}))
-      .then(() => updateQS(f));
+    this.props.selectUnit(u);
   }
 
   render() {
+    const updating = this.props.updating || this.state.typing;
+
     return (
       <div className="container database">
-
-        <Unit unit={this.state.selectedUnit} clear={this.clearUnit} />
+        <Unit unit={this.props.selectedUnit} clear={this.props.clearUnit} />
 
         <div className="columns stats">
           <div className="col-8">
-            Results: {this.state.stats.current} (page {this.state.stats.page})
+            Results: {this.props.stats.current} (page {this.props.stats.page})
           </div>
           <div className="col-4">
-            {this.state.meta.verified} verified public units
-            {this.state.meta.total} total collected
+            {this.props.meta.verified} verified public units
+            {this.props.meta.total} total collected
           </div>
         </div>
 
@@ -138,14 +112,14 @@ export default class Database extends Component {
 
             <div className="filter">
               <h5>{ t('Search', locale)}</h5>
-              <input value={this.state.filters.term} type="text" onChange={this.search} />
+              <input value={this.state.searchterm} type="text" onChange={this.search} />
             </div>
 
             <div className="filter">
               <h5>Type of Violation</h5>
               <Select
                 name="type_of_violation"
-                value={this.state.filters.type_of_violation}
+                value={this.props.filters.type_of_violation}
                 options={violationtypes}
                 onChange={this.typechange}
               />
@@ -154,7 +128,7 @@ export default class Database extends Component {
             <div className="filter">
               <h5>After Date</h5>
               <DatePicker
-                selected={this.state.filters.after}
+                selected={this.props.filters.after}
                 onChange={this.afterchange}
                 dateFormat="YYYY-MM-DD"
               />
@@ -163,7 +137,7 @@ export default class Database extends Component {
             <div className="filter">
               <h5>Fefore Date</h5>
               <DatePicker
-                selected={this.state.filters.before}
+                selected={this.props.filters.before}
                 onChange={this.beforechange}
                 dateFormat="YYYY-MM-DD"
               />
@@ -173,8 +147,8 @@ export default class Database extends Component {
               <h5>Location</h5>
               <Select
                 name="location"
-                value={this.state.filters.location}
-                options={map(w => ({value: w, label: w}), this.state.meta.locations)}
+                value={this.props.filters.location}
+                options={map(w => ({value: w, label: w}), this.props.meta.locations)}
                 onChange={v => this.selectchange('location', v)}
               />
             </div>
@@ -183,28 +157,28 @@ export default class Database extends Component {
               <h5>Weapons Used</h5>
               <Select
                 name="weapons_used"
-                value={this.state.filters.weapons_used}
-                options={map(w => ({value: w, label: w}), this.state.meta.weapons)}
+                value={this.props.filters.weapons_used}
+                options={map(w => ({value: w, label: w}), this.props.meta.weapons)}
                 onChange={v => this.selectchange('weapons_used', v)}
               />
             </div>
 
             <div className="filter">
-              <button className="btn" onClick={this.resetFilters}>Reset</button>
+              <button className="btn" onClick={this.props.reset}>Reset</button>
             </div>
           </div>
 
-          <div className="col-9 db">
+          <div className="col-9 db" style={updating ? {opacity: '.3'} : {}}>
             {map(i =>
               <ListEvidence unit={i} selector={() => this.selectUnit(i)} />
-            , this.state.ds)}
+            , this.props.units)}
           </div>
         </div>
 
         <div className="columns">
           <div className="col-3" />
           <div className="col-9">
-            <h3>and {this.state.stats.current} more.  Contact us for the full set</h3>
+            <h3>and {this.props.stats.current} more.  Contact us for the full set</h3>
           </div>
         </div>
 
@@ -212,3 +186,30 @@ export default class Database extends Component {
     );
   }
 }
+
+const mapStateToProps = (state, ownProps) => {
+  console.log('mapping', state, ownProps);
+  return {
+    filters: state.database.filters,
+    stats: state.database.stats,
+    updating: state.database.updating,
+    units: state.database.ds,
+    meta: state.meta,
+    selectedUnit: state.unit.meat,
+  };
+};
+
+const mapDispatchToProps = dispatch => ({
+  update: (f) => dispatch(updateFilters(f)),
+  reset: () => dispatch(resetFilters()),
+  getUnit: (id) => dispatch(retrieveUnit(id)),
+  selectUnit: (u) => dispatch(selectUnit(u)),
+  clearUnit: () => dispatch(unsetUnit()),
+});
+
+const Database = withRouter(connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(DatabaseComponent));
+
+export default Database;

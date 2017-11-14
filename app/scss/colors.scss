@@ -1,0 +1,10 @@
+a {
+  color: #BE5E00;
+  &:hover{
+    color:orange;
+  }
+}
+
+p a{
+    text-decoration: underline;
+}
