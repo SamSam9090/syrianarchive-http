@@ -1,0 +1,17 @@
+{
+"title" : "Syrian Archive",
+"subtitle" : "Digital Evidence Database",
+"map": {
+        "root_selector": "chart-map",
+        "markers": {
+            "color": "black",
+            "fillColor": "black",
+            "opacity": "0.8"
+        },
+        "zoom": {
+            "max": 15,
+            "min": 6
+        },
+        "disableClusteringAtZoom": 17
+    }
+}

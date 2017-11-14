@@ -1,0 +1,15 @@
+---
+document_schema:
+    id: "pattrn_metadata"
+    version: 2
+variables:
+    tag:
+    -
+        id: "violationtype"
+        name: "Type Of Violation"
+    -
+        id: "collections"
+        name: "Collections"
+    -
+        id: "weapons_used"
+        name: "Weapons"

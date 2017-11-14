@@ -11,6 +11,10 @@ html.ar{
   @import "rtl";
 }
 
+#map iframe{
+  height:100vh;
+}
+
 .unit{
   background-color: white;
   video{

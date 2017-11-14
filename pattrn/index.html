@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pattrn data analytics</title>
+    <meta name="description" content="">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <!-- Fonts-->
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,100,500" rel="stylesheet" type="text/css">
+    <!-- Dependencies-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/dc.css">
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
+    <!-- Pattrn code-->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav role="navigation" class="navbar navbar-fixed navbar-inverse">
+      <div class="container-fluid-navbar">
+        <div id="highlight" class="col-sm-2 col-lg-2 highlight">
+          <h1 id="platformTitle" style="text-align:center" class="nav"></h1>
+        </div>
+        <div class="col-sm-6 col-lg-6">
+          <h1 id="platformSubtitle" style="padding-right: 50px; margin-bottom: 0px" class="display"></h1>
+        </div>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li style="" class="dropdown"><a href="#about_project" data-toggle="modal" role="button" aria-expanded="false" style="margin-top:5px; padding-bottom: 10px; padding-right:15px" class="dropdown-toggle">ABOUT</a></li>
+        <li style="margin-right:5px" class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" style="margin-top:5px; padding-bottom: 10px;" class="dropdown-toggle">SHARE</a>
+          <ul id="chart_dropdown" role="menu" class="dropdown-menu">
+            <li>
+              <div class="addthis_sharing_toolbox"></div>
+            </li>
+          </ul>
+        </li>
+        <li style="color:#a4afbb; margin-bottom:0px; font-size: 11px" class="footerSmall"><a style="padding-bottom: 0px;padding-top:18px; margin-right: 20px;" target="_blank" href="http://pattrn.co">Made with<img src="images/pattrn-logo-white.png" style="max-height:30px"></a></li>
+      </ul>
+      <div id="about_project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                <h4 id="myModalLabel" class="modal-title">About this platform</h4>
+              </div>
+              <div id="aboutModalContent" class="modal-body"></div>
+              <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid visualization-container">
+      <!-- filters-->
+      <div id="data-layers" class="side-panel left col-sm-3 col-lg-3 active">
+        <div class="panel-control"></div>
+        <div id="myExploreTab">
+          <h1 class="gray">Explore data</h1>
+          <div class="layer-groups-root"></div>
+        </div>
+      </div>
+      <!-- Map & Charts-->
+      <div id="charts" class="col-sm-12 col-lg-12">
+        <div id="chart-map"></div>
+        <div id="offGrayBar" class="col-sm-7 col-lg-7">
+          <div id="button" class="popup-menu-root col-sm-6 col-lg-6"></div>
+          <!-- TOTAL EVENTS-->
+          <div class="col-sm-3 col-lg-3">
+            <div id="number_total_events">
+              <h2 class="inline"><span class="filter-count"></span></h2><span>EVENTS</span> of
+              <h2 class="inline"><span class="total-count"></span></h2>
+            </div>
+          </div>
+        </div>
+        <!-- SEARCH BOX-->
+        <div id="button" class="col-sm-3 col-lg-3">
+          <div class="dc-data-count"></div>
+          <div style="padding: 0px; margin: 0px; color:#cfd8dc;" class="form-group has-feedback"><i class="glyphicon glyphicon-search form-control-feedback"></i>
+            <input id="tableSearch" type="text" placeholder="SEARCH" class="form-control">
+          </div>
+        </div>
+        <!-- FILTER BUTTON-->
+        <div id="button" class="col-sm-1 col-lg-1">
+          <div style="border:none; margin-left:0px" role="group" aria-label="..." class="btn-group"><a type="button" style="border:none" class="btn btn-default">
+              <p id="filterList" aria-hidden="true" title="Click to reset charts" class="glyphicon glyphicon-filter"></p></a></div>
+        </div>
+        <!-- REFRESH BUTTON-->
+        <div id="button" class="col-sm-1 col-lg-1">
+          <div style="border:none; margin-left:0px" role="group" aria-label="..." class="btn-group"><a type="button" style="border:none" onclick="bounds()" href="javascript:location.reload();" class="btn btn-default">
+              <p aria-hidden="true" title="Click to reset charts" id="" class="glyphicon glyphicon-refresh"></p></a></div>
+        </div>
+        <!-- CHARTS-->
+        <div class="tab-content">
+          <!-- TIMELINE-->
+          <div id="aggregate_counts" class="tab-pane fade in">
+            <div class="row">
+              <div class="col-sm-12 col-lg-12">
+                <div id="agreggate" class="col-sm-2 col-lg-2 col-lg-offset-1">
+                                  <div id="d3_aggregate_count_01" style="margin-left:10px" class="border">
+                                    <h2 class="agreggateText"><span class="number-display"></span>
+                                      <p id="agreggateCountTitle_01">No Data</p>
+                                    </h2>
+                                  </div>
+                                  <div id="SliderChart_01" style="padding-top:10px"></div>
+                </div>
+                <div id="agreggate" class="col-sm-2 col-lg-2">
+                                  <div id="d3_aggregate_count_02" style="margin-left:10px" class="border">
+                                    <h2 class="agreggateText"><span class="number-display"></span>
+                                      <p id="agreggateCountTitle_02">No Data</p>
+                                    </h2>
+                                  </div>
+                                  <div id="SliderChart_02" style="padding-top:10px"></div>
+                </div>
+                <div id="agreggate" class="col-sm-2 col-lg-2">
+                                  <div id="d3_aggregate_count_03" style="margin-left:10px" class="border">
+                                    <h2 class="agreggateText"><span class="number-display"></span>
+                                      <p id="agreggateCountTitle_03">No Data</p>
+                                    </h2>
+                                  </div>
+                                  <div id="SliderChart_03" style="padding-top:10px"></div>
+                </div>
+                <div id="agreggate" class="col-sm-2 col-lg-2">
+                                  <div id="d3_aggregate_count_04" style="margin-left:10px" class="border">
+                                    <h2 class="agreggateText"><span class="number-display"></span>
+                                      <p id="agreggateCountTitle_04">No Data</p>
+                                    </h2>
+                                  </div>
+                                  <div id="SliderChart_04" style="padding-top:10px"></div>
+                </div>
+                <div id="agreggate" class="col-sm-2 col-lg-2">
+                                  <div id="d3_aggregate_count_05" style="margin-left:10px" class="border">
+                                    <h2 class="agreggateText"><span class="number-display"></span>
+                                      <p id="agreggateCountTitle_05">No Data</p>
+                                    </h2>
+                                  </div>
+                                  <div id="SliderChart_05" style="padding-top:10px"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-lg-12">
+                <p>Click and drag in the measuring bars to filter data by number of [selected variable] per individual event</p>
+              </div>
+            </div>
+          </div>
+          <!-- Source chart-->
+          <div id="d3_source_chart" class="tab-pane fade in">
+            <div class="col-sm-12 col-lg-12">
+              <div id="d3_source_chart">
+                <p class="filterText">Current filter:<span id="highlightText" class="filter"></span></p>
+              </div>
+            </div>
+          </div>
+          <!-- Media chart-->
+          <div id="d3_media_chart" class="tab-pane fade in">
+            <div class="col-sm-12 col-lg-12">
+              <div id="d3_media_chart">
+                <p class="filterText">Current filter:<span id="highlightText" class="filter"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <!-- event detail-->
+      <div id="info" class="side-panel right col-sm-3 col-lg-3">
+        <div class="panel-control"></div>
+        <div id="midGrayBar" class="info-heading col-sm-12 col-lg-12">
+          <div class="col-sm-4 col-lg-4">
+            <h1 class="gray">Event Details</h1>
+          </div>
+          <div id="edit_event" class="col-xs-4 col-xs-offset-4">
+            <li style="margin-right:0px" class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" style="" class="dropdown-toggle">Edit / Add Event</a>
+              <ul id="edit_dropdown" role="menu" class="dropdown-menu"></ul>
+            </li>
+          </div>
+        </div>
+        <div class="info-content">
+          <!-- Info section-->
+          <div id="contentTab">
+            <div id="dateTime" style="min-height:100px" class="col-sm-12 col-lg-12">
+              <h4></h4>
+            </div>
+          </div>
+          <!-- Tab panel-->
+          <div role="tabpanel">
+            <div id="darkGrayBar">
+              <ul role="tablist" class="nav nav-tabs">
+                <li role="presentation" style="padding-left:15px" class="active"><a href="#summaryTab" title="SUMMARY" role="tab" data-toggle="tab" class="tab"><span aria-hidden="true" class="glyphicon glyphicon-align-left"></span></a></li>
+                <li role="presentation"><a href="#mediaTab" title="PHOTOS" role="tab" data-toggle="tab" class="tab"><span aria-hidden="true" class="glyphicon glyphicon-picture"></span></a></li>
+                <li role="presentation"><a href="#videoTab" title="VIDEO" role="tab" data-toggle="tab" class="tab"><span aria-hidden="true" class="glyphicon glyphicon-film"></span></a></li>
+                <!--
+                <li role="presentation">
+                <a href="#fileTab" title="FILES" role="tab" data-toggle="tab" class = "tab">
+                <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                </a>
+                </li>
+                -->
+                <li role="presentation"><a href="#URLsTab" title="URLs" role="tab" data-toggle="tab" class="tab"><span aria-hidden="true" class="glyphicon glyphicon-link"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Tab panes-->
+          <!-- Tab panes-->
+          <div class="tab-content">
+            <div id="summaryTab" role="tabpanel" class="tab-pane active">
+              <div class="infowindow">
+                <div id="summary" class="col-sm-12">
+                  <p class="summary">This panel will update when a marker is clicked.</p>
+                </div>
+                <div id="summaryTable" class="col-sm-12"></div>
+              </div>
+            </div>
+            <div id="mediaTab" role="tabpanel" class="tab-pane">
+              <div id="image_div" style="padding-top:15px" class="col-sm-12 infowindow gallery">
+                <p class="summary"></p>
+                <ul id="image_gallery"></ul>
+              </div>
+            </div>
+            <div id="videoTab" role="tabpanel" class="tab-pane">
+              <div id="video_gallery" style="padding-top:15px" class="col-sm-12 infowindow">
+                <p class="summary"></p>
+              </div>
+            </div>
+            <div id="URLsTab" role="tabpanel" class="tab-pane">
+              <div id="urls" style="padding-top:15px" class="col-sm-12 infowindow">
+                <p class="summary"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional - Addthis code to be added here (it will populate the 'Share' button)-->
+    <script type="text/javascript" src="" async="async"></script>
+  </body>
+</html>

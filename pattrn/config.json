@@ -1,0 +1,16 @@
+{
+    "data_sources": {
+        "geojson_data" : {
+            "data_url" : "http://api.newsy.org/data/data.geojson",
+            "settings_url" : "/pattrn/data/settings.json",
+            "metadata_url" : "/pattrn/data/metadata.yaml"
+        }
+    },
+    "script_url": "",
+    "base_layers": [
+        {
+            "name": "Earth view",
+            "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        }
+    ]
+}
