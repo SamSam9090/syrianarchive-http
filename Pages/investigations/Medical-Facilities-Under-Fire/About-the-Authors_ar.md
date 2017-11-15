@@ -1,8 +1,8 @@
 ---
 layout: investigations.html
-title: About the Authors - Medical Facilities Under Fire
+title: "حول المؤلفين - مرافق صحية تحت النار"
 date: 2017-07-01T00:01:18.055Z
-desc: An investigation about attacking Syrian hospitals
+desc: "تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب"
 image: /assets/cover-photo-web.width-800.png
 ---
 
