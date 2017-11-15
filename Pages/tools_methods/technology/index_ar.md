@@ -1,6 +1,6 @@
 ---
-layout: investigationshome.html
-title: Tools and Methods AR
+layout: investigations.html
+title: Technology
 date: 2014-03-03
 desc: Contributions and Developemt of Data Pipelines for Open Source Investigations
 image: /assets/technology/technology.png
