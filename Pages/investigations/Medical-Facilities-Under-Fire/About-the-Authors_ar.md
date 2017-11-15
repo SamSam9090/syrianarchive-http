@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: About the Authors - Medical Facilities Under Fire
 date: 2017-07-01T00:01:18.055Z
 desc: An investigation about attacking Syrian hospitals
@@ -27,5 +27,3 @@ image: /assets/cover-photo-web.width-800.png
 ### بيلينغكات
 
 [Bellingcat](https://www.bellingcat.com/) هي شبكة بحث وتحقيقات حائزة على جائزة استخدام المصادر المفتوحة ومحتوى وسائل التواصل الاجتماعي للتحقيق في مجموعة متنوعة من المواضيع، بدءًا من أباطرة المخدارت المكيسيكة إلى الصراعات في مختلف أنحاء العالم. يجمع بيلينغكات كلًا من المساهمين المختصين في المصادر المفتوحة وتحقيقات وسائل التواصل الاجتماعي، ليُنشئ أدلّةً ودراسات حالة بحيث قد يتعلم الآخرين أن يحذوا حذوها.
-
-        

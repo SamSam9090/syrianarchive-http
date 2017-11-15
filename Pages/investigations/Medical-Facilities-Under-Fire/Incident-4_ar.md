@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: الحادثة الرابعة - مرافق صحية تحت النار
 date: 2017-07-01T00:00:18.055Z
 desc: تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب

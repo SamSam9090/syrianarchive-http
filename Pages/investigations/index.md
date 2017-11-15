@@ -1,5 +1,5 @@
 ---
-layout: investigationshome.html
+layout: tilecontent.html
 title: Investigations
 date: 2017-03-03
 desc: The Syrian Archive makes a lot of investigations.

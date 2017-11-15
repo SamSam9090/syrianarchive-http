@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: Methodology
 date: 2017-03-03
 desc: Contributions and Developemt of Data Pipelines for Open Source Investigations

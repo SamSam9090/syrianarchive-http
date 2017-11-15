@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: "مؤكّد: الولايات المتحدة مسؤولة عن قصف مسجد في حلب"
 date: 2017-03-18
 desc: "يتناول هذا التحقيق مسؤولية الولايات المتحدة عن قصف مسجد الجينة الواقع في محافظة حلب"
