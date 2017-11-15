@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {unitTitle} from './helpers';
+import {unitTitle} from '../containers/helpers';
+import t from '../../../translations';
 
 export default class ListEvidence extends Component {
   render() {
@@ -15,7 +16,9 @@ export default class ListEvidence extends Component {
         <div className="col-6">{unitTitle(i)}</div>
         <div className="col-2">{i.location}</div>
         <div className="col-1">
-          <button className="btn" onClick={this.props.selector}>view</button>
+          <button className="btn" onClick={this.props.selector}>
+            {t('view')}
+          </button>
         </div>
       </div>
     );

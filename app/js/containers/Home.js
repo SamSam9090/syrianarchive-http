@@ -1,5 +1,3 @@
-/* global locale */
-
 import React, { Component } from 'react';
 import {map} from 'lodash/fp';
 import {databaseApiUrl} from '../../../env';
@@ -43,13 +41,13 @@ export default class Investigations extends Component {
 
         <div className="columns">
           <div className="col-2">
-            <b>{this.state.meta.verified}</b> { t('Verified incidents', locale)}
+            <b>{this.state.meta.verified}</b> { t('Verified Incidents')}
           </div>
           <div className="col-2">
-            <b>{this.state.meta.total}</b> { t('Collected Evidence', locale)}
+            <b>{this.state.meta.total}</b> { t('Collected Evidence')}
           </div>
           <div className="col-2">
-            <b>{this.state.meta.weapons.length}</b> { t('Identified Weapons', locale)}
+            <b>{this.state.meta.weapons.length}</b> { t('Identified Weapons')}
           </div>
         </div>
 
