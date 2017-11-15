@@ -18,6 +18,8 @@ export default class DatabaseComponent extends Component {
     super(props);
     this.search = this.search.bind(this);
     this.typechange = this.typechange.bind(this);
+    this.collectionchange = this.collectionchange.bind(this);
+
     this.afterchange = this.afterchange.bind(this);
     this.beforechange = this.beforechange.bind(this);
 
@@ -50,7 +52,10 @@ export default class DatabaseComponent extends Component {
     const v = val ? val.value : '';
     this.props.update({type_of_violation: v});
   }
-
+  collectionchange(val) {
+    const v = val ? val.value : '';
+    this.props.update({collection: v});
+  }
   selectchange(key, val) {
     const v = val ? val.value : '';
     this.props.update({[key]: v});
@@ -89,6 +94,7 @@ export default class DatabaseComponent extends Component {
       units,
     } = this.props;
 
+    console.log(meta);
     return (
       <div className="container database">
         <Unit unit={selectedUnit} clear={clearUnit} />
@@ -121,6 +127,16 @@ export default class DatabaseComponent extends Component {
                 value={filters.type_of_violation}
                 options={violationtypes}
                 onChange={this.typechange}
+              />
+            </div>
+
+            <div className="filter">
+              <h5>{t('Collection')}</h5>
+              <Select
+                name="collection"
+                value={filters.collection}
+                options={map(f => ({label: f, value: f}), meta.collections)}
+                onChange={this.collectionchange}
               />
             </div>
 
