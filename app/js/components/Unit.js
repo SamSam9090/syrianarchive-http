@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {isEmpty} from 'lodash/fp';
+import t from '../../../translations';
 
-import {unitTitle} from './helpers';
+import {unitTitle} from '../containers/helpers';
 
 // const mapW = map.convert({cap: false});
 // {mapW((v, k) =>
@@ -27,14 +28,14 @@ export default class Unit extends Component {
           </video>
 
           <small>
-            online_link
+            {t('Online Link')}
           </small>
           <h5><a href={i.online_link}>{i.online_link}</a></h5>
 
           <small>
-            meta
+            {t('Meta')}
           </small>
-          <h6>md5 {i.md5_hash} - acquired {i.date_of_acquisition}</h6>
+          <h6>md5 {i.md5_hash} - {t('acquired')} {i.date_of_acquisition}</h6>
 
         </div>
         <div className="col-6 meta">
@@ -42,20 +43,20 @@ export default class Unit extends Component {
           <h2>{unitTitle(i)}</h2>
 
           <small>
-            Incident Occurred at:
+            {t('Incident Occurred at')}:
           </small>
           <h3>{i.incident_date}</h3>
           <h4>{i.incident_time}</h4>
 
           <small>
-            Location:
+            {t('Location')}:
           </small>
           <h5>
             {i.location}
           </h5>
 
           <small>
-            Precise Location:
+            {t('Precise Location')}:
           </small>
           <h5>
             {i.latitude}
@@ -63,14 +64,14 @@ export default class Unit extends Component {
           </h5>
 
           <small>
-            acquired from:
+            {t('Acquired From')}:
           </small>
           <h5>
             {i.acquired_from}
           </h5>
 
           <small>
-            Weapons Used:
+            {t('Weapons Used')}:
           </small>
           <h5>
             {i.weapons_used}
@@ -93,7 +94,9 @@ export default class Unit extends Component {
             </div>
           </div>
           <div className="modal-footer">
-            <button onClick={this.props.clear} className="btn">Close</button>
+            <button onClick={this.props.clear} className="btn">
+              {t('Close')}
+            </button>
           </div>
         </div>
       </div>

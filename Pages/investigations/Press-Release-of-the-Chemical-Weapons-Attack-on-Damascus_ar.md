@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 layout: investigations.html
 title: "بيان صحفي حول الضربات الكيماوية في سوريا"
+=======
+layout: contentwithsiblings.html
+title: بيان صحفي حول الضربات الكيماوية في سوريا
+>>>>>>> d0d9ad27287c4aca3af544d3ce1003006cb9e5ae
 date: 2015-08-21
 desc: "بيان صحفي حول الضربات الكيماوية في سوريا في الذكرى الثانية لمجزرة الكيماوي التي ارتُكبت في الغوطة الشرقية لدمشق"
 image: /assets/media_activist_in_Damascus.jpg

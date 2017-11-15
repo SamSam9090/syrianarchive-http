@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: tilecontent.html
 title: Syrian Archive
 ---
 

@@ -1,5 +1,22 @@
+.flx{
+  column-count: 2;
+  column-gap: 0;
+  .fl{
+    break-inside: avoid;
+    box-sizing: border-box;
+  }
+}
+
+.modal-container .modal-body{
+  max-height: 100000px;
+}
+
 img {
   max-width:100%;
+}
+
+article.contents img{
+  max-width:120%;
 }
 
 .columns {
@@ -20,7 +37,7 @@ body{
 
 .top{
   position: absolute;
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.3);
   a, .btn.btn-link{
     color: white;
   }

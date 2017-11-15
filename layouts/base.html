@@ -17,11 +17,11 @@
         <header class="navbar">
 
           <section class="navbar-section">
-            <a class="btn btn-link" href="/{{locale}}">Home</a>
+            <a class="btn btn-link hb" href="/{{locale}}">Syrian Archive / </a>
 
             <a class="btn btn-link" href="/{{locale}}/investigations">Investigations</a>
             <a class="btn btn-link" href="/{{locale}}/database">Database</a>
-            <a class="btn btn-link" href="/{{locale}}/map">map</a>
+            <a class="btn btn-link" href="/{{locale}}/database/map">Map</a>
             <a class="btn btn-link" href="/{{locale}}/about">About</a>
             <a class="btn btn-link" href="/{{locale}}/about/support">Support</a>
           </section>
@@ -60,6 +60,7 @@
     </div>
   </div>
 
+{% block titlecontainer %}
   <div class="container title {% if image %}imaged{% endif %}" style="{% if image %}background-image:url({{image}}){% endif %}">
     <div class="columns">
       <div class="col-12">
@@ -72,6 +73,7 @@
       </div>
     </div>
   </div>
+{% endblock %}
 
   <article class="contents">
     {% block jstop %}

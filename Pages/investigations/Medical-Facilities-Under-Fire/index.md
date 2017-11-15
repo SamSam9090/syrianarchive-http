@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: Medical Facilities Under Fire
 date: 2017-07-01T00:00:18.055Z
 desc: An investigation about attacking Syrian hospitals

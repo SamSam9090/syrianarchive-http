@@ -22,9 +22,9 @@ const LOCALES = { default: 'en', locales: ['en', 'ar'] };
 
 Metalsmith(__dirname)
   .metadata({
-    sitename: 'My Static Site & Blog',
-    siteurl: 'http://example.com/',
-    description: 'Its about saying »Hello« to the world.',
+    sitename: 'Syrian Archive',
+    siteurl: 'https://syrianarchive.org/',
+    description: ' Preserving Documentation of Human rights Violations',
     generatorname: 'Metalsmith',
     generatorurl: 'http://metalsmith.io/',
   })
