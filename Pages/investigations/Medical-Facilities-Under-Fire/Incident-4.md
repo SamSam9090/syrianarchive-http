@@ -3,7 +3,7 @@ layout: investigations.html
 title: Incident 4 - Medical Facilities Under Fire
 date: 2017-07-01T00:09:18.055Z
 desc: An investigation about attacking Syrian hospitals
-image: /assets/cover-photo-web.width-800.png
+image: "/assets/Screen_Shot_2017-05-13_at_11.34.29_AM.png"
 ---
 
 # Incident 4: The hospital in Shanan - Syrian Archive

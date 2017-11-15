@@ -3,7 +3,7 @@ layout: investigations.html
 title: Incident 6 - Medical Facilities Under Fire
 date: 2017-07-01T00:11:18.055Z
 desc: An investigation about attacking Syrian hospitals
-image: /assets/cover-photo-web.width-800.png
+image: "/assets/craterinfrontthehospitaltakhareem.png"
 ---
 
 # Incident 6: Kafar Takharim Hospital (Wassim Hasseino) - Syrian Archive

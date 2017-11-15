@@ -3,7 +3,7 @@ layout: investigations.html
 title: Incident 5 - Medical Facilities Under Fire
 date: 2017-07-01T00:10:18.055Z
 desc: An investigation about attacking Syrian hospitals
-image: /assets/cover-photo-web.width-800.png
+image: "/assets/h7-abadeen.png"
 ---
 
 # Incident 5: The hospital in Abadeen (The cave hospital) - Syrian Archive

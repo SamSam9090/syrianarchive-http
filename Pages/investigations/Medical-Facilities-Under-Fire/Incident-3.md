@@ -3,7 +3,7 @@ layout: investigations.html
 title: Incident 3 - Medical Facilities Under Fire
 date: 2017-07-01T00:08:18.055Z
 desc: An investigation about attacking Syrian hospitals
-image: /assets/cover-photo-web.width-800.png
+image: "/assets/Screen_Shot_2017-05-11_at_11.06.30_AM.png"
 ---
 
 # Incident 3: The health center in the town of Heish - Syrian Archive
