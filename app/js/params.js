@@ -1,5 +1,5 @@
 import moment from 'moment';
-import {reduce, each, omit, isEmpty, compact, merge} from 'lodash/fp';
+import {reduce, each, omit, isEmpty, compact, merge, last} from 'lodash/fp';
 
 const reduceW = reduce.convert({cap: false});
 
@@ -34,8 +34,10 @@ export const params = {
 };
 
 export const updateParams = state => {
-  const ps = merge(state.database.filters, {unit: state.unit.id});
-  updateQS(ps);
+  if (last(location.pathname.match(/\w+/g)) === 'database') {
+    const ps = merge(state.database.filters, {unit: state.unit.id});
+    updateQS(ps);
+  }
 };
 
 
