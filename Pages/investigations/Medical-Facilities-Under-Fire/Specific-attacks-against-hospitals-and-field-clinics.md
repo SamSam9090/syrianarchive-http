@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigations.html
 title: Specific Attacks against Hospitals - Medical Facilities Under Fire
 date: 2017-07-01T00:18:18.055Z
 desc: An investigation about attacking Syrian hospitals

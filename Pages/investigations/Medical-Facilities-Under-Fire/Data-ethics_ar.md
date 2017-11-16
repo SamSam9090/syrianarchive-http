@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 layout: investigations.html
 title: "أخلاقيات البيانات - مرافق صحية تحت النار"
-=======
-layout: contentwithsiblings.html
-title: أخلاقيات البيانات - مرافق صحية تحت النار
->>>>>>> d0d9ad27287c4aca3af544d3ce1003006cb9e5ae
 date: 2017-07-01T00:00:18.055Z
 desc: "تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب"
 image: /assets/cover-photo-web.width-800.png

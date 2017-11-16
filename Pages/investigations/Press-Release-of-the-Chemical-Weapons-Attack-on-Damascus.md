@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigations.html
 title: Press Release of the Chemical Weapons Attack on Damascus
 date: 2015-08-21
 desc: The Syrian Archive Team on the 2nd anniversary of the chemical weapons attack on Ghouta, Syria
