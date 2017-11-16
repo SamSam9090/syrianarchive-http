@@ -33,6 +33,3 @@ image: /assets/media_activist_in_Damascus.jpg
 [تفاصيل الفيديو.](https://syrianarchive.org/database/507/)
 
 تعد هذه الأدلة البصرية ذات قيمة كبيرة لإمكانية استخدامها في عمليات التحقّق والمناصرة والمحاسبة ضد مجرمي الحرب.
-
-
-

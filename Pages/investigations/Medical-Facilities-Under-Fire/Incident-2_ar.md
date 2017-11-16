@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "الحادثة الثانية - مرافق صحية تحت النار"
 date: 2017-07-01T00:00:18.055Z
 desc: "تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب"
-image: /assets/cover-photo-web.width-800.png
+image: "/assets/Screen_Shot_2017-05-09_at_5.55.27_PM.png"
 ---
 # الحادثة الثانية: النقطة الطبية في خان شيخون
 

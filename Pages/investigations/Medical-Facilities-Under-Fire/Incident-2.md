@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Incident 2 - Medical Facilities Under Fire
 date: 2017-07-01T00:07:18.055Z
 desc: An investigation about attacking Syrian hospitals
-image: /assets/cover-photo-web.width-800.png
+image: "/assets/Screen_Shot_2017-05-09_at_5.55.27_PM.png"
 ---
 
 # Incident 2: The medical point of Khan Shaykhoun - Syrian Archive

@@ -113,7 +113,7 @@ Some videos have been removed from International human rights organisation's rep
 
 ## Submitting videos
 
-In order to provide the most complete and accurate information on the Russian attacks, we are always looking for new evidence to collect and add to the alleged Russian attacks video dataset. If you would like to send us a video which is not on the dataset please reach us at **info [at] SyrianArchive [dot] org **
+In order to provide the most complete and accurate information on the Russian attacks, we are always looking for new evidence to collect and add to the alleged Russian attacks video dataset. If you would like to send us a video which is not on the dataset please reach us at **info [at] SyrianArchive [dot] org ** 
 
 ## Errors and corrections
 
