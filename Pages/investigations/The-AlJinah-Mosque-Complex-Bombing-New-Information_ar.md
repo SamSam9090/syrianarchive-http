@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: "قصف مجمع مسجد الجينة - معلومات جديدة وتسلسل زمني"
 date: 2017-04-18
 desc: "معلومات جديدة عن حادثة قصف مسجد الجينة في محافظة حلب، وعرض للتسلسل الزمني للأحداث"

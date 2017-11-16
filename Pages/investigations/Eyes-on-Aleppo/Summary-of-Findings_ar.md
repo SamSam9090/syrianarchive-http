@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: "موجز النتائج - عين على حلب"
 date: 2017-03-29
 desc: "عين على حلب: تحليل الأدلّة البصرية لانتهاكات حقوق الإنسان"

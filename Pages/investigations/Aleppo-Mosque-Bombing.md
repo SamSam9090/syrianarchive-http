@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: CONFIRMED US Responsible for ‘Aleppo Mosque Bombing’
 date: 2017-03-18
 desc: CONFIRMED US Responsible for ‘Aleppo Mosque Bombing’
