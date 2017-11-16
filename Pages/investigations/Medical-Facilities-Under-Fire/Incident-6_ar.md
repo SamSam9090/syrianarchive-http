@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "الحادثة السادسة - مرافق صحية تحت النار"
 date: 2017-07-01T00:00:18.055Z
 desc: "تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب"
-image: "/assets/craterinfrontthehospitaltakhareem.png"
+image: /assets/cover-photo-web.width-800.png
 ---
 
 # الحادثة السادسة: مستشفى كفرتخاريم  (وسيم حسينو)

@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Incident 7 - Medical Facilities Under Fire
 date: 2017-07-01T00:12:18.055Z
 desc: An investigation about attacking Syrian hospitals
-image: "/assets/ds14.png"
+image: /assets/cover-photo-web.width-800.png
 ---
 
 # Incident 7: The university hospital in Deir Sharqi - Syrian Archive

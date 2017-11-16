@@ -148,3 +148,5 @@ image: /assets/08j.width-800.png
 فيما يلي تسلسلٌ زمنيّ للإفادات المنشورة حول الغارات الجوية الأمريكية التي استهدفت القسم الشمالي من قاعة صلاة مبنيّة حديثًا؛ شمالي محافظة حلب في سوريا.حُدّدت كل الأوقات المذكورة وفقًا للتوقيت المحلي لمحافظة حلب؛ وهو التوقيت العالمي المنسق+2.
 
 <iframe allowfullscreen="" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1pH2dQjrU4QMcaD4V8GHkkZCnz50Il0NM1DO1qatHXlQ&font=Default&lang=en&initial_zoom=2&height=650" width="100%" height="650" frameborder="0"></iframe>
+
+        

@@ -2,25 +2,10 @@
 layout: tilecontent.html
 title: Investigations
 date: 2017-03-03
-desc: The Syrian Archive makes a lot of investigations.
-image: /assets/investigations/investigations.jpg
 ---
 
+The Syrian Archive makes a lot of investigations.
 
-The Syrian Archive believes that open-source documentation of human
-rights violations that is transparent, detailed, and reliable are
-critical towards providing accountability and can positively contribute
-to post-conflict reconstruction and stability. Such content can humanise
-victims, reduce the space for dispute over numbers killed, help
-societies understand the true human costs of war, and support truth and
-reconciliation efforts.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-In some cases, the Syrian Archive is able to conduct in-depth open
-source investigations. Time and capacity limitations means not all
-incidents are able to be analysed in-depth, however by developing a
-replicable workflow it is hoped that others can assist in these efforts
-of investigate other incidents using similar methods.
-
-Reports are published simultaneously in English and Arabic to ensure the
-feedback loop between the Syrian Archive and its network of sources is
-closed.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

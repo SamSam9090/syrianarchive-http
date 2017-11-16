@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "الحادثة الثالثة - مرافق صحية تحت النار"
 date: 2017-07-01T00:00:18.055Z
 desc: "تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب"
-image: "/assets/Screen_Shot_2017-05-11_at_11.06.30_AM.png"
+image: /assets/cover-photo-web.width-800.png
 ---
 
 # الحادثة الثالثة: المركز الصحي في بلدة حيش

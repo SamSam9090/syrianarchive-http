@@ -123,7 +123,7 @@ Ebrahim also mentions that men and young boys were asked to leave the buses and 
 
 [1]: https://www.independent.co.uk/news/world/middle-east/aleppo-crisis-latest-rebel-assad-blame-un-lack-evacuations-a7374081.html
 [2]: https://www.amnesty.org/en/latest/campaigns/2017/01/man-missing-during-east-aleppo-evacuation/
-[3]: https://www.youtube.com/watch?v=zlL8660ZViQ 
+[3]: https://www.youtube.com/watch?v=zlL8660ZViQ
 [4]: https://goo.gl/maps/A3sqZ2G4Raw
 [5]: /assets/Aleppo_evacuation_2.jpg
 [6]: https://www.youtube.com/watch?v=mLN0vOwS4Og
