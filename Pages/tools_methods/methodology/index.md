@@ -1,6 +1,6 @@
 ---
 layout: tilecontent.html
-title: Tools and methods
+title: Methodology
 date: 2017-07-01T00:05:18.055Z
 desc: Preserving Documentation of Human rights Violations
 ---
