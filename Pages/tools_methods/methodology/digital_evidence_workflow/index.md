@@ -1,8 +1,8 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: Research Methodology
 date: 2017-03-29
-desc: Digital Evidence Workflow
+desc: Open Source Tools and Methods for Open Source Investigations - Digital Evidence Workflow
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
 # Research Methodology - Syrian Archive

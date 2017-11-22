@@ -1,11 +1,10 @@
 ---
-layout: investigationshome.html
+layout: tilecontent.html
 title: Investigations
 date: 2017-03-03
 desc: The Syrian Archive makes a lot of investigations.
 image: /assets/investigations/investigations.jpg
 ---
-
 
 The Syrian Archive believes that open-source documentation of human
 rights violations that is transparent, detailed, and reliable are

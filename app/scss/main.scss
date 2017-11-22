@@ -11,8 +11,14 @@ html.ar{
   @import "rtl";
 }
 
+#map{
+  background-color: black;
+}
+
 #map iframe{
   height:100vh;
+  margin-top:10rem;
+  border: 0px solid black;
 }
 
 .unit{

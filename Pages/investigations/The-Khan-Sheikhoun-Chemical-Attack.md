@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: The Khan Sheikhoun Chemical Attack, The Evidence So Far
 date: 2017-04-05
 desc: An investigation about The Khan Sheikhoun Chemical Attack
