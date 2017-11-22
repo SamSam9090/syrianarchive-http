@@ -1,3 +1,4 @@
+/* global locale */
 import React, { Component } from 'react';
 import {isEmpty} from 'lodash/fp';
 import t from '../../../translations';
@@ -21,10 +22,15 @@ export default class Unit extends Component {
     if (isEmpty(i)) {
       return <div />;
     }
+    const graphic = !(i.graphic_content === false);
 
     const content = (
       <div className="columns unit">
         <div className="col-6 meta">
+
+          {graphic &&
+            <small className="warning"> {t('Warning: this video may contain graphic content')} </small>
+          }
 
           <video src={fixurl(i.filename || '')} controls>
             {`Sorry, your browser doesnt support embedded videos, but dont worry, you can <a href="videofile.webm">download it</a>
@@ -91,7 +97,8 @@ export default class Unit extends Component {
           <div className="modal-body">
             <div className="modal-header">
               <button onClick={this.props.clear} className="btn btn-clear float-right" />
-              <div className="modal-title h5">{i.reference_code}</div>
+              <a href="/">{t('Syrian Archive')}</a> |
+              <a href={`/${locale}/database`}> {t('Violations Evidence Database')}</a> | {i.reference_code}
             </div>
             <div className="content">
               {content}

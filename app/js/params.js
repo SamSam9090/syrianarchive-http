@@ -16,7 +16,7 @@ export const query = () => {
     const v = decodeURI(i.split('=')[1]);
     dict[k] = v;
     if (k === 'before' || k === 'after') {
-      dict[k] = moment.unix(v / 1000);
+      dict[k] = moment(v).format('YYYY-MM-DD');
     }
   })(ks);
   return omit(isEmpty, dict);
@@ -27,7 +27,6 @@ export const updateQS = fs => {
   const myURL = [location.pathname].join('');
   const qs = querystring(fs).slice(0, -1);
   history.replace(`${myURL}${qs}${h}`);
-  console.log(`${myURL}${qs}${h}`);
   return document.location;
 };
 
@@ -46,7 +45,6 @@ export const params = {
 };
 
 export const updateParams = state => {
-  console.log('uhhh');
   if (last(location.pathname.match(/\w+/g)) === 'database') {
     updateQS(state.database.filters);
     if (state.unit.id) {

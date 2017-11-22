@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import moment from 'moment';
 
 import {map} from 'lodash/fp';
 import Select from 'react-select';
@@ -64,20 +65,16 @@ export default class DatabaseComponent extends Component {
   afterchange(e) {
     const date = e;
     timeMeOut(() => {
-      const d = Date.parse(date);
-      if (d) {
-        this.props.update({after: date});
-      }
+      const d = date ? moment(date).format('YYYY-MM-DD') : null;
+      this.props.update({after: d});
     });
   }
 
   beforechange(e) {
     const date = e;
     timeMeOut(() => {
-      const d = Date.parse(date);
-      if (d) {
-        this.props.update({before: date});
-      }
+      const d = date ? moment(date).format('YYYY-MM-DD') : null;
+      this.props.update({before: d});
     });
   }
 
@@ -143,7 +140,7 @@ export default class DatabaseComponent extends Component {
             <div className="filter">
               <h5>{t('After Date')}</h5>
               <DatePicker
-                selected={filters.after}
+                selected={filters.after ? moment(filters.after) : undefined}
                 onChange={this.afterchange}
                 dateFormat="YYYY-MM-DD"
               />
@@ -152,7 +149,7 @@ export default class DatabaseComponent extends Component {
             <div className="filter">
               <h5>{t('Before Date')}</h5>
               <DatePicker
-                selected={filters.before}
+                selected={filters.before ? moment(filters.before) : undefined}
                 onChange={this.beforechange}
                 dateFormat="YYYY-MM-DD"
               />
