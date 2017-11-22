@@ -57,14 +57,13 @@ Witness, Jaloud conducted trainings on archiving and on international
 humanitarian law. He has also assisted in research for the UN Commission
 of Inquiry for Syria. Abdul Rahman is based in Sweden.
 
-### Tareef Mando
+### Tareef MD
 __Open source analyst__
 
-Tareef verifies and analyses visual documentation of human rights violations. He has
-previously worked with Frontline Defenders, with Tactical Technology
+Tareef verifies and analyses visual documentation of human rights violations. He has previously worked with Frontline Defenders, with Tactical Technology
 Collective and with 7asoub,a technical academy teaching programming
-languages to youth.  Tareef has an educational background in  civil
-engineering. Tareef is based in Trabzoon, Turkey
+languages to youth. Tareef has an educational background in Electrical
+engineering. Tareef is based in Turkey
 
 ### Sam Razzouk
 __Open source analyst__
