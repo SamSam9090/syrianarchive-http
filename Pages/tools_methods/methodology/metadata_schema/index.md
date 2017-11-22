@@ -1,5 +1,5 @@
 ---
-layout: investigations.html
+layout: contentwithsiblings.html
 title: Metadata schema
 date: 2017-03-29
 desc: Metadata Schema
