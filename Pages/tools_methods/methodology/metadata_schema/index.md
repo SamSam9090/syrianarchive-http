@@ -11,6 +11,8 @@ Establishing a standardised metadata schema is necessary in order to assist user
 
 In categorising violations, the Syrian Archive has decided to use the violations categories used by the Office of United Nations High Commissioner for Human Rights (OHCHR). This was done because OHCHR is one of the groups in the unique position of being able to investigate incidents of human rights violations and war crimes. These categories consist of many often overlapping categories. Should potential investigations by international bodies not be pursued by the UN OHCHR and rather by another investigative body, it is anticipated that the Syrian Archive will modify violations categories to meet the needs of those investigating.
 
+Various fields of the metadata schema are processed at various stages of the digital evidence workflow (e.g. collection, preservation, processing, verification, publication, analysis).
+
 <div class="pagebody">
                 <table>
   <tbody><tr>
