@@ -1,5 +1,5 @@
 ---
-layout: tilecontent.html
+layout: homepage.html
 title: Syrian Archive
 date: 2017-07-01T00:05:18.055Z
 desc: Preserving Documentation od Human rights Violations
