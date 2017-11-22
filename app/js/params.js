@@ -1,5 +1,7 @@
 import moment from 'moment';
-import {reduce, each, omit, isEmpty, compact, merge, last} from 'lodash/fp';
+import {reduce, each, omit, isEmpty, compact, last, merge} from 'lodash/fp';
+
+import history from './history';
 
 const reduceW = reduce.convert({cap: false});
 
@@ -22,9 +24,19 @@ export const query = () => {
 
 export const updateQS = fs => {
   const h = window.location.hash;
-  const myURL = [location.protocol, '//', location.host, location.pathname].join('');
+  const myURL = [location.pathname].join('');
   const qs = querystring(fs).slice(0, -1);
-  window.history.pushState({}, document.title, `${myURL}${qs}${h}`);
+  history.replace(`${myURL}${qs}${h}`);
+  console.log(`${myURL}${qs}${h}`);
+  return document.location;
+};
+
+export const backQS = fs => {
+  const h = window.location.hash;
+  const myURL = [location.pathname].join('');
+  const uqs = merge(query(), fs);
+  const qs = querystring(uqs).slice(0, -1);
+  history.push(`${myURL}${qs}${h}`);
   return document.location;
 };
 
@@ -34,9 +46,12 @@ export const params = {
 };
 
 export const updateParams = state => {
+  console.log('uhhh');
   if (last(location.pathname.match(/\w+/g)) === 'database') {
-    const ps = merge(state.database.filters, {unit: state.unit.id});
-    updateQS(ps);
+    updateQS(state.database.filters);
+    if (state.unit.id) {
+      backQS({unit: state.unit.id});
+    }
   }
 };
 

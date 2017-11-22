@@ -77,3 +77,33 @@ body{
   }
 
 }
+
+.modal {
+  top: 0;
+  bottom: none !important;
+  position:fixed;
+  max-height:100vh;
+  overflow-y: scroll;
+  -webkit-align-items:start;
+    align-items:start;
+    bottom: 0;
+    display: none;
+    -ms-flex-align:start;
+    -ms-flex-pack:start;
+    -webkit-justify-content:start;
+    justify-content:start;
+    left: 0;
+    opacity: 0;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.modal-overlay {
+  position: fixed !important;
+}
+
+.modal-container{
+  margin-top:3em;
+}

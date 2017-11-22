@@ -12,6 +12,10 @@ import {unitTitle} from '../containers/helpers';
 const fixurl = url => url.replace('/var/www/files', 'http://media.newsy.org');
 
 export default class Unit extends Component {
+  componentDidMount() {
+    window.onpopstate = this.props.clear;
+  }
+
   render() {
     const i = this.props.unit;
     if (isEmpty(i)) {
@@ -84,20 +88,21 @@ export default class Unit extends Component {
       <div className="modal modal-lg active">
         <div className="modal-overlay" />
         <div className="modal-container">
-          <div className="modal-header">
-            <button onClick={this.props.clear} className="btn btn-clear float-right" />
-            <div className="modal-title h5">{i.reference_code}</div>
-          </div>
           <div className="modal-body">
+            <div className="modal-header">
+              <button onClick={this.props.clear} className="btn btn-clear float-right" />
+              <div className="modal-title h5">{i.reference_code}</div>
+            </div>
             <div className="content">
               {content}
             </div>
+            <div className="modal-footer">
+              <button onClick={this.props.clear} className="btn">
+                {t('Close')}
+              </button>
+            </div>
           </div>
-          <div className="modal-footer">
-            <button onClick={this.props.clear} className="btn">
-              {t('Close')}
-            </button>
-          </div>
+
         </div>
       </div>
     );

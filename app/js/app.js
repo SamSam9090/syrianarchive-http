@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {Router, Route} from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 import history from './history';
@@ -13,11 +13,11 @@ import {store} from './store';
 
 render(
   <Provider store={store}>
-    <BrowserRouter history={history}>
+    <Router history={history}>
       <div>
         <Route path="/:ar/" component={App} />
       </div>
-    </BrowserRouter>
+    </Router>
   </Provider>,
   document.getElementById('js-root')
 );
