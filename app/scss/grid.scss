@@ -147,5 +147,8 @@ body{
 }
 
 .footer {
-  background-color:rgba(0,0,0,.9);
+  background-color:#444;
+  a {
+    color:#999 !important;
+  }
 }
