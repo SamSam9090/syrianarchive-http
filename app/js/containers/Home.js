@@ -1,3 +1,4 @@
+/* global locale */
 import React, { Component } from 'react';
 import {map} from 'lodash/fp';
 import {databaseApiUrl} from '../../../env';
@@ -36,26 +37,53 @@ export default class Investigations extends Component {
 
   render() {
     console.log(this.state);
+    const vv = this.state.meta.verified ? this.state.meta.verified.toLocaleString() : '';
+    const c = this.state.meta.total ? this.state.meta.total.toLocaleString() : '';
+
     return (
-      <div className="container stats">
+      <div className="container frontstats">
 
         <div className="columns">
-          <div className="col-2">
-            <b>{this.state.meta.verified}</b> { t('Verified Incidents')}
+          <div className="col-4">
+            <div className="statcol">
+              <h6>
+                { t('Verified Digital Content')}
+              </h6>
+              <h2>
+                <b>{vv}</b> <small>{t('units')}</small>
+              </h2>
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="statcol">
+              <h6>
+                { t('Collected Digital Content')}
+              </h6>
+              <h3>
+                <b>{c}</b> <small>{t('units')}</small>
+              </h3>
+            </div>
           </div>
           <div className="col-2">
-            <b>{this.state.meta.total}</b> { t('Collected Evidence')}
-          </div>
-          <div className="col-2">
-            <b>{this.state.meta.weapons.length}</b> { t('Identified Weapons')}
+            <div className="statcol">
+              <h6>
+                { t('Identified Weapons')}
+              </h6>
+              <h4>
+                <b>{this.state.meta.weapons.length}</b>
+              </h4>
+            </div>
           </div>
         </div>
 
         <div className="columns">
-          <div className="col-8">
+          <div className="col-12">
+            <h5>{t('Types of Violations')}</h5>
             {map(v =>
-              <div>
-                <b>{v.label}</b>
+              <div className="frontvio">
+                <h6><a href={`/${locale}/database?type_of_violation=${v.value}`}>
+                  {v.label}
+                </a></h6>
               </div>
               , violationtypes)}
           </div>
