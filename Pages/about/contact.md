@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Contact Us
 date: 2017-03-03
 desc: ""
-image: "/assets/investigations/holding.jpg"
+image: "/assets/about/about3.jpg"
 ---
 
  Contact us:

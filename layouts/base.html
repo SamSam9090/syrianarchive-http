@@ -19,13 +19,27 @@
         <header class="navbar">
 
           <section class="navbar-section">
-            <a class="btn btn-link hb" href="/{{locale}}">Syrian Archive / </a>
+            {% if locale === "ar"%}
+              <a class="btn btn-link hb" href="/{{locale}}">Syrian Archive / </a>
 
-            <a class="btn btn-link" href="/{{locale}}/about">About</a>
-            <a class="btn btn-link" href="/{{locale}}/tools_methods">Tools and Methods</a>
-            <a class="btn btn-link" href="/{{locale}}/investigations">Investigations</a>
-            <a class="btn btn-link" href="/{{locale}}/database">Database</a>
-            <a class="btn btn-link" href="/{{locale}}/database/map">Map</a>
+              <a class="btn btn-link" href="/{{locale}}/about">حول</a>
+              <a class="btn btn-link" href="/{{locale}}/tools_methods">المنهجية والأدوات</a>
+              <a class="btn btn-link" href="/{{locale}}/investigations">التحقيقات</a>
+              <a class="btn btn-link" href="/{{locale}}/database">قاعدة البيانات</a>
+              <a class="btn btn-link" href="/{{locale}}/database/map">خريطة الأحداث</a>
+              <a class="btn btn-link" href="/{{locale}}/about/contact">تواصل</a>
+
+            {% else %}
+              <a class="btn btn-link hb" href="/{{locale}}">Syrian Archive / </a>
+
+              <a class="btn btn-link" href="/{{locale}}/about">About</a>
+              <a class="btn btn-link" href="/{{locale}}/tools_methods">Tools and Methods</a>
+              <a class="btn btn-link" href="/{{locale}}/investigations">Investigations</a>
+              <a class="btn btn-link" href="/{{locale}}/database">Database</a>
+              <a class="btn btn-link" href="/{{locale}}/database/map">Map</a>
+              <a class="btn btn-link" href="/{{locale}}/about/contact">Contact</a>
+
+            {% endif %}
           </section>
 
           <section class="navbar-section">
