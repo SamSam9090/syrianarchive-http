@@ -1,7 +1,7 @@
 ---
 layout: base.html
-title: Digital Evidence Database
+title: Verified Violations Database
 date: 2017-03-03
-desc: Here you can find our database and such
+desc: Digital content that we have verified
 image: "/assets/investigations/after.jpg"
 ---

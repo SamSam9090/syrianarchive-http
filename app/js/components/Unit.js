@@ -98,7 +98,7 @@ export default class Unit extends Component {
             <div className="modal-header">
               <button onClick={this.props.clear} className="btn btn-clear float-right" />
               <a href="/">{t('Syrian Archive')}</a> -
-              <a href={`/${locale}/database`}> {t('Violations Evidence Database')}</a> - {t('Verified Unit')}: {i.reference_code}
+              <a href={`/${locale}/database`}> {t('Verified Violations Database')}</a> - {t('Verified Unit')}: {i.reference_code}
             </div>
             <div className="content">
               {content}
