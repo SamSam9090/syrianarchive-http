@@ -99,13 +99,41 @@
     {% endblock %}
   </article>
 
+
   {% block jsbottom %}
     <div id="js-root"></div>
   {% endblock %}
 
 
 
+  <div class="container footer">
+    <div class="columns">
+      <div class="col-12 nav">
+        <header class="navbar">
 
+          <section class="navbar-section">
+              <a class="btn btn-link hb" href="/{{locale}}">Syrian Archive / </a>
+
+              <a class="btn btn-link" href="/{{locale}}/about/contact">Contact</a>
+
+              <a class="btn btn-link" href="/{{locale}}/about/legal/terms_of_use.html">Terms of Use</a>
+              <a class="btn btn-link" href="/{{locale}}/about/legal/privacy_policy.html">Privacy Policy</a>
+              <a class="btn btn-link" href="/{{locale}}/about/legal/copyright.html">Copyright</a>
+              <a class="btn btn-link" href="/{{locale}}/about/legal/disclaimer.html">Disclaimer</a>
+
+          </section>
+
+          <section class="navbar-section">
+          </section>
+
+          <section class="navbar-section">
+            <a class="btn btn-link" href="https://facebook.com/syrianarchive">Facebook</a>
+            <a class="btn btn-link" href="https://twitter.com/syrian_archive">Twitter</a>
+          </section>
+        </header>
+      </div>
+    </div>
+  </div>
 
   <script src="/assets/app.bundle.js"></script>
 </body>

@@ -3,6 +3,7 @@ layout: homepage.html
 title: Syrian Archive
 date: 2017-07-01T00:05:18.055Z
 desc: Preserving Documentation od Human rights Violations
+image: /assets/logos/loogback.jpg
 ---
 
 The Syrian Archive is an initiative launched by a collective of human rights activists dedicated to preserving open source documentation relating to human rights violations and other crimes committed by all sides during the conflict in Syria.
