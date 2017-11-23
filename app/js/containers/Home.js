@@ -44,7 +44,7 @@ export default class Investigations extends Component {
       <div className="container frontstats">
 
         <div className="columns">
-          <div className="col-4">
+          <div className="col-4 col-sm-12">
             <div className="statcol">
               <h6>
                 { t('Verified Digital Content')}
@@ -54,7 +54,7 @@ export default class Investigations extends Component {
               </h2>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-4 col-sm-12">
             <div className="statcol">
               <h6>
                 { t('Collected Digital Content')}
@@ -64,7 +64,7 @@ export default class Investigations extends Component {
               </h3>
             </div>
           </div>
-          <div className="col-2">
+          <div className="col-2 col-sm-12">
             <div className="statcol">
               <h6>
                 { t('Identified Weapons')}

@@ -26,7 +26,7 @@ export default class Unit extends Component {
 
     const content = (
       <div className="columns unit">
-        <div className="col-6 meta">
+        <div className="col-6 col-sm-12 meta">
 
           {graphic &&
             <small className="warning"> {t('Warning: this video may contain graphic content')} </small>
@@ -48,7 +48,7 @@ export default class Unit extends Component {
           <h6>md5 {i.md5_hash} - {t('acquired')} {i.date_of_acquisition}</h6>
 
         </div>
-        <div className="col-6 meta">
+        <div className="col-6 col-sm-12 meta">
 
           <h2>{unitTitle(i)}</h2>
 

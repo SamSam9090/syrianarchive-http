@@ -2,6 +2,16 @@
 
  html, body {
    font-family: 'Lato', sans-serif;
+   font-size: 18px;
+   @media screen and (max-width: 500px) {
+    font-size:16px;
+    h1 {font-size: 2rem}
+    h2 {font-size: 1.8rem}
+    h3 {font-size: 1.6rem}
+    h4 {font-size: 1.4rem}
+    h5 { font-size: 1.2rem}
+    h6 {font-size: 1rem}
+  }
  }
 
  h1, h2, h3, h4, h5, h6{
@@ -31,6 +41,9 @@ a.hb.btn.btn-link {
       color: white;
       margin-top: 4em;
       font-size: 6rem;
+      @media screen and (max-width: 500px) {
+       font-size:3rem;
+      }
     }
     .desc{
       color:white;
@@ -45,10 +58,6 @@ article.contents {
 
 article.contents .investigation{
   margin-top:3rem;
-}
-
-article.contents h1{
-  font-size: 4rem;
 }
 
 article.contents p {

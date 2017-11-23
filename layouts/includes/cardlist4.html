@@ -1,8 +1,8 @@
-  <div class="col-5">
+  <div class="col-5 col-sm-12">
     {{ contents|safe }}
   </div>
 
-<div class = "col-7 flx">
+<div class = "col-7 col-sm-12 flx">
 {% for post in siblings  | sort(true, true, 'date')%}
   {% if post.locale === locale and post.title != title %}
     <div class="fl">

@@ -4,7 +4,7 @@ import collections from 'metalsmith-collections';
 import markdown from 'metalsmith-markdown';
 // import permalinks from 'metalsmith-permalinks';
 import multiLanguage from 'metalsmith-multi-language';
-import {each, merge, keys, concat, compact} from 'lodash';
+import {each, merge, omit, concat, compact, keys, filter, remove} from 'lodash';
 import filetree from 'metalsmith-filetree';
 
 import nunjucks from 'nunjucks';
@@ -72,12 +72,13 @@ Metalsmith(__dirname)
   }))
   .use((f, m, d) => {
     const md = m['_metadata'].fileTree.path; // eslint-disable-line
+
     each(f, (v, k) => {
       if (k.includes('html')) {
         const ppath = `/${k.replace(/[^\/]*$/, '').slice(0, -1)}`; //eslint-disable-line
         const ft = md[ppath];
 
-        const ff = concat([], ft.files);
+        const ff = concat([], remove(ft.files, ['en/404.html', 'ar/404.html']));
         each(ft.children, c => {
           const b2f = `${c.path.substring(1)}/index.html`;
           ff.push(f[b2f]);
@@ -90,6 +91,12 @@ Metalsmith(__dirname)
   .use((f, m, d) => {
     const newh = Object.assign({}, f['en/index.html'], {layout: 'roothomepage.html'});
     f['index.html'] = newh; // eslint-disable-line
+
+    f['404.html'] = f['en/404.html']; // eslint-disable-line
+    f = omit(f, ['en/404.html', 'ar/404.html']); // eslint-disable-line
+    console.log(filter(keys(f), fff => fff.includes('html')));
+    console.log('aaaaaaaaaaaa');
+
     each(f, (v, k) => {
       if (k.includes('html')) {
         console.log(k);

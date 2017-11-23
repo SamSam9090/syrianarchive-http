@@ -1,6 +1,13 @@
 .flx{
   column-count: 2;
   column-gap: 0;
+  @media screen and (max-width: 500px) {
+    column-count: 1;
+    float: none;
+    .navbar-section{
+      display:inline;
+    }
+  }
   .fl{
     break-inside: avoid;
     box-sizing: border-box;
@@ -30,7 +37,6 @@ article.contents img{
 }
 
 body{
-  font-size: 18px;
   line-height: 1.4;
   background-color: #fbfbfb;
 }
@@ -40,6 +46,22 @@ body{
   background-color: rgba(0,0,0,.3);
   a, .btn.btn-link{
     color: white;
+  }
+  @media screen and (max-width: 500px) {
+    position: relative;
+    background-color: #444;
+    a{
+      font-size: 1rem;
+      font-size: 1rem;
+      padding: 0rem;
+      line-height: 1rem;
+      margin: 0rem;
+      height: 2.5rem;
+      font-weight: bold;
+    }
+    .navbar-section{
+      display:inline;
+    }
   }
 }
 
@@ -98,6 +120,8 @@ body{
     position: fixed;
     right: 0;
     top: 0;
+    max-width: 100%;
+    max-width: 100vw;
 }
 
 .modal-overlay {

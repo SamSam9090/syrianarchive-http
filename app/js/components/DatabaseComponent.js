@@ -110,7 +110,7 @@ export default class DatabaseComponent extends Component {
 
         <div className="columns dbwrapper">
 
-          <div className="col-3 filters">
+          <div className="col-3 col-sm-12 filters">
 
             <div className="filter">
               <h5>{ t('Search')}</h5>
@@ -182,7 +182,7 @@ export default class DatabaseComponent extends Component {
             </div>
           </div>
 
-          <div className="col-9 db" style={updating ? {opacity: '.3'} : {}}>
+          <div className="col-9 col-sm-12 db" style={updating ? {opacity: '.3'} : {}}>
             {map(i =>
               <ListEvidence unit={i} selector={() => selectUnit(i)} />
             , units)}
@@ -190,8 +190,8 @@ export default class DatabaseComponent extends Component {
         </div>
 
         <div className="columns">
-          <div className="col-3" />
-          <div className="col-9">
+          <div className="col-3 col-sm-12" />
+          <div className="col-9 col-sm-12">
             <h3>... {stats.current} {t('more.  Contact us for the full set')}</h3>
           </div>
         </div>
