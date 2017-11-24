@@ -5,8 +5,6 @@ date: 2017-03-18
 desc: CONFIRMED US Responsible for ‘Aleppo Mosque Bombing’
 image: /assets/8j.width-800.png
 ---
-# CONFIRMED: US Responsible for ‘Aleppo Mosque Bombing’ - Syrian Archive
-
 _This is a developing investigation, which will be updated as soon as there are new findings. We are currently waiting for a reaction from CENTCOM and the Pentagon with regards to our findings. Last update: March 18, 2017, 19:41 UTC._  
 
 This is an investigation into the bombing by the United States (US) of a mosque in Al-Jīnah, a Syrian village located in the western part of the Aleppo governorate. The report is structured along the lines of the five W-questions:

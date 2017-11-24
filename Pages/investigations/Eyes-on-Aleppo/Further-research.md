@@ -5,7 +5,6 @@ date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
-# (VII) Further research - Syrian Archive
 
 Though the battle for control of Aleppo city is now over, human rights research into violations committed during this time will continue for many years to come. In this report, the Syrian Archive has described a dataset of verified visual evidence of human rights violations in the battle for Aleppo.
 

@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/Screen_Shot_2017-05-09_at_5.55.27_PM.png"
 ---
 
-# Incident 2: The medical point of Khan Shaykhoun - Syrian Archive
-
 _Location: IDLIB : Khan Shaykhoun  
 Hospital: The medical point of Khan Shaykoun (Al Rahmeh)  
 Beneficiaries: ~5,000 people  

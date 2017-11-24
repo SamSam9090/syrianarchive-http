@@ -6,9 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/image4.png"
 ---
 
-
-# Incident 1: The national hospital of Marret Numan - Syrian Archive
-
 _Location: IDLIB : Marret Numan_  
 _Hospital: The national hospital of Marret Numan_  
 _Beneficiaries: ~500,000 people_  

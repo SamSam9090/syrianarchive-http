@@ -5,8 +5,6 @@ date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
-# (II) Research Methodology - Syrian Archive
-
 This section will provide an overview of the methodology used by the Syrian Archive in carrying out this research. The methodology section will be broken into the following sub-sections:
 
 A) Identification, collection and secure preservation methodology;  

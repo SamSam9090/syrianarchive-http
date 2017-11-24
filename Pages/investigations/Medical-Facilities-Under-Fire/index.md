@@ -5,8 +5,6 @@ date: 2017-07-01T00:00:18.055Z
 desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
-
-# Medical Facilities Under Fire
 [Download the report as PDF](https://media.syrianarchive.org/owncloud/index.php/s/jXNvGveBP2biIdl)
 
 [Download the Executive Summary as PDF](https://media.syrianarchive.org/owncloud/index.php/s/Q9bZGzlpV0awsfy)

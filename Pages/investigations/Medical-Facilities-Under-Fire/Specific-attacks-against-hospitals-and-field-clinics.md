@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
 
-# Specific attacks against hospitals and field clinics - Syrian Archive
-
 This section provides an overview of eight attacks on medical facilities (including hospitals and field clinics) in Idlib, verified by the Syrian Archive and its partners as having taken place during April 2017. For all incidents identified, visual content indicates that either Syrian or Russian forces attacked medical facilities treating civilians. This was determined by conducting an analysis of primary sources - such as verified video footage, flight data, and witness statements - as well as secondary sources, such as reports by international human rights organisations and media houses.
 
 ## ![info-en][1]

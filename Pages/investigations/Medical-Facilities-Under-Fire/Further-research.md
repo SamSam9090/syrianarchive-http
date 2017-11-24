@@ -5,7 +5,6 @@ date: 2017-07-01T00:05:18.055Z
 desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
-# Further Research
 
 While attacks on medical facilities in Idlib during April 2017 were the focus of this report, many other medical facilities were attacked in Hama during the same period, and throughout the country over the last six years. The investigation of attacks on other medical facilities is the subject of further research.
 

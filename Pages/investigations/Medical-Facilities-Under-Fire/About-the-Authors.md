@@ -5,9 +5,6 @@ date: 2017-07-01T00:01:18.055Z
 desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
-
-# About the Authors - Syrian Archive
-
 This report has been written jointly by the following organisations:
 
 ### Syrian Archive

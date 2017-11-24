@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
 
-# Background - Syrian Archive | beta
-
 Hospitals have been forced into the frontlines of the Syrian conflict since it began six years ago. On 22 May 2011, two months after opposition protests against President Bashar al-Assad began, government forces stormed the hospital in Dara'a, kicked out non-essential medical staff, and placed snipers on the roof. The following day [snipers began firing on demonstrators][1], marking the start of escalations that have continued to this day.
 
 In 2012, in a widely condemned move in violation of International Humanitarian Law, President Bashar al-Assad introduced counter-terrorism legislation which declared illegal any medical facilities operating without government approval. Requests for government approval to operate medical facilities in opposition held territory were ignored, [effectively making illegal the operation of any opposition held hospitals][1]. The law also criminalised failing to report "anti-government activity," which according to the UN, "effectively criminalized medical aid to the opposition."

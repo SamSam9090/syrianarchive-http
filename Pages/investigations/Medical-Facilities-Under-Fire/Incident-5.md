@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/h7-abadeen.png"
 ---
 
-# Incident 5: The hospital in Abadeen (The cave hospital) - Syrian Archive
-
 _Location: IDLIB : Abadeen  
 Hospital: The medical point of Abadeen  
 Beneficiary number: ~6.000 people  

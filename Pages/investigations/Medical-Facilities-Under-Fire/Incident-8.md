@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/mz-24.png"
 ---
 
-# Incident 8: The Shamna medical point in Mar Zita - Syrian Archive
-
 _Location: IDLIB : Mar Zita  
 Medical point: The Shamna medical point in Mar Zita  
 Date: 27 April 2017  

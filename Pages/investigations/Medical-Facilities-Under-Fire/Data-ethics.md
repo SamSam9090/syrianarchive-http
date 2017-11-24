@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: /assets/cover-photo-web.width-800.png
 ---
 
-# Data ethics - Syrian Archive
-
 The authors have strived to incorporate a **"Do No Harm"** ethical framework into its processes. Due to the repeated targeting of hospitals, medical facilities, and medical personnel since 2012 particularly by Syrian and Russian forces, additional precautions and ethical issues were raised.
 
 As the Syrian Archive, it is important to be transparent in our findings and methodologies. We believe that visual documentation of human rights violations that is transparent, detailed, and reliable are critical towards providing accountability and can positively contribute to post-conflict reconstruction and stability. Such content can humanise victims, reduce the space for dispute over numbers killed, help societies understand the true human costs of war, and support truth and reconciliation efforts.

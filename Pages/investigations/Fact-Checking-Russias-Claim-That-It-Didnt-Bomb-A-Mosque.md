@@ -5,7 +5,6 @@ date: 2017-07-01
 desc: Fact Checking Russia’s Claim That It Didn’t Bomb A Mosque in Syria
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
-# Fact Checking Russia’s Claim That It Didn’t Bomb A Mosque in Syria - Syrian Archive
 
 _This post originally appeared on the [bellingcat.com][1]_
 

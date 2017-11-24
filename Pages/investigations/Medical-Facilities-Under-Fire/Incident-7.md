@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/ds14.png"
 ---
 
-# Incident 7: The university hospital in Deir Sharqi - Syrian Archive
-
 _Location: IDLIB : Deir Sharqi  
 Hospital: The university hospital of Deir Sharqi  
 Date: 27 April 2017  

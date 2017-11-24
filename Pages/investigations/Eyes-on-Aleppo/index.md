@@ -5,9 +5,6 @@ date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/Al_Farouq_Idlib.jpeg
 ---
-
-# Eyes on Aleppo: Visual Evidence Analysis of Human Rights Violations Committed in Aleppo [July - Dec 2016] - Syrian Archive
-
 ## (I) Introduction
 
 The Syrian Archive is a Syrian led-initiative striving to promote sustainable peace and respect for human rights within Syrian society through facilitating justice and accountability efforts. This includes evidence gathering and documentation of incidents; the acknowledgment that war crimes and human rights violations have been committed by all parties to the conflict; the identification of perpetrators to end the cycle of impunity; and the development of a process of justice and reconciliation.  

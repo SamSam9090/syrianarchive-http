@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/Screen_Shot_2017-05-13_at_11.34.29_AM.png"
 ---
 
-# Incident 4: The hospital in Shanan - Syrian Archive
-
 _Location: IDLIB : Shanan  
 Hospital: Shanan Hospital  
 Date: 17 April 2017  

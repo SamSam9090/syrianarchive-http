@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/craterinfrontthehospitaltakhareem.png"
 ---
 
-# Incident 6: Kafar Takharim Hospital (Wassim Hasseino) - Syrian Archive
-
 _Location: IDLIB : Kafar Takharim  
 Hospital: Kafar Takharim Hospital  
 Beneficiary number: ~200.000 people  

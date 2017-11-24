@@ -5,9 +5,7 @@ date: 2015-08-21
 desc: The Syrian Archive Team on the 2nd anniversary of the chemical weapons attack on Ghouta, Syria
 image: /assets/media_activist_in_Damascus.jpg
 ---
-# Press Release of the Chemical Weapons Attack on Damascus - Syrian Archive
-
-### The Syrian Archive Team on the 2nd anniversary of the chemical weapons attack on Ghouta, Syria  |  21 August 2015
+The Syrian Archive Team on the 2nd anniversary of the chemical weapons attack on Ghouta, Syria  |  21 August 2015
 
 Friday 21 August was the 2nd anniversary of the Ghouta massacre. In the early hours of 21 August 2013, rockets containing the nerve agent Sarin were dropped on suburbs of the Syrian capital, Damascus, causing the death of more than 1300 people, many of them women and children.
 

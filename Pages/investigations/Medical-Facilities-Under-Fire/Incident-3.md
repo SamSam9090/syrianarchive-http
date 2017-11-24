@@ -6,8 +6,6 @@ desc: An investigation about attacking Syrian hospitals
 image: "/assets/Screen_Shot_2017-05-11_at_11.06.30_AM.png"
 ---
 
-# Incident 3: The health center in the town of Heish - Syrian Archive
-
 _Location: IDLIB : Heish  
 Hospital: The health center in the town of Heish  
 Date: 7 April 2017  
