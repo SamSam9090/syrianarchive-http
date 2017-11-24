@@ -5,8 +5,6 @@ import {databaseApiUrl} from '../../../env';
 
 import t from '../../../translations';
 
-import {violationtypes} from '../violationtypes';
-
 export default class Investigations extends Component {
   constructor(props) {
     super(props);
@@ -81,11 +79,11 @@ export default class Investigations extends Component {
             <h5>{t('Types of Violations')}</h5>
             {map(v =>
               <div className="frontvio">
-                <h6><a href={`/${locale}/database?type_of_violation=${v.value}`}>
-                  {v.label}
+                <h6><a href={`/${locale}/database?type_of_violation=${v}`}>
+                  {t(v)}
                 </a></h6>
               </div>
-              , violationtypes)}
+              , this.state.meta.violationtypes)}
           </div>
         </div>
 
