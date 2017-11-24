@@ -74,27 +74,41 @@ body{
 .sidebar{
 }
 
+
 .card{
-  background-color: #f3f3f3;
+  background-color:rgba(0,0,0,.3);
   border: 0rem solid black;
+  font-size: 1rem;
+  margin-top: 0rem;
+
   .card-header, .card-body{
     padding-top:0rem;
   }
-  .card-title{
-    a{
-      color: teal;
-      background-color: white;
+  a{
+    color: teal;
+    text-decoration: none;
+    .card-title{
+      .tcontent {
+        background-color: white;
+        display: inline;
+        padding:.2em;
+      }
+      margin-top: -1em;
+      display: block;
+      font-size: 2rem;
+      margin-bottom:0px;
+      font-family: 'Merriweather';
     }
-    margin-top: -1em;
-    display: block;
-    font-size: 2rem;
-    margin-bottom:0px;
-    font-family: 'Merriweather';
   }
-  font-size: 1rem;
+  .card-body {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color:black;
+  }
   .card-image{
     max-height:20rem;
-    margin:1rem;
+    padding:0;
+    margin:0;
     overflow: hidden;
   }
 
