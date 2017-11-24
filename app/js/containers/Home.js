@@ -42,27 +42,40 @@ export default class Investigations extends Component {
       <div className="container frontstats">
 
         <div className="columns">
-          <div className="col-4 col-sm-12">
-            <div className="statcol">
-              <h6>
-                { t('Verified Digital Content')}
-              </h6>
-              <h2>
-                <b>{vv}</b> <small>{t('units')}</small>
-              </h2>
-            </div>
-          </div>
-          <div className="col-4 col-sm-12">
+
+          <div className="col-2 col-sm-12">
             <div className="statcol">
               <h6>
                 { t('Collected Digital Content')}
               </h6>
               <h3>
-                <b>{c}</b> <small>{t('units')}</small>
+                <b>{c}</b>
               </h3>
+              <small>{t('units')}</small>
             </div>
           </div>
+
+          <div className=" col-1 col-sm-12 arrow">
+            ➔
+          </div>
+
           <div className="col-2 col-sm-12">
+            <div className="statcol">
+              <h6>
+                { t('Verified Digital Content')}
+              </h6>
+              <h2>
+                <b>{vv}</b>
+              </h2>
+              <small>{t('units')}</small>
+            </div>
+          </div>
+
+          <div className=" col-1 col-sm-12 arrow">
+            ➔
+          </div>
+
+          <div className="col-1 col-sm-12">
             <div className="statcol">
               <h6>
                 { t('Identified Weapons')}
@@ -72,11 +85,12 @@ export default class Investigations extends Component {
               </h4>
             </div>
           </div>
-        </div>
 
-        <div className="columns">
-          <div className="col-12">
-            <h5>{t('Types of Violations')}</h5>
+          <div className=" col-1 col-sm-12 arrow">
+            ➔
+          </div>
+
+          <div className="col-4">
             {map(v =>
               <div className="frontvio">
                 <h6><a href={`/${locale}/database?type_of_violation=${v}`}>
@@ -85,6 +99,7 @@ export default class Investigations extends Component {
               </div>
               , this.state.meta.violationtypes)}
           </div>
+
         </div>
 
       </div>
