@@ -1,5 +1,5 @@
 ---
-layout: tilecontent.html
+layout: contentwithsiblings.html
 title: About
 date: 2017-03-03
 desc:
@@ -19,7 +19,7 @@ Visual documentation is also valuable during conflict as it can feed into:
 2. Mechanisms that support increased legal compliance by conflict parties and reductions in civilian harm;
 3. Strengthening advocacy campaigns and legal accountability through building verified sets of materials documenting human rights violations in the Syrian conflict.
 
-User-generated content is valuable during times of conflict. Verified visual documentation can feed into humanitarian response planning by helping to identify areas of risk and need as well as contributing to the protection of civilians. 
+User-generated content is valuable during times of conflict. Verified visual documentation can feed into humanitarian response planning by helping to identify areas of risk and need as well as contributing to the protection of civilians.
 
 Furthermore, visual documentation of human rights violations allows the Syrian Archive to tell untold stories through amplifying the voices of those on the ground. Not every incident in the Syrian conflict has been reported by journalists. The very challenging conditions have made it extremely difficult for local and especially international media to work in Syria, meaning the many incidents have been missed or under-reported.
 
