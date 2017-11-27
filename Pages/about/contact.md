@@ -12,6 +12,10 @@ image: "/assets/about/about3.jpg"
 
  [info@syrianarchive.org](mailto:info@syrianarchive.org)
 
+ ### Press
+
+ [info@syrianarchive.org](mailto:info@syrianarchive.org)
+
  #### Website and Technology
 
  [niko@syrianarchive.org](mailto:niko@syrianarchive.org)
