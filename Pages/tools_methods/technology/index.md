@@ -16,7 +16,7 @@ To do this, the Syrian Archive contributes to open source software such as [Suga
 
 ### Sources and Collection
 
-Our database collects data from a list of sources in a variety of different source types.  We acquire data and posts daily from these sources.  Types of sources include social media channels (twitter, facebook, youtube), sumbitted files (videos, pdf), and external and collaborator's data sets.  Changes in these sources are tracked, so we always have every version.
+Our database collects data from a list of sources in a variety of different source types.  We acquire data and posts daily from these sources.  Types of sources include social media channels (twitter, facebook, youtube), submitted files (videos, pdf), and external and collaborator's data sets.  Changes in these sources are tracked, so we always have every version.
 
 ### Processing / Data Pipeline
 

@@ -1,8 +1,8 @@
 ---
 layout: contentwithsiblings.html
-title: Meet the Team
+title: Syrian Archive Team
 date: 2017-03-03
-desc: Syrian Archive Staff
+desc:  
 image: "/assets/about/about1.jpg"
 ---
 ### Hadi Al Khatib

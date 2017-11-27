@@ -2,11 +2,12 @@
 layout: tilecontent.html
 title: About
 date: 2017-03-03
-desc: 
+desc:
 image: "/assets/about/about3.jpg"
 ---
 
-The Syrian Archive was founded in 2014. It works to promote sustainable peace and respect for human rights within Syrian society through facilitating justice and accountability efforts.
+The Syrian Archive was founded in 2014 and is registered in Germany.
+It works to promote sustainable peace and respect for human rights within Syrian society through facilitating justice and accountability efforts.
 
 This includes evidence gathering and documentation of incidents; the acknowledgment that war crimes and human rights violations have been committed by all sides; the identification of perpetrators to end the cycle of impunity and the development of a process of justice and reconciliation.
 
