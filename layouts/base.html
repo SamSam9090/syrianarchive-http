@@ -2,17 +2,35 @@
 <html class="{{locale}}">
 <head>
   <title>{{title}} | {{sitename}} | {{locale}}</title>
+
   <meta charset="utf-8">
-   <meta name="robots" content="index, follow, noodp">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-   <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+  <meta name="robots" content="index, follow, noodp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <meta name="description" content="{{title}} - {{desc}}">
+
+  <meta name="twitter:card" content="{{desc}} | Syrian Archive">
+  <meta name="twitter:site" content="@syrian_archive">
+  <meta name="twitter:creator" content="@syrian_archive">
+  <meta property="og:url" content="https://syrianarchive.org/">
+  <meta property="og:title" content="{{title}} | Syrian Archive">
+  <meta property="og:description" content="{{desc}} | Syrian Archive">
+  <meta property="og:image" content="https://syrianarchive.org{{image}}">
+  <meta name="twitter:url" content="https://syrianarchive.org/">
+  <meta name='twitter:image' content='https://syrianarchive.org{{image}}'>
+
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+
   <script type="text/javascript">
     const locale = "{{locale}}";
     {% block extraheadjs %}
     {% endblock %}
   </script>
+
   <link rel='stylesheet'  href='/assets/styles.bundle.css' />
 </head>
 <body>
