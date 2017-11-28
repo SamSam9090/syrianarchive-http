@@ -65,7 +65,7 @@ html.ar{
 }
 
 .filters{
-  background-color: rgba(0,0,0,.04);
+  background-color: rgba(0,0,0,.05);
 
   .filter{
     padding:2rem;
@@ -100,6 +100,16 @@ html.ar{
       width: 100%;
       padding-left: 1rem;
       border-bottom: 1px dashed #aaa;
+      &:focus{
+        background-color: #ffefdb;
+        border-bottom: 1px solid orange;
+      }
+    }
+
+
+    input:not([value=""]), .Select.has-value .Select-value{
+       background-color: #ffe4c1 !important;
+       border-bottom: 4px solid orange !important;
     }
 
     input, .input-container, .react-datepicker__input-container, .react-datepicker-wrapper {
@@ -107,4 +117,9 @@ html.ar{
     }
 
   }
+}
+
+.noresults{
+  margin: 1em;
+  color:#666;
 }
