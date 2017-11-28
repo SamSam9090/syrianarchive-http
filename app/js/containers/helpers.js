@@ -1,4 +1,8 @@
 /* global locale */
+import {find} from 'lodash/fp';
+import locations from '../../../locations.json';
+
+
 export const unitTitle = u =>
   u[`summary_${locale}`] ||
   u.description ||
@@ -12,4 +16,10 @@ export const timeMeOut = (func) => {
   }, 500);
 };
 
-export default {unitTitle, timeMeOut};
+const finda = a =>
+  (find(l => l.name_ar === a, locations) ? find(l => l.name_ar === a, locations).name : a);
+
+export const location = (arloc) =>
+  (locale === 'ar' ? arloc : finda(arloc));
+
+export default {unitTitle, timeMeOut, location};

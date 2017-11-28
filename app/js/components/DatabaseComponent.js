@@ -9,7 +9,7 @@ import ListEvidence from './ListEvidence';
 import Unit from './Unit';
 
 import t from '../../../translations';
-import {timeMeOut} from '../containers/helpers';
+import {timeMeOut, location} from '../containers/helpers';
 import {params} from '../params';
 
 import {violationtypes} from '../violationtypes';
@@ -160,7 +160,7 @@ export default class DatabaseComponent extends Component {
               <Select
                 name="location"
                 value={filters.location}
-                options={map(w => ({value: w, label: t(w)}), meta.locations)}
+                options={map(w => ({value: w, label: location(w)}), meta.locations)}
                 onChange={v => this.selectchange('location', v)}
               />
             </div>
