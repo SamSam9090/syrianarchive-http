@@ -40,3 +40,8 @@ p a{
     }
   }
 }
+
+input:not([value=""]), .Select.has-value .Select-value{
+   background-color: #ffe4c1 !important;
+   border-bottom: 4px solid orange !important;
+}

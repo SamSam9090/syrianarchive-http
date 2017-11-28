@@ -59,6 +59,11 @@ html.ar{
   max-width: 100%;
 }
 
+.dtitle{
+  padding-right:3rem;
+  padding-left:1rem;
+}
+
 .filters{
   .filter{
     padding:2rem;
@@ -66,11 +71,12 @@ html.ar{
     margin-bottom: 1rem;
 
     h5{
-      color:#444;
       font-size: 1.3rem;
-      padding:0;
-      margin:0;
-      background-color:#fff;
+      padding: .4rem;
+      margin: 0;
+      padding-left: 1rem;
+      font-family: sans-serif;
+      color: #666;
     }
 
     input[type=text]{
