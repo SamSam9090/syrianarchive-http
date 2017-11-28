@@ -41,7 +41,7 @@ html.ar{
 }
 .db{
   .item:nth-child(odd) {
-     background-color: #efefef;
+     background-color: #f6f6f6;
   }
 }
 .dbwrapper{
@@ -60,8 +60,15 @@ html.ar{
 }
 
 .dtitle{
-  padding-right:3rem;
-  padding-left:1rem;
+    font-family: 'Merriweather';
+    padding-left:1rem;
+    padding-right:1rem;
+   span {
+    background: beige;
+    color: #111;
+    padding: .2rem;
+    line-height: 3rem;
+  }
 }
 
 .filters{
@@ -101,14 +108,14 @@ html.ar{
       padding-left: 1rem;
       border-bottom: 1px dashed #aaa;
       &:focus{
-        background-color: #ffefdb;
+        background-color: beige;
         border-bottom: 1px solid orange;
       }
     }
 
 
     input:not([value=""]), .Select.has-value .Select-value{
-       background-color: #ffe4c1 !important;
+       background-color: beige !important;
        border-bottom: 4px solid orange !important;
     }
 

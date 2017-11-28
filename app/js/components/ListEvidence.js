@@ -12,9 +12,9 @@ export default class ListEvidence extends Component {
             {i.reference_code}
           </small>
         </div>
-        <div className="col-2">{i.incident_date}</div>
-        <div className="col-6 dtitle">{unitTitle(i)}</div>
-        <div className="col-2">{location(i.location)}</div>
+        <div className="col-1"><small>{i.incident_date}</small></div>
+        <div className="col-7 dtitle"><span>{unitTitle(i)}</span></div>
+        <div className="col-2"><small>{location(i.location)}</small></div>
         <div className="col-1">
           <button className="btn" onClick={this.props.selector}>
             {t('view')}
