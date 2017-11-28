@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Press
 date: 2017-11-27
 desc: Recent articles featuring the Syrian Archive
-image: "/assets/about/about2.jpg"
+image: "/assets/about/press-1.jpg"
 ---
 
 Articles in which the work of the Syrian Archive was highlighted include the following:
