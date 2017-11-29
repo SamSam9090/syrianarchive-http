@@ -56,7 +56,11 @@ export default class Investigations extends Component {
           </div>
 
           <div className=" col-1 col-sm-12 arrow">
-            ➔
+            {locale === 'en' ?
+              <span className="arrowb">➞</span>
+              :
+              <span className="arrowb">⬅</span>
+             }
           </div>
 
           <div className="col-2 col-sm-12">
@@ -72,7 +76,11 @@ export default class Investigations extends Component {
           </div>
 
           <div className=" col-1 col-sm-12 arrow">
-            ➔
+            {locale === 'en' ?
+              <span className="arrowb">➞</span>
+              :
+              <span className="arrowb">⬅</span>
+             }
           </div>
 
           <div className="col-1 col-sm-12">
@@ -87,7 +95,11 @@ export default class Investigations extends Component {
           </div>
 
           <div className=" col-1 col-sm-12 arrow">
-            ➔
+            {locale === 'en' ?
+              <span className="arrowb">➞</span>
+              :
+              <span className="arrowb">⬅</span>
+             }
           </div>
 
           <div className="col-4">

@@ -158,6 +158,9 @@ body{
   margin-bottom: 2rem;
   background-color: #f5f5f5;
   box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.05);
+  .columns{
+    align-items: center;
+  }
   .statcol {
     background-color: beige;
     padding: 2rem;
@@ -192,7 +195,6 @@ body{
 }
 
 .arrow{
-  padding-top:2rem;
   font-size:4rem;
   text-align: center;
   color: #aaa;

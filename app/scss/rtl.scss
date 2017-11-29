@@ -1,4 +1,32 @@
 body {
   direction: rtl;
   text-align: right;
+  font-family: 'Droid Arabic Naskh' !important;
+  p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Droid Arabic Naskh' !important;
+  }
+  article{
+    p, h1, h2, h3, h4, h5, h6{
+      font-family: 'Droid Arabic Naskh' !important;
+    }
+  }
+  ol, ul {margin: 2rem 2rem 2rem 2rem};
+
+article.contents ul li:before {
+    content: '◀';
+    margin-right: -1.5em;
+    margin-left: 0em;
+}
+
+.investigations .col-5 p {
+    padding: 2em;
+    background-color: #333;
+    margin-right: -2em;
+    margin-left: 0em;
+}
+
+.modal-container{
+  text-align: right;
+}
+
 }

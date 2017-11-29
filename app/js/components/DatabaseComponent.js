@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 
-import {map} from 'lodash/fp';
+import {map, isEmpty} from 'lodash/fp';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 
@@ -9,7 +9,7 @@ import ListEvidence from './ListEvidence';
 import Unit from './Unit';
 
 import t from '../../../translations';
-import {timeMeOut} from '../containers/helpers';
+import {timeMeOut, location} from '../containers/helpers';
 import {params} from '../params';
 
 import {violationtypes} from '../violationtypes';
@@ -92,6 +92,10 @@ export default class DatabaseComponent extends Component {
     } = this.props;
 
     console.log(meta);
+
+    const us = map(i =>
+      <ListEvidence unit={i} selector={() => selectUnit(i)} />
+      , units);
     return (
       <div className="container database">
         <Unit unit={selectedUnit} clear={clearUnit} />
@@ -160,7 +164,7 @@ export default class DatabaseComponent extends Component {
               <Select
                 name="location"
                 value={filters.location}
-                options={map(w => ({value: w, label: t(w)}), meta.locations)}
+                options={map(w => ({value: w, label: location(w)}), meta.locations)}
                 onChange={v => this.selectchange('location', v)}
               />
             </div>
@@ -183,16 +187,18 @@ export default class DatabaseComponent extends Component {
           </div>
 
           <div className="col-9 col-sm-12 db" style={updating ? {opacity: '.3'} : {}}>
-            {map(i =>
-              <ListEvidence unit={i} selector={() => selectUnit(i)} />
-            , units)}
+            {isEmpty(us) ?
+              <h4 className="noresults">{t('No results. Please try a different search.')}</h4>
+            : us}
           </div>
         </div>
 
         <div className="columns">
           <div className="col-3 col-sm-12" />
           <div className="col-9 col-sm-12">
-            <h3>... {stats.current} {t('more.  Contact us for the full set')}</h3>
+            {stats.current - 50 > 0 ?
+              <h3>... {stats.current - 50} {t('more.  Contact us for the full set')}</h3>
+            : ''}
           </div>
         </div>
 

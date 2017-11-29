@@ -22,7 +22,7 @@ time project leader for Middle East and North Africa Projects with
 Bellingcat. Hadi is also a fellow at the Centre for Internet and Human
 Rights. Hadi is based in Berlin, Germany.
 
-### Jeff Deutch -
+### Jeff Deutch
 __Lead Researcher__
 
 Jeff has been working on developing, refining and documenting the research methodology
@@ -33,15 +33,14 @@ and with Civic Consulting.  In addition to working with the Syrian
 Archive, Jeff is a PhD candidate at Humboldt University and a fellow at
 the Centre for Internet and Human Rights. Jeff holds a Master of Public
 Policy from Hertie School of Governance and a Bachelors of Arts from
-Hampshire College. Jeff is based in Berlin, Germany
-
+Hampshire College. Jeff is based in Berlin, Germany.
 
 ### Niko Para
 __Lead Developer__
 
 Niko directs the technical systems for the [Syrian Archive's workflow and verification processes](https://github.com/syrianarchive), as well as the Syrian Archive's contributions to open source softares such as [Sugarcube](https://gitlab.com/sugarcube).  He maintains the central databases and websites, and has been with the Syrian Archive since 2014.
 
-Previously, he has worked with the Tactical Technology Collective and Global Witness.  He had an unsuccessful stint at the University of Massachusetts Amherst studying computer science and printmaking, and a briefer stint at the Technische Universitaet Berlin. He unapoligetically plays the banjo.
+Previously, he has worked with the Tactical Technology Collective and Global Witness.
 
 [email](mailto:niko@syrianarchive.org)
 [gitlab](https://gitlab.com/nikonikoniko)
@@ -63,7 +62,7 @@ __Open source analyst__
 Tareef verifies and analyses visual documentation of human rights violations. He has previously worked with Frontline Defenders, with Tactical Technology
 Collective and with 7asoub,a technical academy teaching programming
 languages to youth. Tareef has an educational background in Electrical
-engineering. Tareef is based in Turkey
+engineering. Tareef is based in Turkey.
 
 ### Sam Razzouk
 __Open source analyst__
@@ -71,4 +70,4 @@ __Open source analyst__
 Sam identifies and verifies sources and visual documentation of human rights violations.
 Since 2011, he has worked with various Syrian organisations documenting
 human rights violations. Sam studied medicine in Syria and has worked
-with International Medical Corps in Turkey. Sam is based in Denmark
+with International Medical Corps in Turkey. Sam is based in Denmark.

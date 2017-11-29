@@ -1,10 +1,11 @@
 /* global locale */
 import React, { Component } from 'react';
-import {isEmpty} from 'lodash/fp';
+import {isEmpty, map, compact} from 'lodash/fp';
 import t from '../../../translations';
 
-import {unitTitle} from '../containers/helpers';
+import {unitTitle, location} from '../containers/helpers';
 
+const mapW = map.convert({cap: false});
 // const mapW = map.convert({cap: false});
 // {mapW((v, k) =>
 //   <div><b>{k}</b>: {String(v)}</div>
@@ -23,6 +24,8 @@ export default class Unit extends Component {
       return <div />;
     }
     const graphic = !(i.graphic_content === false);
+
+    console.log(i);
 
     const content = (
       <div className="columns unit">
@@ -62,15 +65,14 @@ export default class Unit extends Component {
             {t('Location')}:
           </small>
           <h5>
-            {i.location}
+            {location(i.location)}
           </h5>
 
           <small>
             {t('Precise Location')}:
           </small>
           <h5>
-            {i.latitude}
-            {i.longitude}
+            {i.latitude} {i.longitude}
           </h5>
 
           <small>
@@ -84,7 +86,21 @@ export default class Unit extends Component {
             {t('Weapons Used')}:
           </small>
           <h5>
-            {i.weapons_used}
+            {i.weapons_used.join(', ')}
+          </h5>
+
+          <small>
+            {t('Collections')}:
+          </small>
+          <h5>
+            {i.collections.join(', ')}
+          </h5>
+
+          <small>
+            {t('Type of Violation')}:
+          </small>
+          <h5>
+            {compact(mapW((k, v) => (k ? t(v) : ''), i.type_of_violation)).join(', ')}
           </h5>
 
 

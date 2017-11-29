@@ -41,7 +41,7 @@ html.ar{
 }
 .db{
   .item:nth-child(odd) {
-     background-color: #efefef;
+     background-color: #f6f6f6;
   }
 }
 .dbwrapper{
@@ -59,25 +59,42 @@ html.ar{
   max-width: 100%;
 }
 
+.dtitle{
+    font-family: 'Merriweather';
+    padding-left:1rem;
+    padding-right:1rem;
+   span {
+    background: beige;
+    color: #111;
+    padding: .2rem;
+    line-height: 3rem;
+  }
+}
+
 .filters{
+  background-color: rgba(0,0,0,.05);
+
   .filter{
     padding:2rem;
     padding-right:4rem;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     h5{
-      color:#444;
       font-size: 1.3rem;
-      padding:0;
-      margin:0;
-      background-color:#fff;
+      padding: .4rem;
+      margin: 0;
+      padding-left: 1rem;
+      font-family: sans-serif;
+      color: #666;
     }
 
-    input[type=text]{
+    input[type=text], .Select-control{
       background-color: #fff;
       border-color: #d9d9d9 #ccc #b3b3b3;
-      border-radius: 4px;
-      border: 1px solid #ccc;
+      border-radius: 0px;
+      border: 0px solid;
       color: #333;
       cursor: default;
       display: table;
@@ -88,7 +105,18 @@ html.ar{
       overflow: hidden;
       position: relative;
       width: 100%;
-      padding-left:1rem;
+      padding-left: 1rem;
+      border-bottom: 1px dashed #aaa;
+      &:focus{
+        background-color: beige;
+        border-bottom: 1px solid orange;
+      }
+    }
+
+
+    input:not([value=""]), .Select.has-value .Select-value{
+       background-color: beige !important;
+       border-bottom: 4px solid orange !important;
     }
 
     input, .input-container, .react-datepicker__input-container, .react-datepicker-wrapper {
@@ -96,4 +124,9 @@ html.ar{
     }
 
   }
+}
+
+.noresults{
+  margin: 1em;
+  color:#666;
 }
