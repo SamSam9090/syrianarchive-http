@@ -3,6 +3,10 @@ document_schema:
     id: "pattrn_metadata"
     version: 2
 variables:
+    integer:
+    -
+        id: "eventcount"
+        name: "Amount of Violations"
     tag:
     -
         id: "violationtype"
