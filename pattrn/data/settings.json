@@ -9,7 +9,7 @@
             "opacity": "0.8"
         },
         "zoom": {
-            "max": 17,
+            "max": 15,
             "min": 6
         },
         "disableClusteringAtZoom": 17
