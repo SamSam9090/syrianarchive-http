@@ -2,7 +2,7 @@
 layout: contentwithsiblings.html
 title: Copyright
 date: 2017-03-03
-desc: 
+desc:
 image: "/assets/about/about2.jpg"
 ---
 
