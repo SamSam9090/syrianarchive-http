@@ -15,13 +15,13 @@ We believe that visual documentation of human rights violations that is transpar
 
 Visual documentation is also valuable during conflict as it can feed into:
 
-1. Humanitarian response planning by helping to identify areas of risk and need as well as contribute to the protection of civilians;
-2. Mechanisms that support increased legal compliance by conflict parties and reductions in civilian harm;
-3. Strengthening advocacy campaigns and legal accountability through building verified sets of materials documenting human rights violations in the Syrian conflict.
+- Humanitarian response planning by helping to identify areas of risk and need as well as contribute to the protection of civilians;
+- Mechanisms that support increased legal compliance by conflict parties and reductions in civilian harm;
+- Strengthening advocacy campaigns and legal accountability through building verified sets of materials documenting human rights violations in the Syrian conflict.
 
 User-generated content is valuable during times of conflict. Verified visual documentation can feed into humanitarian response planning by helping to identify areas of risk and need as well as contributing to the protection of civilians.
 
-Furthermore, visual documentation of human rights violations allows the Syrian Archive to tell untold stories through amplifying the voices of those on the ground. Not every incident in the Syrian conflict has been reported by journalists. The very challenging conditions have made it extremely difficult for local and especially international media to work in Syria, meaning the many incidents have been missed or under-reported.
+Furthermore, visual documentation allows the Syrian Archive to tell untold stories through amplifying the voices of witnesses, victims and others who risked their lives to capture and document human rights violations in Syria. Not every incident in the Syrian conflict has been reported by journalists. The very challenging conditions have made it extremely difficult for local and especially international media to work in Syria, meaning the many incidents have been missed or under-reported.
 
 Visual documentation aims to strengthen political campaigns of human rights advocates by providing content that supports their campaign. This could include content on the violation of children’s rights; sexual and gender based violence; violations against specifically protected persons and objects, or the use of illegal weapons.
 
@@ -36,14 +36,14 @@ The Syrian Archive aims to support human rights advocates, media reporters, and 
 
 Through collecting, verifying, preserving, and investigating visual documentation of human rights violations in Syria, the Syrian Archive aims to preserve data as a digital memory, to establish a verified database of human rights violations, and to act as an evidence tool for legally implementing justice and accountability as concept and practice in Syria.
 
-## Research methodology is based on the following core principles:
+### Research methodology is based on the following core principles:
 
 #### First: Content identification, acquisition and standardization
 
 The Syrian Archive discovers relevant sources of information and aggregates them in a structured way. The acquisition is done in two different ways:
 
-1. By building collaboration with documentation centers, media offices, journalists, lawyers and human rights activists to acquire and preserve their material.
-2. By acquiring material which is published on social media platforms and other websites on a daily basis.
+- By building collaboration with documentation centers, media groups, journalists, lawyers and human rights activists to acquire and preserve their material.
+- By acquiring material which is published on social media platforms and other websites on a daily basis.
 
 #### Second: Secure long term preservation
 
@@ -51,9 +51,7 @@ The Syrian Archive preserves visual documentation of human rights abuses in Syri
 
 #### Third: Verification, cataloging and metadata enrichment
 
-The Syrian Archive organizes the preserved materials by mainly cataloging them according to:
-
-1. The categories used by the Independent International Commission of Inquiry on the Syrian Arab Republic set up by the UN Office of the High Commissioner for Human Rights (OHCHR). The categories include:
+The Syrian Archive organizes the preserved materials by mainly cataloging them according the categories used by the Independent International Commission of Inquiry on the Syrian Arab Republic set up by the UN Office of the High Commissioner for Human Rights (OHCHR). The categories include:
 
 - Massacres and other unlawful killing
 - Arbitrary arrest and unlawful detention
@@ -68,7 +66,7 @@ The Syrian Archive organizes the preserved materials by mainly cataloging them a
 - Sieges and violations of economic, social and cultural rights
 - Arbitrary and forcible displacement
 
-2. Collections based on the type of the violations which includes:
+The materials are also organised in collections based on the type of the violations which includes:
 
 - Attacks against hospitals
 - Attacks against schools
@@ -89,7 +87,7 @@ The Syrian Archive organizes the preserved materials by mainly cataloging them a
 - Coalition airstrikes in syria
 - Russian airstrikes in syria
 
-3. Collections based on the identified weapons:
+The materials can be filtered according to the identified weapons used in the incident. The weapons list include:
 
 - Chemical Weapons
 - Chlorine Gas
