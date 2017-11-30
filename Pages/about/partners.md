@@ -2,8 +2,8 @@
 layout: contentwithsiblings.html
 title: Partners
 date: 2017-03-03
-desc: 
-image: "/assets/about/about1.jpg"
+desc:
+image: "/assets/about/partners.png"
 ---
 The Syrian Archive has partnered or collaborated with various organisations and nonprofits working in the human rights and citizen journalist sectors, as well as international institutions and universities since its founding in 2014.
 
