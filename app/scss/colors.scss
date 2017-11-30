@@ -1,7 +1,7 @@
 a {
   color: #BE5E00;
   &:hover{
-    color:orange;
+    color:$orange;
   }
 }
 
@@ -39,4 +39,9 @@ p a{
       color:white;
     }
   }
+}
+
+
+.container.investigations{
+  border-top:3px solid $orange;
 }

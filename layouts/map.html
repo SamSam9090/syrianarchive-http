@@ -1,12 +1,17 @@
 {% extends 'base.html' %}
 
+
+{% block htmlclass %}
+  mapc
+{% endblock %}
+
 {% block titlecontainer %}
 {% endblock %}
 
 
   {% block content %}
   <div id="map">
-    <iframe src="/pattrn" width="100%" height="95vh">
+    <iframe src="/pattrn" width="100%" height="100vh">
     </iframe>
   </div>
   {% endblock %}

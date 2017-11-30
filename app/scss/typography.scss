@@ -28,7 +28,7 @@ p {
 }
 
 a.hb.btn.btn-link {
-  color: #ffb55c;
+  color:  #F7A979;
   font-family: 'Merriweather', serif;
   font-size: 1em;
   text-shadow: 1px 1px 1px rgba(0,0,0,.2);
@@ -53,6 +53,10 @@ a.hb.btn.btn-link {
       margin-bottom: 1em;
     }
 
+}
+
+.footer{
+  border-top: 2px solid $orange;
 }
 
 article.contents {
