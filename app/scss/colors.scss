@@ -8,39 +8,3 @@ a {
 p a{
     text-decoration: underline;
 }
-
-.meta small.warning{
-  background-color: red;
-  color:white;
-  margin-top:-1em;
-  position: absolute;
-  padding: .3em;
-}
-
-.meta small {
-  background-color: beige;
-  margin-top:2rem;
-}
-
-.investigations{
-  background-color:#444;
-  color: white;
-  padding-top:5rem;
-  .col-5 p{
-    padding:2em;
-    background-color:#333;
-  }
-  .card{
-    .card-title{
-      font-size: 3rem;
-    }
-    .card-body{
-      color:white;
-    }
-  }
-}
-
-
-.container.investigations{
-  border-top:3px solid $orange;
-}

@@ -1,0 +1,52 @@
+
+
+.frontstats{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.05);
+  background-image:url(/assets/aaa.jpg);
+  .columns{
+    align-items: center;
+  }
+  .statcol {
+    padding: 2rem;
+    text-align: center;
+
+    > * {
+      color:black;
+      padding:.2em 0em .2em 0em;
+      display: inline;
+    }
+    h6 {
+      font-size: 1.4rem;
+      background-color: beige;
+
+    }
+  }
+
+  .frontvio{
+    display: inline-block;
+    h6 {
+      display: inline-block;
+      margin: .5rem;
+      padding: .5rem;
+      background-color: beige;
+        font-size: 1.4rem;
+      &:hover {
+        background-color:white;
+      }
+      a {
+        color:#444;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.arrow{
+  font-size:4rem;
+  text-align: center;
+  color: #eee;
+}

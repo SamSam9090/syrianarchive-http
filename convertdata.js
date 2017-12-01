@@ -51,7 +51,7 @@ Metalsmith(__dirname)
     d();
   })
   .use(collections({
-    posts: 'investigations/*.html'
+    investigations: 'investigations/*.html'
   }))
   .use((f, m, d) => {
     each(f, (v, k) => {
@@ -98,6 +98,8 @@ Metalsmith(__dirname)
     console.log(filter(keys(f), fff => fff.includes('html')));
     console.log('aaaaaaaaaaaa');
 
+    f['ar/index.html'].latest = f['ar/investigations/index.html'].siblings; // eslint-disable-line
+    f['en/index.html'].latest = f['en/investigations/index.html'].siblings; // eslint-disable-line
 
     each(f, (v, k) => {
       if (k.includes('html')) {
@@ -109,6 +111,8 @@ Metalsmith(__dirname)
         f[k].contents = new Buffer(rs); // eslint-disable-line
       }
     });
+
+
     d();
   })
   .build((err) => {      // build process

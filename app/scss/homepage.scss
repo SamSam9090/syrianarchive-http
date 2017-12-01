@@ -1,0 +1,36 @@
+
+.home .container.top{
+  background-color: rgba(0,0,0,.3);
+}
+
+.home .container.title .columns{
+  align-items: center;
+}
+
+.home .title {
+  height:40vh;
+  box-shadow: inset 0 -220px 220px -20px rgba(0,0,0,.5);
+}
+.home .title h1 {
+  font-family: 'Lato';
+  font-size: 8rem;
+  margin-bottom: 4rem;
+  text-align:center;
+  margin-top:20vh;
+}
+
+.subtit{
+  background-color: #fff;
+  text-align: center;
+
+  h2{
+    font-size:3rem;
+    color:#444;
+    padding: 3rem 0rem 3rem 0rem;
+  }
+}
+
+.home .ititle {
+  color:#888;
+  text-align:center;
+}

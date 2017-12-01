@@ -1,0 +1,44 @@
+
+.card{
+  margin:2rem;
+}
+
+
+.card{
+  background-color:rgba(0,0,0,.3);
+  border: 0rem solid black;
+  font-size: 1rem;
+  margin-top: 0rem;
+
+  .card-header, .card-body{
+    padding-top:0rem;
+  }
+  a{
+    color: teal;
+    text-decoration: none;
+    .card-title{
+      .tcontent {
+        background-color: white;
+        display: inline;
+        padding:.2em;
+      }
+      margin-top: -1em;
+      display: block;
+      font-size: 2rem;
+      margin-bottom:0px;
+      font-family: 'Merriweather';
+    }
+  }
+  .card-body {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color:black;
+  }
+  .card-image{
+    max-height:20rem;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+  }
+
+}

@@ -18,6 +18,24 @@
         {% include 'includes/cardlist4.html' %}
       </div>
     </div>
+
+    {% set items = latest  | sort(true, true, 'date') %}
+
+    <div class="container investigations">
+      <div class="columns">
+        <div class="col-12 ititle">
+          <h3>Latest Investigations</h3>
+        </div>
+        {% for post in items  | sort(true, true, 'date')%}
+          {% if post.locale === locale and post.title != title %}
+            <div class="col-6">
+                {% include 'includes/card.html' %}
+              </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
   {% endblock %}
 
   {% block jstop %}
