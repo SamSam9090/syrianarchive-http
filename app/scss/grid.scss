@@ -1,7 +1,7 @@
 .flx{
   column-count: 2;
   column-gap: 0;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
     column-count: 1;
     float: none;
     .navbar-section{
@@ -17,7 +17,7 @@
 .flxx{
   column-count: 4;
   column-gap: 0;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
     column-count: 1;
     float: none;
     .navbar-section{

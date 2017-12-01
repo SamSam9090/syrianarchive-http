@@ -7,15 +7,15 @@ export default class ListEvidence extends Component {
     const i = this.props.unit;
     return (
       <div className="columns item">
-        <div className="col-1"><small>{i.incident_date}</small></div>
-        <div className="col-7 dtitle"><span>{unitTitle(i)}</span></div>
-        <div className="col-1">
+        <div className="col-1 col-sm-12"><small>{i.incident_date}</small></div>
+        <div className="col-7 dtitle col-sm-12"><span>{unitTitle(i)}</span></div>
+        <div className="col-1 col-sm-12">
           <small>
             {i.reference_code}
           </small>
         </div>
-        <div className="col-2"><small>{location(i.location)}</small></div>
-        <div className="col-1">
+        <div className="col-2 col-sm-12"><small>{location(i.location)}</small></div>
+        <div className="col-1 col-sm-12">
           <button className="btn" onClick={this.props.selector}>
             {t('view')}
           </button>
