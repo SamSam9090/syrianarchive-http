@@ -22,6 +22,11 @@ img {
   max-width:100%;
 }
 
+article.contents .container.maincontent{
+  padding-top:3rem;
+  padding-bottom: 4rem;
+}
+
 article.contents img{
   max-width:120%;
 }
@@ -176,7 +181,6 @@ body{
 .frontstats{
   padding-top: 4rem;
   padding-bottom: 4rem;
-  margin-bottom: 2rem;
   box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.05);
   background-image:url(/assets/aaa.jpg);
   .columns{
@@ -205,6 +209,7 @@ body{
       margin: .5rem;
       padding: .5rem;
       background-color: beige;
+        font-size: 1.4rem;
       &:hover {
         background-color:white;
       }
