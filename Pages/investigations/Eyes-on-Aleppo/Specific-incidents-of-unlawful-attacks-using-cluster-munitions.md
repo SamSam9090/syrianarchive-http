@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Specific incidents of unlawful attacks using cluster munitions - Eyes on Aleppo
 date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
-image: /assets/Al_Farouq_Idlib.jpeg
+image: /assets/investigations/cluster-1.png
 ---
 
 This section will provide a summary of incidents identified by the Syrian Archive in analysis of its violation database. Incidents to be investigated include those where incendiary munitions were used, those in which cluster munitions were used unlawfully, and those against specifically protected persons and objects.
@@ -62,11 +62,11 @@ The Syrian Archive collected a photo of Al Salheen gas station [posted on Facebo
 
 ![2_gas_station][3]
 
-We identified the roofs comparing the photo above with the videos we have found online. 
+We identified the roofs comparing the photo above with the videos we have found online.
 
 ![2gasstation][4]![roofs1][5]
 
-A third video originally published by Halab News Network on July 9, 2016 and later preserved by the Syrian Archive, features an aircraft involved in the same Al Saleheen attack, as well as the attack's first moments. 
+A third video originally published by Halab News Network on July 9, 2016 and later preserved by the Syrian Archive, features an aircraft involved in the same Al Saleheen attack, as well as the attack's first moments.
 
 <iframe allowfullscreen="" src="https://www.youtube.com/embed/tcbJ1G7N9qQ" width="560" height="315" frameborder="0"></iframe>
 
@@ -80,13 +80,13 @@ In this same video, it is possible to identify the bomb falling from the plane o
 
 The Syrian Archive geolocated the position of the citizen journalist who filmed this video - he was first standing in a cemetery in front of "[Maqam Ibrahim al Salihin," as the place is tagged on Wikimapia][8].
 
-Later, in the same video, the Syrian Archive geolocated another filming position based on the palm trees identified close to the impact site, as seen in the video still below: 
+Later, in the same video, the Syrian Archive geolocated another filming position based on the palm trees identified close to the impact site, as seen in the video still below:
 
 ![plane3][9]  
 
 Below is a video and a satellite image that show both positions from the above photos.  
 
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/yIOsBDkx2ZI" width="690" height="445" frameborder="0"></iframe> 
+<iframe allowfullscreen="" src="https://www.youtube.com/embed/yIOsBDkx2ZI" width="690" height="445" frameborder="0"></iframe>
 
 ![HNN_Video_CameraPosition.jpg][10]  
 
@@ -126,7 +126,7 @@ It should be noted that the diagram above shows a model without the aerodynamic 
 
 Analysing the photos and videos above, and, using Google Earth, the Syrian Archive was able to determine the [exact location][21] of the cluster munition impact site. See below:
 
-We have also obtained a [video by IRT (Instant Reporting Team) which filmed Al Saleheen district][22]. 
+We have also obtained a [video by IRT (Instant Reporting Team) which filmed Al Saleheen district][22].
 
   <iframe allowfullscreen="" src="https://www.youtube.com/embed/e0VXK9KRjlQ" width="560" height="315" frameborder="0"></iframe>
 
