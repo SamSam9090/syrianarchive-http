@@ -95,7 +95,7 @@ Metalsmith(__dirname)
 
     f['404.html'] = f['en/404.html']; // eslint-disable-line
     f = omit(f, ['en/404.html', 'ar/404.html']); // eslint-disable-line
-    console.log(filter(keys(f), fff => fff.includes('html')));
+    console.log(filter(keys(f), fff => fff.includes('404')));
     console.log('aaaaaaaaaaaa');
 
     f['ar/index.html'].latest = f['ar/investigations/index.html'].siblings; // eslint-disable-line

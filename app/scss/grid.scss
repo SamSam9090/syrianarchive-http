@@ -31,6 +31,10 @@ body{
   background-color: #fbfbfb;
 }
 
+html.fixmod{
+  overflow: hidden;
+}
+
 
 .footer {
   background-color:#444;
@@ -41,3 +45,5 @@ body{
 .footer{
   border-top: 2px solid $orange;
 }
+
+.none{display:none}

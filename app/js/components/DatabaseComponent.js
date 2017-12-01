@@ -119,6 +119,7 @@ export default class DatabaseComponent extends Component {
             <div className="filter">
               <h5>{ t('Search')}</h5>
               <input value={this.state.searchterm} type="text" onChange={this.search} />
+              <h5><small>{ t('Limited to 100 results')}</small></h5>
             </div>
 
             <div className="filter">
