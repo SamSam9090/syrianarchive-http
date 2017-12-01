@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Further research - Eyes on Aleppo
-date: 2017-03-2900:01:24.055Z
+date: 2017-03-2900:01:19.055Z
 image: /assets/investigations/cw-aleppo.png
 ---
 
