@@ -2,7 +2,7 @@
 layout: contentwithsiblings.html
 title: Team
 date: 2017-03-03
-desc: We are a collective and are great!
+desc: Syrian Archive Staff
 image: "/assets/about/about1.jpg"
 ---
 ### Hadi Al Khatib
