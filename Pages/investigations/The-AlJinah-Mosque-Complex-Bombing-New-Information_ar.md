@@ -1,9 +1,9 @@
 ---
 layout: contentwithsiblings.html
 title: "قصف مجمع مسجد الجينة - معلومات جديدة وتسلسل زمني"
-date: 2017-04-18
+date: 2017-04-19
 desc: "معلومات جديدة عن حادثة قصف مسجد الجينة في محافظة حلب، وعرض للتسلسل الزمني للأحداث"
-image: /assets/08j.width-800.png
+image: /assets/07j.width-800.png
 ---
 
 تبادلت بلينغكات المعلومات مع فريق Forensic Architecture وهيومان رايتس ووتش. حيث أجرى كلًا منهما تحقيقات منفصلة عن الهجوم الذي استهدف جامع الجينة. [أُرشفت الأدلة البصرية بواسطة "الأرشيف السوري".](https://syrianarchive.org/database/?type_of_violation=&location=1771&startDate=15%2F03%2F2017&endDate=19%2F03%2F2017)
@@ -147,5 +147,3 @@ image: /assets/08j.width-800.png
 فيما يلي تسلسلٌ زمنيّ للإفادات المنشورة حول الغارات الجوية الأمريكية التي استهدفت القسم الشمالي من قاعة صلاة مبنيّة حديثًا؛ شمالي محافظة حلب في سوريا.حُدّدت كل الأوقات المذكورة وفقًا للتوقيت المحلي لمحافظة حلب؛ وهو التوقيت العالمي المنسق+2.
 
 <iframe allowfullscreen="" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1pH2dQjrU4QMcaD4V8GHkkZCnz50Il0NM1DO1qatHXlQ&font=Default&lang=en&initial_zoom=2&height=650" width="100%" height="650" frameborder="0"></iframe>
-
-        
