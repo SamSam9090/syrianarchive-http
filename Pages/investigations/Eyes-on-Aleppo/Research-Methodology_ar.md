@@ -1,8 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: "منهجية البحث - عين على حلب"
-date: 2017-03-29
-desc: "عين على حلب: تحليل الأدلّة البصرية لانتهاكات حقوق الإنسان"
+date: 2017-03-29T00:01:19.055Z
 image: /assets/workflow.png
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Specific incidents of attacks using incendiary munitions - Eyes on Aleppo
-date: 2017-03-29
-desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
+date: 2017-03-29T00:01:21.055Z
 image: /assets/investigations/incendiary-1.png
 ---
 This section will provide a summary of incidents identified by the Syrian Archive in analysis of its violation database in which incendiary munitions were used.

@@ -1,8 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: "هجمات ضد الأشخاص والأعيان المحميين على وجه التحديد - عين على حلب"
-date: 2017-03-29
-desc: "عين على حلب: تحليل الأدلّة البصرية لانتهاكات حقوق الإنسان"
+date: 2017-03-29T00:01:23.055Z
 image: /assets/investigations/pattern.png
 ---
 

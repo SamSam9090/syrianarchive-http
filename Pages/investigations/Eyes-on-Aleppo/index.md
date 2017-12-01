@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Eyes on Aleppo
-date: 2017-03-29
+date: 2017-03-29T00:01:18.055Z
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
 image: /assets/investigations/index-eoa.png
 ---

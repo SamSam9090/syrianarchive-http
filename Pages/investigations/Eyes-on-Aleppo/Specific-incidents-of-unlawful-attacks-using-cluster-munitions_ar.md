@@ -1,8 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: "هجمات باستخدام الذخائر العنقودية - عين على حلب"
-date: 2017-03-29
-desc: "عين على حلب: تحليل الأدلّة البصرية لانتهاكات حقوق الإنسان"
+date: 2017-03-29T00:01:22.055Z
 image: /assets/investigations/cluster-1.png
 ---
 
