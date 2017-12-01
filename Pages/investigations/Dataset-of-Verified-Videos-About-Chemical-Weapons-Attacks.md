@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Dataset of Verified Videos About Chemical Weapons Attacks in Syria
-date: 2017-09-13
+date: 2016-12-13
 desc: Dataset of Verified Videos About Chemical Weapons Attacks in Syria
 image: /assets/cover-photo-web.width-800.png
 ---

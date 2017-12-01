@@ -1,9 +1,9 @@
 ---
 layout: contentwithsiblings.html
-title: The Al-Jinah Mosque Complex Bombing — New Information and Timeline
-date: 2017-04-18
+title: The Al-Jinah Mosque Complex Bombing
+date: 2017-04-19
 desc: An investigation about Al-Jinah Mosque Complex Bombing
-image: /assets/08j.width-800.png
+image: /assets/07j.width-800.png
 ---
 
 _Live URL of this investigation is on the [Bellingcat website][1] from April 18th 2017. __Bellingcat exchanged information with Forensic Architecture and Human Rights Watch. Both of which carried out separate investigations into the attack. All multimedia information has been [archived by the Syrian Archive.][2]_
