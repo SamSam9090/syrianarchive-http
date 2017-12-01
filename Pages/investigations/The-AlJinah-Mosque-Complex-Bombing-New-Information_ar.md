@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "قصف مجمع مسجد الجينة"
 date: 2017-04-19
 desc: "معلومات جديدة عن حادثة قصف مسجد الجينة في محافظة حلب، وعرض للتسلسل الزمني للأحداث"
-image: /assets/07j.width-800.png
+image: /assets/11j.width-800.png
 ---
 
 تبادلت بلينغكات المعلومات مع فريق Forensic Architecture وهيومان رايتس ووتش. حيث أجرى كلًا منهما تحقيقات منفصلة عن الهجوم الذي استهدف جامع الجينة. [أُرشفت الأدلة البصرية بواسطة "الأرشيف السوري".](https://syrianarchive.org/database/?type_of_violation=&location=1771&startDate=15%2F03%2F2017&endDate=19%2F03%2F2017)

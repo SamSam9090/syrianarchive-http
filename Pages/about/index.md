@@ -5,11 +5,9 @@ date: 2017-03-03
 desc:
 image: "/assets/about/about3.jpg"
 ---
+# Mission
 
-The Syrian Archive was founded in 2014 and is registered in Germany.
-It works to promote sustainable peace and respect for human rights within Syrian society through facilitating justice and accountability efforts.
-
-This includes evidence gathering and documentation of incidents; the acknowledgment that war crimes and human rights violations have been committed by all sides; the identification of perpetrators to end the cycle of impunity and the development of a process of justice and reconciliation.
+The Syrian Archive aims to support human rights investigators, advocates, media reporters, and journalists in their efforts to document human rights violations in Syria and worldwide through developing new open source tools as well as providing a transparent and replicable methodology for collecting, preserving, verifying and investigating visual documentation in conflict areas.
 
 We believe that visual documentation of human rights violations that is transparent, detailed, and reliable are critical towards providing accountability and can positively contribute to post-conflict reconstruction and stability. Such documentation can humanise victims, reduce the space for dispute over numbers killed, help societies understand the true human costs of war, and support truth and reconciliation efforts.
 
@@ -26,11 +24,6 @@ Furthermore, visual documentation allows the Syrian Archive to tell untold stori
 Visual documentation aims to strengthen political campaigns of human rights advocates by providing content that supports their campaign. This could include content on the violation of children’s rights; sexual and gender based violence; violations against specifically protected persons and objects, or the use of illegal weapons.
 
 Additionally, visual documentation aims to help human rights activists and Syrian citizens in setting up a memorialisation process and to create dialogues around issues related to peace and justice, to recognize and substantiate the suffering of citizens and provide multiple perspectives on the conflict that acts to prevent revisionist or simplified narratives while raising awareness of the situation in the country and highlighting the futility of violence to next generations. Video and images often compliments official narratives and press accounts of an event or situation, adding both detail and nuance. At other times, they directly rebut certain factual claims and contradict pervasive narratives.
-
-
-# Mission
-
-The Syrian Archive aims to support human rights advocates, media reporters, and journalists in their efforts to document human rights violations in Syria and worldwide through developing new tools as well as providing a transparent and replicable methodology for preserving, verifying and analysing user-generated content in conflict areas.
 
 # Vision
 
@@ -78,11 +71,11 @@ The materials are also organised in collections based on the type of the violati
 - Attacks against civilians
 - Attacks against water sources
 - Attacks against humanitarian relief personnel and objects
-- Civilian casualties as a result of alleged russian attacks
+- Civilian casualties as a result of alleged Russian attacks
 - Civilian casualties as a result of alleged coalition attacks
 - Civilian casualties as a result of alleged attacks by armed groups
-- Civilian casualties as a result of alleged attacks by syrian goverment forces
-- Civilian casualties as a result of alleged attacks by pro-syrian goverment forces
+- Civilian casualties as a result of alleged attacks by Syrian government forces
+- Civilian casualties as a result of alleged attacks by pro-Syrian government forces
 - Plunder and theft
 - Coalition airstrikes in syria
 - Russian airstrikes in syria
