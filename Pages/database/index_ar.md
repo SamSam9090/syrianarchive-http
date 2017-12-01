@@ -1,7 +1,7 @@
 ---
 layout: base.html
 date: 2017-03-03
-title: Verified Violations Database
-desc: Digital content that we have verified
+title: قاعدة بيانات الإنتهاكات
+desc: 
 image: "/assets/main_back.jpg"
 ---
