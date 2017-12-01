@@ -34,3 +34,13 @@
   color:#888;
   text-align:center;
 }
+
+.home .investigations .limiter > .col-6 {
+  display:none;
+  &:first-child{
+    display: block;
+  }
+  &:nth-child(2){
+    display: block;
+  }
+}

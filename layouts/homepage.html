@@ -26,13 +26,16 @@
         <div class="col-12 ititle">
           <h3>Latest Investigations</h3>
         </div>
-        {% for post in items  | sort(true, true, 'date')%}
-          {% if post.locale === locale and post.title != title %}
-            <div class="col-6">
-                {% include 'includes/card.html' %}
-              </div>
-          {% endif %}
-        {% endfor %}
+      </div>
+
+      <div class="limiter columns">
+      {% for post in items  | sort(true, true, 'date')%}
+        {% if post.locale === locale and post.title != title %}
+          <div class="col-6">
+              {% include 'includes/card.html' %}
+            </div>
+        {% endif %}
+      {% endfor %}
       </div>
     </div>
 
