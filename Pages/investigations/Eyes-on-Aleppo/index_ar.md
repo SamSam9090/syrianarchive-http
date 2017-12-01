@@ -1,9 +1,9 @@
 ---
 layout: contentwithsiblings.html
 title: "عين على حلب"
-date: 2017-03-29
+date: 2017-03-29T00:01:18.055Z
 desc: "عين على حلب: تحليل الأدلّة البصرية لانتهاكات حقوق الإنسان"
-image: /assets/Al_Farouq_Idlib.jpeg
+image: /assets/investigations/index-eoa.png
 ---
 
 ## (أولًا) مقدّمة

@@ -1,9 +1,8 @@
 ---
 layout: contentwithsiblings.html
 title: Pattern of attacks against specifically protected persons and objects - Eyes on Aleppo
-date: 2017-03-29
-desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
-image: /assets/Al_Farouq_Idlib.jpeg
+date: 2017-03-29T00:01:23.055Z
+image: /assets/investigations/pattern.png
 ---
 
 This section will provide a summary of attacks identified by the Syrian Archive against specially protected persons and objects.

@@ -1,7 +1,7 @@
 {
   "ar": {
-    "Incidents": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
-    "Limited to 100 results": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "Incidents": "أنواع الحوادث",
+    "Limited to 100 results": "محدود بمئة نتيجة",
     "No results. Please try a different search.": "لا يوجد نتائج. يُرجى تجربة عبارات بحث بديلة",
     "Search": "بحث",
     "Collection": "المجموعة",
@@ -45,7 +45,16 @@
     "Sieges_and_violations_of_economic_social_and_cultural_rights": "الحصار والحقوق الاقتصادية والاجتماعية والثقافية",
     "Verified Unit": "وحدة مُحقّقة",
     "Warning: this video may contain graphic content": "تنبيه: هذا الفيديو قد يشمل محتوى تصويري",
-    "Arbitrary_and_forcible_displacement": "التشريد التعسفي والقسري"
+      "Arbitrary_and_forcible_displacement": "التشريد التعسفي والقسري",
+      "Curating Visual Documentation for Justice and Human Rights": "حفظ وتحليل الوثائق البصريّة للعدالة وحقوق الإنسان",
+      "Latest Investigations": "أحدث التحقيقات",
+      "Terms of Use": "شروط الاستخدام",
+      "contact": "تواصل معنا",
+      "Privacy Policy": "سياسة الخصوصيّة",
+      "Copyright": "حقوق النشر",
+      "Disclaimer": "إخلاء المسؤولية",
+      "press": "الصحافة",
+      "support": "الدعم"
   },
   "en": {
     "Massacres_and_other_unlawful_killing": "Massacres and other unlawful killing",
