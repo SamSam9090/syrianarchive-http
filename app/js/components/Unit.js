@@ -21,11 +21,11 @@ export default class Unit extends Component {
   render() {
     const i = this.props.unit;
     if (isEmpty(i)) {
-      document.getElementsByTagName( 'html' )[0].classList.remove('fixmod');
+      document.getElementsByTagName('html')[0].classList.remove('fixmod');
       return <div />;
     }
     const graphic = !(i.graphic_content === false);
-    document.getElementsByTagName( 'html' )[0].classList.add('fixmod');
+    document.getElementsByTagName('html')[0].classList.add('fixmod');
     console.log(i);
 
     const content = (
