@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Pattern of attacks against specifically protected persons and objects - Eyes on Aleppo
-date: 2017-03-29T00:01:23.055Z
+date: 2017-03-29T00:01:20.055Z
 image: /assets/investigations/pattern.png
 ---
 
