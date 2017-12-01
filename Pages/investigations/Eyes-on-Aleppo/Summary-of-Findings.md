@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Summary of Findings - Eyes on Aleppo
 date: 2017-03-29
 desc: Eyes on Aleppo - Visual Evidence Analysis of Human Rights Violations Committed in Aleppo
-image: /assets/Al_Farouq_Idlib.jpeg
+image: /assets/investigations/eoa-summary.png
 ---
 
 The Syrian Archive has collected, securely stored, verified, and make publicly available a total of [1748 videos of human rights violations][1] in Aleppo city and its suburbs committed by all major parties to the conflict in the period between July and December 2016. This section of the report provides a summary of videos disaggregated by**_ type of violations identified_**, **_specific munitions identified_**, and **_location of where videos were filmed._**
