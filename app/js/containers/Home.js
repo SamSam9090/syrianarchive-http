@@ -45,13 +45,13 @@ export default class Investigations extends Component {
 
           <div className="col-2 col-sm-12">
             <div className="statcol">
+              <h3>
+                <b>{c}</b>
+              </h3> <br />
               <h6>
                 { t('Collected Digital Content')}
               </h6>
-              <h3>
-                <b>{c}</b>
-              </h3>
-              <small>{t('units')}</small>
+
             </div>
           </div>
 
@@ -65,13 +65,13 @@ export default class Investigations extends Component {
 
           <div className="col-2 col-sm-12">
             <div className="statcol">
+              <h2>
+                <b>{vv}</b>
+              </h2> <br />
               <h6>
                 { t('Verified Digital Content')}
               </h6>
-              <h2>
-                <b>{vv}</b>
-              </h2>
-              <small>{t('units')}</small>
+
             </div>
           </div>
 
@@ -85,12 +85,13 @@ export default class Investigations extends Component {
 
           <div className="col-1 col-sm-12">
             <div className="statcol">
+
+              <h4>
+                <b>{this.state.meta.weapons.length}</b>
+              </h4> <br />
               <h6>
                 { t('Identified Weapons')}
               </h6>
-              <h4>
-                <b>{this.state.meta.weapons.length}</b>
-              </h4>
             </div>
           </div>
 
