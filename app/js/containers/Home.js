@@ -103,7 +103,12 @@ export default class Investigations extends Component {
              }
           </div>
 
-          <div className="col-4">
+          <div className="col-4 vvv">
+            <h5>
+              <b>
+                {t('Incidents')}
+              </b>
+            </h5>
             {map(v =>
               <div className="frontvio">
                 <h6><a href={`/${locale}/database?type_of_violation=${v}`}>
