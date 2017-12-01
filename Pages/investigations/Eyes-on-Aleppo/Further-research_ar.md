@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: "مزيد من البحوث - عين على حلب"
-date: 2017-03-2900:01:19.055Z
+date: 2017-03-29T00:01:19.055Z
 image: /assets/investigations/cw-aleppo.png
 ---
 
