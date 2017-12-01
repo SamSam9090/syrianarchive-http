@@ -12,12 +12,31 @@
 
   {% block content %}
 
-    <div class="container maincontent">
-      <div class="columns">
-
-        {% include 'includes/cardlist4.html' %}
+  <div class="container maincontent">
+    <div class="columns">
+      <div class = "col-3"></div>
+      <div class = "col-6">
+        {{ contents|safe }}
       </div>
+      <div class = "col-3"></div>
+
     </div>
+
+  <div class="columns">
+
+
+    <div class = "col-12 col-sm-12 flxx">
+    {% for post in siblings  | sort(true, true, 'date')%}
+      {% if post.locale === locale and post.title != title %}
+        <div class="fll">
+            {% include 'includes/card.html' %}
+          </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+  </div>
+</div>
 
     {% set items = latest  | sort(true, true, 'date') %}
 

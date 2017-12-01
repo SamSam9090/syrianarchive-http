@@ -2,7 +2,17 @@
 
  html, body {
    font-family: 'Lato', sans-serif;
-   @media screen and (max-width: 500px) {
+   font-size: 12px;
+
+   @media screen and (max-width: 1400px) {
+    font-size:8px;
+  }
+
+  @media screen and (max-width: 1000px) {
+   font-size:6px;
+ }
+
+   @media screen and (max-width: 600px) {
     font-size:14px;
     h1 {font-size: 2rem}
     h2 {font-size: 1.8rem}
@@ -15,7 +25,15 @@
 
  body{
    font-size: 18px;
+   @media screen and (max-width: 1400px) {
+    font-size:16px;
+  }
+
+  @media screen and (max-width: 1000px) {
+   font-size:14px;
  }
+ }
+
 
  h1, h2, h3, h4, h5, h6{
    font-family: 'Merriweather', serif;
@@ -25,72 +43,4 @@
 p {
   font-family: 'Merriweather', serif;
   line-height: 1.6em;
-}
-
-a.hb.btn.btn-link {
-  color:  #F7A979;
-  // font-family: 'Merriweather', serif;
-  font-size: 1em;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
-  // font-weight: bold;
-}
-
-.title{
-  background-position: center center;
-  background-size: cover;
-  background-image: url('/assets/main_back.jpg');
-  box-shadow: inset 0 -220px 220px -20px rgba(50,50,50,.9);
-    h1{
-      color: white;
-      margin-top: 20vh;
-      font-size: 6rem;
-      @media screen and (max-width: 500px) {
-       font-size:3rem;
-      }
-    }
-    .desc{
-      color:white;
-      margin-bottom: 1em;
-    }
-
-}
-
-.footer{
-  border-top: 2px solid $orange;
-}
-
-article.contents {
-  box-shadow: 0px 9px 5px 9px black;
-}
-
-article.contents .investigation{
-  margin-top:3rem;
-}
-
-article.contents p {
-  max-width: 40em;
-  padding-bottom: 2em;
-}
-
-article.contents ul li {
-  list-style: none;
-  &:before{
-    content: '➤';
-    color:teal;
-    margin-left: -1.5em;
-    margin-top: 0em;
-    position: absolute;
-  }
-  p{
-    padding-bottom: 1em;
-  }
-}
-
-article.contents ol{
-  margin-bottom: 2em;
-  li{
-    p {
-        display: inline;
-    }
-  }
 }
