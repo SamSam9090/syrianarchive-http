@@ -5,9 +5,7 @@ date: 2017-03-03
 desc:
 image: "/assets/about/partners.png"
 ---
-The Syrian Archive has partnered or collaborated with various organisations and nonprofits working in the human rights and citizen journalist sectors, as well as international institutions and universities since its founding in 2014.
-
-Among these include:
+The Syrian Archive has partnered or collaborated with various organisations and nonprofits working in the human rights and citizen journalist sectors, as well as international institutions and universities since its founding in 2014. These include:
 
 - [The United Nations Office for High Commissioner of Human Right: Inquiry on Syria](http://www.ohchr.org/EN/HRBodies/HRC/IICISyria/Pages/IndependentInternationalCommission.aspx)
 - [Witness](https://witness.org/)
