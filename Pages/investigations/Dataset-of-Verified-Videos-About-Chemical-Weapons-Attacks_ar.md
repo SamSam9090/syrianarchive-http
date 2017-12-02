@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "قاعدة بيانات بالهجمات الكيماوية ضد المدنيين في سوريا"
 date: 2016-12-13
 desc: "بيان حول الأدلة البصرية التي جمعها الأرشيف السوري كقاعدة بيانات عن الهجمات الكيماوية ضد المدنيين في سوريا"
-image: /assets/cover-photo-web.width-800.png
+image: /assets/investigations/cw-attacks.png
 ---
 
 

@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Dataset of Verified Videos About Chemical Weapons Attacks in Syria
 date: 2016-12-13
 desc: Dataset of Verified Videos About Chemical Weapons Attacks in Syria
-image: /assets/cover-photo-web.width-800.png
+image: /assets/investigations/cw-attacks.png
 ---
 
 Since the UN Security Council [adopted Resolution 2118 three years ago][1], outlining the framework for the elimination of chemical weapons in Syria, and despite the Organization for [the Prohibition of Chemical Weapons (OPCW)][2] working to destroy chemical weapons owned by the Syrian government, chemical weapons continue to be used against civilians by government forces and ISIS.

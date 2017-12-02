@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "قاعدة بيانات بالهجمات الروسية ضد المدنيين في سوريا"
 date: 2016-05-13
 desc: "بيان حول الأدلة البصرية التي جمعها الأرشيف السوري كقاعدة بيانات عن الهجمات الروسية ضد المدنيين في سوريا"
-image: /assets/cover-photo-web.width-800.png
+image: /assets/investigations/russian-attacks.png
 ---
 
 انتهى فريق "الأرشيف السوري" من إنشاء [&nbsp;قاعدة بيانات تضم مقاطع مصوّرة تدل على انتهاكات حصلت ضد المدنيين](https://syrianarchive.org/database/?type_of_violation=16) في سوريا يُرجّح أن مرتكبيها قوات روسية، وذلك في الفترة الواقعة ما بين 30 أيلول/ سبتمبر 2015 وحتى 30 آذار/مارس 2016.
