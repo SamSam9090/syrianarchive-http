@@ -1,26 +1,26 @@
 ---
 layout: contentwithsiblings.html
-title: إتصل بنا
+title: "تواصل معنا"
 date: 2017-03-03
 desc: ""
 image: "/assets/about/contact-us.png"
 ---
 
- Contact us:
+ تواصل معنا:
 
- #### General
+ #### عام
 
- We are always looking for new ways to collaborate with other human rights organisations, local media offices, activists, researchers and investigators.
-
- [info@syrianarchive.org](mailto:info@syrianarchive.org)
- Fingerprint: 8468 60C2 1A97 E70E 520D 8B83 0AF7 BA93 CD64 500E
-
- ### Press
+ نحن نبحث باستمرار عن طرق جديدة للتعاون مع منظمات حقوق الإنسان الأخرى، المكاتب الإعلامية المحليّة، الناشطين، الباحثين، والمحقّقين.
 
  [info@syrianarchive.org](mailto:info@syrianarchive.org)
  Fingerprint: 8468 60C2 1A97 E70E 520D 8B83 0AF7 BA93 CD64 500E
 
+ ### صحافة
 
- #### Website and Technology
+ [info@syrianarchive.org](mailto:info@syrianarchive.org)
+ Fingerprint: 8468 60C2 1A97 E70E 520D 8B83 0AF7 BA93 CD64 500E
+
+
+ #### موقع
 
  [niko@syrianarchive.org](mailto:niko@syrianarchive.org)
