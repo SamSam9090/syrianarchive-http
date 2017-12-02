@@ -2,7 +2,7 @@
 layout: contentwithsiblings.html
 title: Three Idlib Medical Facilities Attacked on 19 September 2017
 date: 2017-09-19
-desc: Three Idlib Medical Facilities Attacked on 19 September 2017
+desc: Three Idlib medical facilities serving a combined more than 100.000 people yearly were allegedly attacked in airstrikes attributed to Syrian or Russian forces
 image: /assets/cover-photo-web.width-800.png
 ---
 On 19 September 2017, just four days after the [Astana International meeting establishing Syria's De-Escalation Zones][1] in many parts of the country, and only days after[ the United Nations' Commission of Inquiry presented findings of a fact-finding][2] mission confirming the illegal use of chemical weapons and the systemic targeting of medical facilities by the Syrian government in April 2017, three Idlib medical facilities serving a combined more than 100.000 people yearly were allegedly attacked in airstrikes attributed to Syrian or Russian forces.
@@ -237,7 +237,7 @@ Through comparing where flights were observed, the time they were observed, and 
 [15]: https://lh6.googleusercontent.com/flVQkjewmZj1rbvEQcwV3dbG-XOoseP08ZLmCDdxWcKx7QV2LyiZTFYBKoI15dRvHoHFlpyz2RBBE9ZcRT2HMi6YWHpXFwyUZuUcRnf3OlKAC22IMpiIysrgMT2daGdrNDscw7rN
 [16]: https://www.youtube.com/watch?v=Dbpy48dwNNE
 [17]: https://www.youtube.com/watch?v=B_GaDzoTnHs
-[18]: https://syrianarchive.org/media/images/19_sept_2017_-_2.width-800.png
+[18]: /assets/19_sept_2017_-_2.width-800.png
 [19]: https://www.facebook.com/ALTIH.TMC/posts/1823828491280562
 [20]: https://www.youtube.com/watch?v=1Jjim7_908c
 [21]: https://www.youtube.com/watch?v=2rVKRbo52so
@@ -263,7 +263,7 @@ Through comparing where flights were observed, the time they were observed, and 
 [41]: https://www.youtube.com/watch?v=KP8XYUSD6o4
 [42]: https://www.youtube.com/watch?time_continue=1&v=sDHG9Rnev8w
 [43]: https://www.youtube.com/watch?v=JOZZhFWFR-w
-[44]: https://syrianarchive.org/media/images/19_sept_2017_-_4.width-800.png
+[44]: /assets/19_sept_2017_-_4.width-800.png
 [45]: https://www.facebook.com/Radio.Fresh.90.00FM/videos/1663365057041915/
 [46]: https://www.youtube.com/watch?v=eYUZlbUKH2k
 [47]: https://hihfad.org/
@@ -280,4 +280,4 @@ Through comparing where flights were observed, the time they were observed, and 
 [58]: https://www.youtube.com/watch?time_continue=1&v=UUNMoSiSQEU
 [59]: https://www.youtube.com/watch?v=6nMggXpfu0Q
 [60]: https://www.youtube.com/watch?v=o2JKLgQyFk0
-[61]: https://syrianarchive.org/media/images/19_sept_2017_-_3.width-800.png
+[61]: /assets/19_sept_2017_-_3.width-800.png
