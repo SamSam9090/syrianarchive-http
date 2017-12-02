@@ -22,7 +22,7 @@ Furthermore, visual documentation allows the Syrian Archive to tell untold stori
 
 Visual documentation aims to strengthen political campaigns of human rights advocates by providing content that supports their campaign. This could include content on the violation of children’s rights; sexual and gender based violence; violations against specifically protected persons and objects, or the use of illegal weapons.
 
-Additionally, visual documentation aims to help human rights activists and Syrian citizens in setting up a memorialisation process and to create dialogues around issues related to peace and justice, to recognize and substantiate the suffering of citizens and provide multiple perspectives on the conflict that acts to prevent revisionist or simplified narratives while raising awareness of the situation in the country and highlighting the futility of violence to next generations. Video and images often compliments official narratives and press accounts of an event or situation, adding both detail and nuance. At other times, they directly rebut certain factual claims and contradict pervasive narratives.
+Additionally, visual documentation aims to help human rights activists and Syrian citizens in setting up a memorialisation process and to create dialogues around issues related to peace and justice, to recognise and substantiate the suffering of citizens and provide multiple perspectives on the conflict that acts to prevent revisionist or simplified narratives while raising awareness of the situation in the country and highlighting the futility of violence to next generations. Video and images often compliments official narratives and press accounts of an event or situation, adding both detail and nuance. At other times, they directly rebut certain factual claims and contradict pervasive narratives.
 
 # Vision
 
@@ -30,11 +30,11 @@ Through collecting, verifying, preserving, and investigating visual documentatio
 
 ### Research methodology is based on the following core principles:
 
-#### First: Content identification, acquisition and standardization
+#### First: Content identification, acquisition and standardisation
 
 The Syrian Archive discovers relevant sources of information and aggregates them in a structured way. The acquisition is done in two different ways:
 
-- By building collaboration with documentation centers, media groups, journalists, lawyers and human rights activists to acquire and preserve their material.
+- By building collaboration with documentation centres, media groups, journalists, lawyers and human rights activists to acquire and preserve their material.
 - By acquiring material which is published on social media platforms and other websites on a daily basis.
 
 #### Second: Secure long term preservation
@@ -43,7 +43,7 @@ The Syrian Archive preserves visual documentation of human rights abuses in Syri
 
 #### Third: Verification, cataloging and metadata enrichment
 
-The Syrian Archive organizes the preserved materials by mainly cataloging them according the categories used by the Independent International Commission of Inquiry on the Syrian Arab Republic set up by the UN Office of the High Commissioner for Human Rights (OHCHR). The categories include:
+The Syrian Archive organises preserved materials by cataloging content according the categories used by the Independent International Commission of Inquiry on the Syrian Arab Republic set up by the UN Office of the High Commissioner for Human Rights (OHCHR). The categories include:
 
 - Massacres and other unlawful killing
 - Arbitrary arrest and unlawful detention
@@ -58,7 +58,7 @@ The Syrian Archive organizes the preserved materials by mainly cataloging them a
 - Sieges and violations of economic, social and cultural rights
 - Arbitrary and forcible displacement
 
-The materials are also organised in collections based on the type of the violations which includes:
+The materials are also organised in collections based on the type of the violations which include:
 
 - Attacks against hospitals
 - Attacks against schools
@@ -76,8 +76,8 @@ The materials are also organised in collections based on the type of the violati
 - Civilian casualties as a result of alleged attacks by Syrian government forces
 - Civilian casualties as a result of alleged attacks by pro-Syrian government forces
 - Plunder and theft
-- Coalition airstrikes in syria
-- Russian airstrikes in syria
+- Coalition airstrikes in Syria
+- Russian airstrikes in Syria
 
 The materials can be filtered according to the identified weapons used in the incident. The weapons list include:
 
@@ -107,4 +107,4 @@ Additional value is added to the material by recording as much metadata and chai
 
 #### Fourth: Accessibility and raising awareness
 
-The Syrian Archive makes the material **open, accessible and fully searchable** for use by human rights advocates, journalists, researchers, investigators, lawyers and historians to promote discussions, debate and raise awareness on issues related to human rights, justice, equality, accountability and other issues. There will also be engagement with citizen journalists, activists, lawyers and human rights organizations **to establish best practices in preservation, verification and conducting open source investigations**.
+The Syrian Archive makes the material **open, accessible and fully searchable** for use by human rights advocates, journalists, researchers, investigators, lawyers and historians to promote discussions, debate and raise awareness on issues related to human rights, justice, equality, accountability and other issues. There will also be engagement with citizen journalists, activists, lawyers and human rights organisations **to establish best practices in preservation, verification and conducting open source investigations**.
