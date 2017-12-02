@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: Metadata schema
 date: 2017-03-29
 desc: Metadata Schema
-image: /assets/Al_Farouq_Idlib.jpeg
+image: /assets/technology/metadata-2.png
 ---
 This page describes the metadata schema used by the Syrian Archive in it's digital content preservation, verification and investigative activities. The Syrian Archive recognised the need for a standardised metadata scheme for organising content, but also that any metadata scheme used would be a highly political choice. Given that there are no universally accepted legally admissible metadata standards as of the date of this publication, efforts were made to develop a framework in consultation with a variety of international investigative bodies. Among these include consultations with members of the International Criminal Court, with members of the United Nations Office for High Commissioner of Human Rights, with members of the International, Impartial and Independent Mechanism on international crimes committed in Syria (IIIM), with archival institutes like the NIOD Institute for War, Holocaust and Genocide Studies, with international human rights organisations like Amnesty International, Human Rights Watch, and Witness, and with research institutes like the Human Rights Center at UC Berkeley School of Law.
 
