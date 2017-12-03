@@ -7,7 +7,7 @@ image: /assets/technology/methods-workflows.png
 ---
 # Research Methodology - Syrian Archive
 
-This page provides an overview of the methodology used by the Syrian Archive in carrying out this research. The methodology section will be broken into the following sub-sections:
+This page provides an overview of the methodology used by the Syrian Archive in carrying out it's work. The methodology section will be broken into the following sub-sections:
 
 A) Identification, collection and secure preservation methodology;  
 B) Initial verification methodology;  
@@ -106,9 +106,6 @@ After videos have gone through the basic verification process, they are backed u
 
 ## C. In-depth verification methodology
 
-In some cases, the Syrian Archive is able to conduct in-depth online open source investigations. Videos and other open source materials shared online are used in order to understand the incident and verify the veracity of claims made about incidents. Time and capacity limitations means not all incidents are able to be analysed in-depth, however by developing a replicable workflow it is hoped that others can assist in these efforts of investigate other incidents using similar methods.
-
-\\ Put in some in-depth verification methodology here
-
+In some cases, the Syrian Archive is able to conduct in-depth online open source investigations. Videos and other open source materials shared online are used in order to understand the incident and verify the veracity of claims made about incidents. Time and capacity limitations means not all incidents are able to be analysed in-depth, however by developing a replicable workflow it is hoped that others can assist in these efforts to investigate other incidents using similar methods.
 
 [1]: /assets/workflow.png

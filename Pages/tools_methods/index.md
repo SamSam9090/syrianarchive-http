@@ -5,8 +5,8 @@ date: 2017-03-03
 desc: Open Source Tools and Methods for Open Source Investigations
 image: /assets/technology/technology.png
 ---
+The Syrian Archive strives for transparency in its tools, findings, and methodologies, as well as in making sure that verified content is publicly available and accessible for journalists, human rights defenders, and lawyers for reporting, advocacy and accountability purposes.
 
-The Syrian Archive is unique in archival because we consider the development and documentation of our open source tools and methods to be an integral part of the project. We have been using technology to manage our database, verification, and publishing, and releasing this methodology open source.
+One of the ways this is done is through releasing all software developed publicly in free and open-source formats. This is done both to ensure trust is built and maintained between the Syrian Archive and its partners and collaborators, as well as to allow software to be reused and customised by other groups outside of this project. Technical integration with existing open-source investigative tools ensure that work is not duplicated.
 
-This allows for our workflows and data pipelines to be verified and transparent, as well as easing the workload of investigators and and verification teams.
-We work in collaboration with other archival groups as well as lawyers and journalists to develop this methodology, and with other technologists to develop the open source tools.
+We work in collaboration with other archival groups as well as lawyers and journalists to develop our methodology, and with other technologists to develop the open source tools we are using.

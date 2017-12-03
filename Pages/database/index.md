@@ -1,7 +1,7 @@
 ---
 layout: base.html
-title: Verified Violations Database
+title: Violations Database
 date: 2017-03-03
-desc: 
+desc: Verified visual documentation
 image: "/assets/main_back.jpg"
 ---
