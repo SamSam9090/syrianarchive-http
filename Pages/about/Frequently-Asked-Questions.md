@@ -37,7 +37,7 @@ d. Help human rights activists and Syrian citizens in setting up memorialisation
 
 e. Help lawyers, investigators and researchers advance justice and accountability by using material from the archive to establish what happened during the conflict (crime base evidence) and to include it if applicable in their court cases against the perpetrators of crimes in Syria.
 
-### How can i get involved?
+### How can I get involved?
 We are always looking into building more collaborations with human rights groups, citizen reporters, journalists, lawyers, media offices/agencies and others to preserve their evidence collection of human rights violations. If you are interested please contact us on info [at] syrianarchive [dot] org.
 
 ### Who is financially supporting the Syrian Archive?
