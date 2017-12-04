@@ -3,7 +3,7 @@ layout: contentwithsiblings.html
 title: "في الصحافة"
 date: 2017-03-03
 desc:
-image: "/assets/about/about2.jpg"
+image: "/assets/about/press-1.png"
 ---
 
 نُشرت بعض المقالات الصحفية والتي سلطت الضوء على عمل الأرشيف السوري، من بينها:
