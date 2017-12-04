@@ -3,11 +3,29 @@ article.contents {
   box-shadow: 0px 9px 5px 9px black;
 }
 
+article .maincontent{
+  p, ul, h1, h2, h3, h4, h5, h6 {
+    max-width: 70rem;
+  }
 
-article.contents p {
-  max-width: 40em;
-  padding-bottom: 2em;
+  p, ul {
+    margin-bottom: 2em;
+    font-family: 'Lato', serif;
+    margin-top:1em;
+    color:#333;
+
+  }
+
+  p {
+    line-height: 1.8em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1em;
+  }
+
 }
+
 
 article.contents ul li {
   list-style: none;
