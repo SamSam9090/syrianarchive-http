@@ -1,8 +1,8 @@
 ---
 layout: contentwithsiblings.html
-title: "الدعم"
+title: "التعاون"
 date: 2017-03-03
-desc: suppod us
+desc: 
 image: "/assets/about/about2.jpg"
 ---
 
