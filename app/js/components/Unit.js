@@ -4,6 +4,7 @@ import {isEmpty, map, compact} from 'lodash/fp';
 import t from '../../../translations';
 
 import {unitTitle, location} from '../containers/helpers';
+import {mediaUrl} from '../../../env';
 
 const mapW = map.convert({cap: false});
 // const mapW = map.convert({cap: false});
@@ -11,7 +12,7 @@ const mapW = map.convert({cap: false});
 //   <div><b>{k}</b>: {String(v)}</div>
 // , omit('type_of_violation', i))}
 
-const fixurl = url => url.replace('/var/www/files', 'http://media.newsy.org');
+const fixurl = url => url.replace('/var/www/files', mediaUrl);
 
 export default class Unit extends Component {
   componentDidMount() {
