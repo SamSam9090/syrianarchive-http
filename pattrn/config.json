@@ -10,7 +10,7 @@
     "base_layers": [
         {
             "name": "Earth view",
-            "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         }
     ]
 }
