@@ -69,7 +69,7 @@ of Inquiry for Syria for the last 6 years. Abdul Rahman is based in Sweden.
 __Open source analyst__
 
 Tareef verifies and analyses visual documentation of human rights violations. He has previously worked with Frontline Defenders, with Tactical Technology
-Collective and with 7asoub,a technical academy teaching programming
+Collective and with [Hsoub](https://www.hsoub.com/en/) Academy,a technical academy teaching programming
 languages to youth. Tareef has an educational background in Electrical
 engineering. Tareef is based in Turkey.
 

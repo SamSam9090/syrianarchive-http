@@ -1,74 +1,44 @@
 ---
 layout: contentwithsiblings.html
-title: Team
+title: "الفريق"
 date: 2017-03-03
-desc: Syrian Archive Staff
+desc: "فريق عمل الأرشيف السوري"
 image: "/assets/about/about1.jpg"
 ---
-### Hadi Al Khatib
-__Founder and Director__
 
-Hadi has been working on collecting, verifying, and investigating
-citizen-generated data as evidence of human rights violations in order
-to expose and draw attention to human rights violations committed by all
-sides in the Syrian conflict, and to make sure that journalists are able
-to use verified data for their investigations. Hadi has been also
-working with Tactical Technology Collective for the last 5 years to
-support journalists and news agencies in securing their data, devices
-and communications online, as well as a digital and informational
-security trainer with the International Research and Exchange Board
-(IREX). In addition to working with the Syrian Archive, Hadi is a part
-time project leader for Middle East and North Africa Projects with
-Bellingcat. Hadi is also a fellow at the Centre for Internet and Human
-Rights. Hadi is based in Berlin, Germany.
+يتكوّن الأرشيف السوري من فريق عمل استثنائي يشمل باحثين، صحفيين، تقنيين، وخبراء في الأمن الرقمي، ممن عملوا في مجال حقوق الإنسان، التحقّق الرقمي، التقنيات مفتوحة المصدر، ومنهجيات الاستقصاء والتحقيق على مدى السنوات العشر الماضية.
+وهم متحمسون في مهمتهم لتمكين الجهات المعنية؛ مثل المحاميين، الصحفيين، النشطاء، من العثور على المحتوى المُتاح للعموم وتخزينه واستخدامه، ليس فقط لتوثيق انتهاكات حقوق الإنسان، ولكن لاستخدامه أيضًا في محاكمة أولئك الذين يرتكبون تلك الجرائم ويُساعدون بها.
 
-### Jeff Deutch -
-__Lead Researcher__
+#### هادي الخطيب
+__المؤسس والمدير__
 
-Jeff has been working on developing, refining and documenting the research methodology
-of the Syrian Archive. He additionally works on verification and
-long-form investigations and reports. Jeff has worked previously with
-Tactical Technology Collective, with the Global Public Policy Institute,
-and with Civic Consulting.  In addition to working with the Syrian
-Archive, Jeff is a PhD candidate at Humboldt University and a fellow at
-the Centre for Internet and Human Rights. Jeff holds a Master of Public
-Policy from Hertie School of Governance and a Bachelors of Arts from
-Hampshire College. Jeff is based in Berlin, Germany
+يعمل هادي الخطيب على جمع، التحقّق من، والتحقيق في؛ البيانات المولّدة من المواطنين كأدلة على انتهاكات حقوق الإنسان المرتبكة من قبل جميع الأطراف في النزاع السوري؛ لفضحها ولفت الانتباه إليها. والتأكّد من أنّ الصحفيين قادريين على استخدام البيانات المُثبتة في تحقيقاتهم. عمل هادي كذلك مع منظمة تكتيكال في السنوات الخمس الماضية لدعم الصحفيين ووكالات الأنباء في حماية بياناتهم، أجهزتهم وإتصالاتهم عبر الإنترنت، بالإضافة إلى عمله كمدرّب في الأمان الرقمي والمعلوماتي مع المجلس الدولي للبحوث والتبادل (IREX). بالإضافة إلى العمل مع الأرشيف السوري، هادي هو قائد مشروع (بدوام جزئي) في بلينغات عن منطقة الشرق الأوسط وشمال إفريقيا. هادي أيضًا هو زميل في مركز الإنترنت وحقوق الإنسان Centre for Internet and Human Rights. يعمل هادي من برلين - ألمانيا.
 
+#### جيف ديوتش
+___ الباحث رئيسي___
 
-### Niko Para
-__Lead Developer__
+يعمل جيف على تطوير وصقل وتوثيق منهجية البحث في الأرشيف السوري. بالإضافة إلى عمله في التوثّق وإجراء التحقيقيات والتقارير المطوّلة. عمل جيف سابقًا مع تكتيكال، المعهد العالمي للسياسة العامة  Global Public Policy Institute، والاستشارات المدنيّة Civic Consulting، بالإضافة لعمله مع الأرشيف السوري جيف هو مُرشّح للدكتوراه في جمامعة هوموبلت Humboldt وزميل في مركز الإنترنت وحقوق الإنسان Centre for Internet and HumanRights. يحمل جيف درجة الماجستير في السياسة العامة من كلية Hertie School - Governance، وبكالوريس في الفنون من كلية هامبشاير Hampshire. يعمل جيف من برلين - ألمانيا.
 
-Niko directs the technical systems for the [Syrian Archive's workflow and verification processes](https://github.com/syrianarchive), as well as the Syrian Archive's contributions to open source softares such as [Sugarcube](https://gitlab.com/sugarcube).  He maintains the central databases and websites, and has been with the Syrian Archive since 2014.
-
-Previously, he has worked with the Tactical Technology Collective and Global Witness.  He had an unsuccessful stint at the University of Massachusetts Amherst studying computer science and printmaking, and a briefer stint at the Technische Universitaet Berlin. He unapoligetically plays the banjo.
+### نيكو پارا
+__المطوّر الرئيسي__
+يقود نيكو الأنظمة التقنيّة لـ [سير عمل الأرشيف السوري وعمليات التحقّق](https://github.com/syrianarchive)، بالإضافة لمساهمات الأرشيف السوري في التطبيقات مفتوحة المصدر، كتطبيق [Sugarcube](https://gitlab.com/sugarcube). بالإضافة إلى صيانة قواعد البيانات والموقع الإلكتروني. يعمل نيكو مع الأرشيف السوري منذ 2014.
+سابقًا، عمل نيكو أيضًا مع منظمة تكيتكال وويتنس. وهو يعمل من برلين - ألمانيا.
 
 [email](mailto:niko@syrianarchive.org)
 [gitlab](https://gitlab.com/nikonikoniko)
 [twitter](https://twitter.com/allthatisair)
 
-### Abdul Rahman Jaloud
-__Communication and Outreach__
+#### عبد الرحمن جلود
+___الاتصالات والعلاقات___
+عمل جلود على المشاريع المرتبطة بحقوق الإنسان في سوريا منذ 2010، حيث وثّق انتهاكات حقوق الإنسان مع مختلف المنظمات السوريّة منذ عام 2011. خلال عمله مع ويتنس من عام 2013 وحتى 2017 أجرى جلود تدريبات حول الأرشفة والقانون الإنساني الدولي، كما ساعد في أبحاث لجنة الأمم المتحدة للتحقيق في سوريا على مدى السنوات الست الماضية. يعمل جلود من السويد.
 
-Jaloud has worked on human rights in Syria since before 2010 and has
-been documenting human rights violations in cooperation with various
-Syrian organisations since 2011. From 2013 until 2017 while working with
-Witness, Jaloud conducted trainings on archiving and on international
-humanitarian law. He has also assisted in research for the UN Commission
-of Inquiry for Syria. Abdul Rahman is based in Sweden.
 
-### Tareef MD
-__Open source analyst__
+#### طريف م.د
+___مُحلّل مفتوح المصدر___
+يتحقّق طريف ويُحلّل الوثائق البصريّة لإنتهاكات حقوق الإنسان. عمل طريف سابقًا مع كلٍّ من، فرونت لاين ديفندرز، تكتيكال، ومع شركة حسوب ضمن موقع الأكاديمية الذي يُدرّس البرمجة وغيرها من المواضيع التقنية للشباب العربي. طريف يملك خلفية تعليمية في الهندسة الكهربائية، ويعمل من تركيا.
 
-Tareef verifies and analyses visual documentation of human rights violations. He has previously worked with Frontline Defenders, with Tactical Technology
-Collective and with 7asoub,a technical academy teaching programming
-languages to youth. Tareef has an educational background in Electrical
-engineering. Tareef is based in Turkey
 
-### Sam Razzouk
-__Open source analyst__
-
-Sam identifies and verifies sources and visual documentation of human rights violations.
-Since 2011, he has worked with various Syrian organisations documenting
-human rights violations. Sam studied medicine in Syria and has worked
-with International Medical Corps in Turkey. Sam is based in Denmark
+#### سام رزوق
+___مُحلّل مفتوح المصدر___
+يُعرّف سام ويتحقّق من المصادر والوثائق البصريّة لانتهاكات حقوق الإنسان. عمل سام منذ عام 2011 مع العديد من المنظمات السورية المهتمة بتوثيق انتهاكات حقوق الإنسان.
+درس سام الطب في سوريا وعمل سابقًا مع الهيئة الطبية الدولية في تركيا. يعمل سام من الدنمارك.
