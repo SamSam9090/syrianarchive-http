@@ -1,6 +1,6 @@
 ---
 layout: contentwithsiblings.html
-title: Three Idlib Medical Facilities Attacked on 19 September 2017
+title: Three Idlib Medical Facilities Attacked
 date: 2017-09-19
 desc: Three Idlib medical facilities serving a combined more than 100.000 people yearly were allegedly attacked in airstrikes attributed to Syrian or Russian forces
 image: /assets/cover-photo-web.width-800.png
@@ -84,7 +84,7 @@ Potentially responsible: Russian or Syrian air force
 
 On 19 September 2017 at around 12:00, the Rahman hospital in Altah was attacked with airstrikes allegedly by the Syrian or Russian airforce. The hospital served approximately 10.000 people.
 
-[Step News Agency has published a video][20] showing the first moment of an airstrike that targeted Al Rahman hospital. 
+[Step News Agency has published a video][20] showing the first moment of an airstrike that targeted Al Rahman hospital.
 
 <iframe allowfullscreen="" class="giphy-embed" frameborder="0" height="470" src="https://giphy.com/embed/13yUel7H9OCU0g" width="680"></iframe><p><a href="https://www.youtube.com/watch?v=2rVKRbo52so">
 
@@ -98,7 +98,7 @@ Anas Al Merawi also [published a video showing][22] the Syrian Civil Defence res
 
 ![ambulancesmart.png][24]
 
-Another [video showing the same ambulance][25] was published by Muaz Al Shami on his YouTube channel. See below: 
+Another [video showing the same ambulance][25] was published by Muaz Al Shami on his YouTube channel. See below:
 
 ![muazambulancerahman.png][26]
 

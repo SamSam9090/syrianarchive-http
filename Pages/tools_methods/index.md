@@ -2,7 +2,6 @@
 layout: tilecontent.html
 title: Tools and Methods
 date: 2017-03-03
-desc: Open Source Tools and Methods for Open Source Investigations
 image: /assets/technology/technology.png
 ---
 The Syrian Archive strives for transparency in its tools, findings, and methodologies, as well as in making sure that verified content is publicly available and accessible for journalists, human rights defenders, and lawyers for reporting, advocacy and accountability purposes.

@@ -2,7 +2,7 @@
 layout: contentwithsiblings.html
 title: "حول الأرشيف"
 date: 2017-03-03
-desc: ""
+desc: "المهمة والرؤية وطريقة العمل"
 image: "/assets/about/about3.jpg"
 ---
 # مهمتنا

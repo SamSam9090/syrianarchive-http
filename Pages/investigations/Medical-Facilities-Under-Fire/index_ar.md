@@ -1,9 +1,9 @@
 ---
 layout: contentwithsiblings.html
 title: "مرافق صحية تحت النار"
+desc: "تقرير مُفصّل عن استهداف 8 مشافي ومنشأة طبية في إدلب"
 date: 2017-07-01T00:00:18.055Z
-desc: "تقرير مُفصّل عن استهداف 25 مستشفى ومنشأة طبية للهجوم خلال شهر إبريل / نيسان 2017 معظمها في إدلب"
-image: /assets/cover-photo-web.width-800.png
+image: /assets/investigations/medical-facilities0under-fire.png
 ---
 
 [تحميل التقرير كملف](https://media.syrianarchive.org/owncloud/index.php/s/RqjgNDXozhRSSf4)[(PDF)](https://media.syrianarchive.org/owncloud/index.php/s/RqjgNDXozhRSSf4)

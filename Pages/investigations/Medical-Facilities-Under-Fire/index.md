@@ -2,8 +2,8 @@
 layout: contentwithsiblings.html
 title: Medical Facilities Under Fire
 date: 2017-07-28T00:00:18.055Z
-desc: An investigation about attacking Syrian hospitals
-image: /assets/cover-photo-web.width-800.png
+desc: An investigation about attacking 8 Syrian hospitals in Idlib
+image: /assets/investigations/medical-facilities0under-fire.png
 ---
 [Download the report as PDF](https://media.syrianarchive.org/owncloud/index.php/s/jXNvGveBP2biIdl)
 
