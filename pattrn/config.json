@@ -1,7 +1,7 @@
 {
     "data_sources": {
         "geojson_data" : {
-            "data_url" : "https://api.syrianarchive.org/data/data.geojson",
+            "data_url" : "/pattrn/geounits.json",
             "settings_url" : "/pattrn/data/settings.json",
             "metadata_url" : "/pattrn/data/metadata.yaml"
         }
