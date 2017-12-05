@@ -7,7 +7,7 @@ image: /assets/technology/methods-workflows.png
 ---
 # Research Methodology - Syrian Archive
 
-This page provides an overview of the methodology used by the Syrian Archive in carrying out it's work. The methodology section will be broken into the following sub-sections:
+This page provides an overview of the Digital Evidence Workflow methodology used by the Syrian Archive in carrying out its work. The methodology section contains the following elements:
 
 A) Identification, collection and secure preservation methodology;  
 B) Initial verification methodology;  
