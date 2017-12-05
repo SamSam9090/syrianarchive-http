@@ -5,7 +5,7 @@ date: 2017-03-29T00:01:20.055Z
 image: /assets/investigations/pattern.png
 ---
 
-This section will provide a summary of attacks identified by the Syrian Archive against specially protected persons and objects.
+This section provides a summary of attacks identified by the Syrian Archive against specially protected persons and objects.
 
 Using the same methodology as described in the previous investigations, the Syrian Archive was able to identify a total of 50 unique incidents in which violations against specifically protected persons and objects occurred.  
 
