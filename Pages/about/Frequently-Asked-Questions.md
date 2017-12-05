@@ -1,7 +1,6 @@
 ---
 layout: contentwithsiblings.html
 title: Frequently Asked Questions
-date: 2017-03-03
 image: "/assets/about/faq.png"
 ---
 

@@ -2,7 +2,6 @@
 layout: contentwithsiblings.html
 title: "في الصحافة"
 date: 2017-03-03
-desc:
 image: "/assets/about/press-1.png"
 ---
 
