@@ -17,11 +17,11 @@ Today, the Syrian Archive Team wants to remember the victims of the chemical att
 
 The Syrian Archive is an initiative launched by a network of human rights activists, lawyers, archivists, researchers, and technical professionals, committed to end the spiral of violence in Syria and to promote a culture of accountability and respect for human rights within Syrian society.
 
-Working in support of media and documentation centers in Syria, our goal is to preserve the most valuable material to ensure it is organized and accessible for use by current researchers, journalists, lawyers and others with an interest in the conflict as well as to facilitate the work of future historians and investigators.
+Working in support of media and documentation centres in Syria, our goal is to preserve the most valuable material to ensure it is organised and accessible for use by current researchers, journalists, lawyers and others with an interest in the conflict as well as to facilitate the work of future historians and investigators.
 
 ![media_activist_in_Damascus.jpg][3]
 
-Preserving the hundreds of thousands of pictures and videos recorded by Syrian citizen journalists not only honors those who made great efforts by risking their lives to document these crimes.
+Preserving the hundreds of thousands of pictures and videos recorded by Syrian citizen journalists not only honours those who made great efforts by risking their lives to document these crimes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y6CZtF6pGvQ" frameborder="0" allowfullscreen></iframe>
 [Video metadata.][4]
