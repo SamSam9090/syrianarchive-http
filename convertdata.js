@@ -100,6 +100,7 @@ Metalsmith(__dirname)
 
     f['ar/index.html'].latest = f['ar/investigations/index.html'].siblings; // eslint-disable-line
     f['en/index.html'].latest = f['en/investigations/index.html'].siblings; // eslint-disable-line
+    f['index.html'].latest = f['en/investigations/index.html'].siblings; // eslint-disable-line
 
     each(f, (v, k) => {
       if (k.includes('html')) {
