@@ -24,7 +24,7 @@ The fourth attack identified targeted Shanan hospital for women and children. It
 
 The Civil Defense Center [published a video showing the attacked hospital][3], in which they claim was targeted with a double tap airstrike. This means that the hospital was attacked once with an airstrike, and followed shortly after by another airstrike after rescuers were at the scene.
 
-In the video, a member of the Civil Defense states: "We were in the center when the first airstrike happened in Sarjeh. We divided into two teams, one team went to rescue civilians in Sarjeh and the other team stayed in the center. After a bit, the second airstrike targeted Shanan hospital. We went to the Shanan hospital to rescue civilians and doctors. The third airstrike targeted us during our rescue mission in Shanan hospital, but we continued doing our work until the fourth airstrike targeted the hospital but all civilians and doctors were out of the building by then." Stills from the video are provided below:
+In the video, a member of the Civil Defense states: "We were in the centre when the first airstrike happened in Sarjeh. We divided into two teams, one team went to rescue civilians in Sarjeh and the other team stayed in the center. After a bit, the second airstrike targeted Shanan hospital. We went to the Shanan hospital to rescue civilians and doctors. The third airstrike targeted us during our rescue mission in Shanan hospital, but we continued doing our work until the fourth airstrike targeted the hospital but all civilians and doctors were out of the building by then." Stills from the video are provided below:
 
 ![Screen Shot 2017-05-13 at 11.34.29 AM.png][4]  
 
