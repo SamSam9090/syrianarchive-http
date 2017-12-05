@@ -1,7 +1,6 @@
 ---
 layout: tilecontent.html
 title: "الأدوات والمنهجية"
-date: 2017-03-03
 image: /assets/technology/technology.png
 ---
 
