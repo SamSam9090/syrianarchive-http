@@ -118,7 +118,7 @@ However, the presence of a large number of Syrian or Russian aircraft in the imm
 
 ![h2-kh-hospital.jpg][42]  
 
-The map above demonstrates that the medical facility attacked was well within range of the aircraft detected. The Mi-8 observed and determined to likely be acquiring the target, as well as the drone observed and potentially involved in the attack, were detected circling 18km from the attack site. The four russian aircraft observed and determined to potentially be involved in the attack were detected circling 11.4 km from the attack site.
+The map above demonstrates that the medical facility attacked was well within range of the aircraft detected. The Mi-8 observed and determined to likely be acquiring the target, as well as the drone observed and potentially involved in the attack, were detected circling 18km from the attack site. The four Russian aircraft observed and determined to potentially be involved in the attack were detected circling 11.4 km from the attack site.
 
 Witness statements of the attack was provided jointly by Syrians for Truth and Justice and by Justice for Life. The Managing Director of Al-Rahma hospital in[ Khan Sheikhoun][43] located in the[ Idlib][44] countryside, who did not disclose his name for security purposes, said in his statement to the investigative team that only two hours after targeting the city with chemical weapons on 4 April 2017, Russian warplanes launched nine air raids that lasted for an hour. They targeted the southern area of Khan Sheikhoun, where the Civil Defense Centre and Al-Rahma hospital exist, and caused significant material damage to the hospital such that it was rendered inoperable. He added:
 
