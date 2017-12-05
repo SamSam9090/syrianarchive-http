@@ -3,7 +3,7 @@
   </div>
 
 <div class = "col-7 col-sm-12 flx">
-{% for post in siblings  | sort(true, true, 'date')%}
+{% for post in siblings|sort(attribute='date')%}
   {% if post.locale === locale and post.title != title %}
     <div class="fl">
         {% include 'includes/card.html' %}

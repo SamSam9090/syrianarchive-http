@@ -1,4 +1,4 @@
-{% for post in siblings  | sort(true, true, 'date')%}
+{% for post in siblings|sort(attribute='date')%}
   {% if post.locale === locale and post.title != title %}
     <div class="col-12">
         {% include 'includes/card.html' %}
