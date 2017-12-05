@@ -4,7 +4,7 @@ title: Specific incidents of attacks using incendiary munitions - Eyes on Aleppo
 date: 2017-03-29T00:01:22.055Z
 image: /assets/investigations/incendiary-1.png
 ---
-This section will provide a summary of incidents identified by the Syrian Archive in analysis of its violation database in which incendiary munitions were used.
+This section provides a summary of incidents identified by the Syrian Archive in analysis of its violation database in which incendiary munitions were used.
 
 The Atlantic Council's[ Breaking Aleppo report ][1]has already conducted extensive research into the use of incendiary munitions within Aleppo City in 2016. Similarly, Human Rights Watch has [identified incendiary attacks][2] in the countryside and suburbs around Aleppo between November 2012 and the end of 2015. A gap in the research exists, namely in investigating incendiary attacks occurring in the Aleppo suburbs in the July - December 2016 period.
 

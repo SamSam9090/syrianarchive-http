@@ -83,7 +83,7 @@ To verify the source of the video, it needs to be established that the source of
 * Whether the source's content and reportage been reliable in the past. This is determined by evaluating how long the source has been reporting and how active they are;  
 * Where the source is based. This is determined by evaluating whether videos uploaded are consistent and mostly from a specific location where the source is based;  
 * Whether the video account uses a logo and whether this logo is consistently used across videos;  
-* Whether the uploader aggregates videos from other news organizations and YouTube accounts, or whether they upload mostly user-generated content.
+* Whether the uploader aggregates videos from other news organisations and YouTube accounts, or whether they upload mostly user-generated content.
 
 **Step 3 : Verify the location of the video**
 
