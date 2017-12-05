@@ -1,6 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   context: path.resolve(__dirname, './app'),
@@ -48,5 +49,6 @@ module.exports = {
       allChunks: true,
     }),
     new CopyWebpackPlugin([{ from: '../assets' }]),
+    new UglifyJsPlugin(),
   ],
 };
