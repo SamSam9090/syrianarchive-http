@@ -2,7 +2,7 @@
 layout: contentwithsiblings.html
 title: "التقنيات"
 date: 2017-03-03
-desc: Open Source Tools and Methods for Open Source Investigations
+desc: "أدوات ومصادر مفتوحة المصدر للتحقيقات"
 image: /assets/technology/technology.png
 ---
 

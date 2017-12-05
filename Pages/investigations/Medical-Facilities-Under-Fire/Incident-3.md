@@ -46,13 +46,13 @@ The report's source for flight observation data has found that circling flights 
 
 As with previous incidents, though some aircraft are labelled "Russian," it is possible the flight was operated by the Syrian air force, rather than the Russian air force, as the Syrian air force also used Russian planes.
 
-Witness statements of the attack were provided jointly by Syrians for Truth and Justice and by Justice for Life. Abdul Basset Kernazy, director of the Medical center in[ Heesh][11] town, in the Idlib countryside, stated to the report's investigative team that on 7 April 2017, at about 4:15 at dawn, planes believed to be Russian, targeted the medical center with two thermobaric missiles, causing considerable destruction to some parts of the medical center. He said:
+Witness statements of the attack were provided jointly by Syrians for Truth and Justice and by Justice for Life. Abdul Basset Kernazy, director of the Medical centre in[ Heesh][11] town, in the Idlib countryside, stated to the report's investigative team that on 7 April 2017, at about 4:15 at dawn, planes believed to be Russian, targeted the medical centre with two thermobaric missiles, causing considerable destruction to some parts of the medical centre. He said:
 
-**_"The airstrike - which shocked us while we were asleep - resulted in dozens of deaths and injuries among patients and medical personnel as well; many of the injured were transferred to nearby medical centers. After the raid was over, we moved the medical center to another place."_**
+**_"The airstrike - which shocked us while we were asleep - resulted in dozens of deaths and injuries among patients and medical personnel as well; many of the injured were transferred to nearby medical centres. After the raid was over, we moved the medical center to another place."_**
 
-Khalid Halaby, a medic who was there in the medical center at the moment of attack, confirmed to the investigative team that warplanes, believed to be Russian, targeted the center and killed 10 people. He said:
+Khalid Halaby, a medic who was there in the medical centre at the moment of attack, confirmed to the investigative team that warplanes, believed to be Russian, targeted the centre and killed 10 people. He said:
 
-**_"We woke up on the sound of a strong explosion, soon we realized that Russian warplanes conducted raids on the medical center. I, with the rest of the medical staff, rushed to see what happened and to provide aid to those who need it. We saw that most parts of the infirmary were devastated... Moreover, the airstrikes killed 10 civilians, 3 of them from Heesh, and 7 are displaced from Halfaya town located in Hama."_**
+**_"We woke up on the sound of a strong explosion, soon we realised that Russian warplanes conducted raids on the medical centre. I, with the rest of the medical staff, rushed to see what happened and to provide aid to those who need it. We saw that most parts of the infirmary were devastated... Moreover, the airstrikes killed 10 civilians, 3 of them from Heesh, and 7 are displaced from Halfaya town located in Hama."_**
 
 Halaby added that the bodies of the deceased were completely distorted to the extent that it was difficult to identify most of the dead; some of them, however, were able to be identified as:
 

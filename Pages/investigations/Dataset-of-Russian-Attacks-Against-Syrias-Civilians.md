@@ -11,7 +11,7 @@ This is one of the datasets that the Syrian Archive has collected, and we will c
 
 [This Russian attacks database includes **1561 videos**][1]** **which has been captured by Syrian journalists, citizen reporters and activists as evidence to expose and draw attention to alleged human rights violations committed by the Russian forces in Syria.
 
-Our goal in collecting, verifying, and publishing the videos is to bring attention to the effect of Russian attacks on Syrian civilians and show the scale and pattern from the point of view of citizen reporters who witnessed those incidents. In addition, we are cross-referencing videos of Russian attacks from different sources with the casualties that have been documented by various documentation centers such as the Violation Documentation Center which published the details of** [2068 civilians as can be seen here][2]**.
+Our goal in collecting, verifying, and publishing the videos is to bring attention to the effect of Russian attacks on Syrian civilians and show the scale and pattern from the point of view of citizen reporters who witnessed those incidents. In addition, we are cross-referencing videos of Russian attacks from different sources with the casualties that have been documented by various documentation centres such as the Violation Documentation Center which published the details of** [2068 civilians as can be seen here][2]**.
 
 Here you can find the [video dataset of alleged civilian casualties from Russian attacks][1], which includes footage of:
 
