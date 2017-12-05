@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Technology
-date: 2017-03-03
+date: 2017-11-27
 desc: Open Source Tools and Methods for Open Source Investigations
 image: /assets/technology/technology.png
 ---

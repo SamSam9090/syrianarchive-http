@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: "التقنيات"
-date: 2017-03-03
+date: 2017-11-27
 desc: "أدوات ومصادر مفتوحة المصدر للتحقيقات"
 image: /assets/technology/technology.png
 ---

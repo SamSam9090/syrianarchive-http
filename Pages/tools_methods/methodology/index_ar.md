@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: "منهجية البحث"
-date: 2017-03-29
+date: 2017-11-27
 desc: "أدوات وطرائق مفتوحة المصدر للتحقيقات - سير عمل الأدلة الرقميّة"
 image: /assets/technology/methods-workflows.png
 ---

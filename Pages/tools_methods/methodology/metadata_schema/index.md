@@ -1,7 +1,7 @@
 ---
 layout: contentwithsiblings.html
 title: Metadata schema
-date: 2017-03-29
+date: 2017-11-27
 desc: Metadata Schema
 image: /assets/technology/metadata-2.png
 ---
