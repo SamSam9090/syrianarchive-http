@@ -79,7 +79,7 @@ Much has been written about attacks against hospitals in Aleppo city in the Atla
 
 Incidents occurring in the Aleppo countryside, however, have not been focused extensively in existing reports, and will form the bulk of this section. An analysis of 43 collected and verified videos by the Syrian Archive found a total number of eleven (11) incidents in which hospitals were attacked.
 
-On 14 July in Kafr Hamrah, Aleppo, an attack on the only hospital left it permanently out of service. For this incident,the Syrian Archive has collected and verified four (4) videos.
+On 14 July in Kafr Hamrah, Aleppo, an attack on the only hospital left it permanently out of service. For this incident, the Syrian Archive has collected and verified four (4) videos.
 
 Two days later on 16 July, an attack against the Omar bin AbdulAziz hospital in Ma'adi, Aleppo was found to have occurred. For this incident, the Syrian Archive has collected and verified three (3) videos. The Syrian Archive has additionally created a 3D video showing damage to the Omar Bin AbdulAziz hospital through a process of scanning and processing digital images from one of the videos. See below:
 
@@ -93,7 +93,7 @@ On 12 August, another attack against a hospital in Kafr Hamrah, Aleppo was found
 
 On 1 October an attack against the Al Sakhour hospital in Sakhour, Aleppo was found to have occurred. For this incident, the Syrian Archive has collected and verified fourteen (14) videos. The incident is noteworthy as the Syrian Archive was able to identify specific cluster munitions used in the attack, in this PTAB-1M submunitions and RBK-500 casings. Additionally, the Syrian Archive found evidence of incendiary munitions being used, however specific make and model numbers were unable to be identified.
 
-On 14 November two separate attacks against hospitals have been found to have occurred both of which as a result of either Russian or Syrian airstrikes. The first occurred against Beyouty hospital in Urum al-Kubra, for which the Syrian Archive has collected and verified three (3) videos. The second, documented in a March 2017 UN OHCHR report, occurred shortly after 11AM, which hit the hospital of Atarib, the Civil Defence center and a celebrations hall, hit the hospital four times forcing it to close permanently. The attack also destroyed an ambulance and injured three (3) children. For this incident, the Syrian Archive has collected and documented three (3) videos.  
+On 14 November two separate attacks against hospitals have been found to have occurred both of which as a result of either Russian or Syrian airstrikes. The first occurred against Beyouty hospital in Urum al-Kubra, for which the Syrian Archive has collected and verified three (3) videos. The second, documented in a March 2017 UN OHCHR report, occurred shortly after 11AM, which hit the hospital of Atarib, the Civil Defence centre and a celebrations hall, hit the hospital four times forcing it to close permanently. The attack also destroyed an ambulance and injured three (3) children. For this incident, the Syrian Archive has collected and documented three (3) videos.  
 
 The next day on 15 November, airstrikes were found to have hit Oweijel hospital in Umayjil, Aleppo. For this incident, the Syrian Archive has collected and verified six (6) videos. Three days following this on 18 November, Al Bayan hospital was hit by airstrikes in Alshaar, Aleppo. For this incident, the Syrian Archive has collected and verified five (5) videos.   
 
@@ -111,7 +111,7 @@ The soldiers are heard speaking in Syrian and Lebanese dialect. The [video has b
 
 ![Aleppo_evacuation_2][5]
 
-In this [witness testimony video t][6]aken by Aleppo Media Center, Ebrahim Abu Al leith mentions that during the evacuation on 16 December 2016 he was detailed while traveling on a bus to Aleppo countryside. The bus was stopped between Al Ramousa roundabout and 1070 apartments project as seen in the video below:
+In this [witness testimony video taken][6] by Aleppo Media Center, Ebrahim Abu Al leith mentions that during the evacuation on 16 December 2016 he was detailed while traveling on a bus to Aleppo countryside. The bus was stopped between Al Ramousa roundabout and 1070 apartments project as seen in the video below:
 
 ![Cameralocationofleakedvideo][7]
 
