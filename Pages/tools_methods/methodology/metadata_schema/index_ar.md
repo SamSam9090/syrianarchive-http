@@ -2,7 +2,7 @@
 layout: contentwithsiblings.html
 title: "مخطط البيانات الوصفية"
 date: 2017-03-29
-desc: Metadata Schema
+desc: "مُخطّط تفصيلي للبيانات الوصفيّة"
 image: /assets/technology/metadata-2.png
 --- 
 

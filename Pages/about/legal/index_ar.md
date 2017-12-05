@@ -1,6 +1,6 @@
 ---
 layout: contentwithsiblings.html
-title: الوضع القانوني
+title: "الوضع القانوني"
 date: 2017-03-03
 desc:
 image: "/assets/about/about2.jpg"
