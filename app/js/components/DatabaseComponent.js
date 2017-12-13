@@ -101,9 +101,7 @@ export default class DatabaseComponent extends Component {
         <Unit unit={selectedUnit} clear={clearUnit} />
 
         <div className="columns stats">
-          <div className="col-3">
-            
-          </div>
+          <div className="col-3" />
           <div className="col-6">
             {t('Results')}: {stats.current} ({t('Page')} {stats.page})
           </div>
