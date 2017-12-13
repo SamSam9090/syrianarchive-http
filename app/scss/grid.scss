@@ -20,8 +20,18 @@
     }
   }
   .fl{
+  -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
     break-inside: avoid;
     box-sizing: border-box;
+  }
+    .fll{
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+    box-sizing: border-box;
+    display:block;
   }
 }
 
@@ -36,8 +46,11 @@
     }
   }
   .fll{
-    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
     box-sizing: border-box;
+    display:block;
   }
 }
 
