@@ -1,6 +1,9 @@
 
 article.contents {
   box-shadow: 0px 9px 5px 9px black;
+  background-color: $background;
+  border-top: 1px solid $orange;
+  
 }
 
 article .maincontent{
@@ -10,8 +13,7 @@ article .maincontent{
 
   p, ul {
     margin-bottom: 2em;
-    font-family: 'Lato', serif;
-    margin-top:1em;
+    font-family: 'Merriweather', serif;
     color:#333;
 
   }
@@ -52,10 +54,10 @@ article.contents ol{
 
 
 article.contents .container.maincontent{
-  padding-top:3rem;
+  padding-top:1rem;
   padding-bottom: 2rem;
 }
 
 article.contents img{
-  max-width:120%;
+  max-width:100%;
 }

@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: "هجمات باستخدام الذخائر الحارقة - عين على حلب"
 date: 2017-03-29T00:01:22.055Z
 image: /assets/investigations/incendiary-1.png

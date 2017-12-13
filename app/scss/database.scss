@@ -21,7 +21,7 @@
   }
 
   .meta small {
-    background-color: beige;
+    background-color: $beige;
     margin-top:2rem;
   }
 
@@ -31,23 +31,29 @@
 
 .database{
   padding: 0;
+  background-color:$background;
 }
 .db{
+  background-color:#fafafa;
   .item:nth-child(odd) {
-     background-color: #f6f6f6;
+     background-color: white;
   }
 }
 .dbwrapper{
-  padding: 0;
-  max-width: 100%;
+  padding-top: 0;
+    padding-bottom: 0;
+
+  .columns{
+    padding:2rem;
+  }
 }
 
 
 
 .stats{
-  background-color: #666;
-  color:white;
-  max-width: 100%;
+   padding-top: 1rem;
+    padding-bottom: 1rem;
+  color:$blue;
 }
 
 .dtitle{
@@ -55,7 +61,7 @@
     padding-left:1rem;
     padding-right:1rem;
    span {
-    background: beige;
+    background: $beige;
     color: #111;
     padding: .2rem;
     line-height: 3rem;
@@ -63,13 +69,12 @@
 }
 
 .filters{
-  background-color: rgba(0,0,0,.05);
 
   .filter{
-    padding:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
     padding-right:4rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
     margin-right: 1rem;
 
     h5{
@@ -99,15 +104,15 @@
       padding-left: 1rem;
       border-bottom: 1px dashed #aaa;
       &:focus{
-        background-color: beige;
+        background-color: $beige;
         border-bottom: 1px solid $orange;
       }
     }
 
 
     input:not([value=""]), .Select.has-value .Select-value{
-       background-color: beige !important;
-       border-bottom: 4px solid teal !important;
+       background-color: $beige !important;
+       border-bottom: 4px solid $blue !important;
     }
 
     input, .input-container, .react-datepicker__input-container, .react-datepicker-wrapper {

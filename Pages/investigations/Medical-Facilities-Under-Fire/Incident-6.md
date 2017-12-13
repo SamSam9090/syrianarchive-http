@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: Incident 6 - Medical Facilities Under Fire
 date: 2017-07-01T00:11:18.055Z
 desc: An investigation about attacking Syrian hospitals

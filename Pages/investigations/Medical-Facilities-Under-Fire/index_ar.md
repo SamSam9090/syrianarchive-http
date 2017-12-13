@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: "مرافق صحية تحت النار"
 desc: "تقرير مُفصّل عن استهداف 8 مشافي ومنشأة طبية في إدلب"
 date: 2017-07-01T00:00:18.055Z

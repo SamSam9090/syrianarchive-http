@@ -1,14 +1,12 @@
-
-.container.investigations{
-  border-top:3px solid $orange;
-}
-
-article.contents .investigation{
-  margin-top:3rem;
+.investigation {
+    margin-top: -10em;
+    background-color: white;
+    padding: 2rem;
+    margin-left:-2rem;
 }
 
 .investigations{
-  background-color:#444;
+  background-color:#f2f2f2;
   color: white;
   padding-top:5rem;
   .col-5 p{
@@ -19,14 +17,21 @@ article.contents .investigation{
     .card-title{
       font-size: 3rem;
     }
-    .card-body{
-      color:white;
-    }
+
   }
 
 
   .clist > .col-6:first-child{
     display:none;
+  }
+
+  .supercard .card a .card-title .tcontent{
+    font-size:4rem;
+  }
+
+
+  .supercard .card .card-body{
+    font-size:2rem;
   }
 
   .supercard .card-image{
@@ -37,8 +42,5 @@ article.contents .investigation{
     width:100%;
   }
 
-  .supercard .card{
-    margin: 0;
-  }
 
 }

@@ -19,7 +19,7 @@
     }
     h6 {
       font-size: 1.4rem;
-      background-color: beige;
+      background-color: $beige;
       color:#444;
 
     }
@@ -41,7 +41,7 @@
       margin: .3rem;
       padding: .3rem;
         font-size: 1.2rem;
-        background-color: beige;
+        background-color: $beige;
 
       &:hover {
         background-color:white;

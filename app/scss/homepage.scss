@@ -1,8 +1,4 @@
 
-.home .container.top{
-  background-color: rgba(0,0,0,.3);
-}
-
 .home .container.title .columns{
   align-items: center;
 }
@@ -14,9 +10,6 @@
 .home .title h1 {
   font-family: 'Lato';
   font-size: 6rem;
-  margin-bottom: 4rem;
-  text-align:center;
-  margin-top:20vh;
 }
 
 .subtit{
@@ -30,12 +23,27 @@
   }
 }
 
+.intro{
+  padding-top:2rem;
+  padding-bottom:3rem;
+
+  .columns.latestinfo{
+    padding-top:4rem;
+    padding-bottom:3rem;
+  }
+}
+
+.intro .columns{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
 .home .ititle {
   color:#888;
   text-align:center;
 }
 
-.home .investigations .limiter > .col-6 {
+.home .investigations .limiter > .col-12 {
   display:none;
   &:first-child{
     display: block;
@@ -48,4 +56,23 @@
 .home .maincontent p{
   display:block;
   margin:0 auto;
+}
+
+.home .container.investigations{
+  padding:0;
+}
+
+.home .intro .investigations .columns{
+  padding:0;
+  .card{
+  margin-left:0;
+  }
+}
+
+.home .lotsacards{
+  margin-top:-4rem;
+}
+
+.home .flx .card{
+  margin-left:0;
 }

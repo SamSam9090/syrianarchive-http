@@ -2,7 +2,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.14/spectre-exp.min.css');
 @import url('https://unpkg.com/react-select/dist/react-select.css');
 
-$orange: #f37021;
+$orange: #fb8520;
+$blue: #2a98b7;
+$background: #f2f2f2;
+$dark: #444;
+$beige: #fff9d6;
 
 
 @import "typography";
@@ -24,4 +28,11 @@ $orange: #f37021;
 html.ar{
   $color:#91c76a;
   @import "rtl";
+}
+
+hr {
+   border: 0; height: 1px; background: #333; 
+   background-image: linear-gradient(to right, $orange, $blue, $orange);
+   margin-top:2rem;
+   margin-bottom:2rem;
 }

@@ -12,20 +12,59 @@
 
   {% block content %}
 
-  <div class="container maincontent">
+  <div class="container intro">
+
     <div class="columns">
-      <div class = "col-3 col-sm-12"></div>
+      <div class = "col-12 col-sm-12">
+        <h3>{{desc}}</h3>
+      </div>
+    </div>
+    
+    <div class="columns">
       <div class = "col-6 col-sm-12">
         {{ contents|safe }}
       </div>
-      <div class = "col-3 col-sm-12"></div>
-
     </div>
 
-  <div class="columns">
+  <div id="js-root"></div>
+
+  <div class="columns latestinfo">
+    <div class = "col-6 col-sm-12">
+        {% if locale === 'ar' %}
+          <h4>آخر التحقيقات</h4> 
+        {% else %} 
+          <h4>Latest Investigations</h4> 
+        {% endif %}   
+    </div>
+    <div class = "col-6 col-sm-12">
+        <h4>More</h4>
+    </div>
+  </div>
+    
 
 
-    <div class = "col-12 col-sm-12 flxx">
+  <div class="columns lotsacards">
+
+    <div class="col-6 col-sm-6">
+        {% set items = latest  | sort(true, true, 'date') %}
+
+      <div class="container investigations">
+
+
+        <div class="limiter columns">
+        {% for post in items  | sort(true, true, 'date')%}
+          {% if post.locale === locale and post.title != title %}
+            <div class="col-12 col-sm-12">
+                {% include 'includes/card.html' %}
+              </div>
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+
+
+    <div class = "col-6 col-sm-12 flx">
     {% for post in siblings  | sort(true, true, 'date')%}
       {% if post.locale === locale and post.title != title %}
         <div class="fll">
@@ -38,36 +77,9 @@
   </div>
 </div>
 
-    {% set items = latest  | sort(true, true, 'date') %}
-
-    <div class="container investigations">
-      <div class="columns">
-        <div class="col-12 ititle">
-{% if locale === 'ar' %} <h3>آخر التحقيقات</h3> {% else %} <h3>Latest Investigations</h3> {% endif %}        </div>
-      </div>
-
-      <div class="limiter columns">
-      {% for post in items  | sort(true, true, 'date')%}
-        {% if post.locale === locale and post.title != title %}
-          <div class="col-6 col-sm-12">
-              {% include 'includes/card.html' %}
-            </div>
-        {% endif %}
-      {% endfor %}
-      </div>
-    </div>
-
   {% endblock %}
 
   {% block jstop %}
-  <div class="container subtit">
-    <div class="columns">
-      <div class="col-12">
-        <h2>{{desc}}</h2>
-      </div>
-    </div>
-  </div>
-  <div id="js-root"></div>
   {% endblock %}
 
 

@@ -34,3 +34,28 @@ article.contents ul li:before {
 .card a .card-title {
   font-family: 'Droid Arabic Naskh' !important;
 }
+
+.home .intro .investigations .columns{
+  padding:0;
+  .card{
+  margin-left:2rem;
+  margin-right:0px;
+  }
+}
+
+
+.home .flx .card{
+    margin-left:2rem;
+  margin-right:0px;
+}
+
+.investigation {
+    margin-left:0rem;
+        margin-right:-2rem;
+
+}
+
+.maintext{
+    margin-left:0rem;
+        margin-right:-2rem;
+}

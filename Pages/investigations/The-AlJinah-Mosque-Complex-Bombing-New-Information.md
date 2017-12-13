@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: The Al-Jinah Mosque Complex Bombing
 date: 2017-04-19
 desc: An investigation about Al-Jinah Mosque Bombing

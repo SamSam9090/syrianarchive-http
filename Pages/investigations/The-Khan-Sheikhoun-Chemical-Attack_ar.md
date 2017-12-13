@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: "الهجوم الكيميائي على خان شيخون .. الأدلة حتى الآن"
 date: 2017-04-05
 desc: "تحقيق رقمي بالتعاون مع البيلينغ غات حول الهجوم الكيمائي على خان شيخون"

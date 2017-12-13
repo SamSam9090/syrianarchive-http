@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: Dataset of Russian Attacks Against Syria's Civilians
 date: 2016-05-13
 desc: Dataset of Russian Attacks Against Syria's Civilians

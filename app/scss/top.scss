@@ -1,10 +1,32 @@
 
+.container.title{
+  .columns{
+    position:relative;
+    height: 40vh;
+    .col-12{
+      position: absolute;
+      color:white;
+      bottom:  2rem;
+      z-index: 1;
+    }
+  }
+}
+
 .top{
   position: absolute;
-  background-color: rgba(0,0,0,.3);
+  background-color: $background;
+  z-index: 40;
+  position: fixed;
+  border-top: 3px solid $orange;
+  
+  .columns {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+  }
 
   a, .btn.btn-link{
-    color: white;
+    color: $dark;
   }
   @media screen and (max-width: 500px) {
     position: relative;
@@ -30,9 +52,9 @@
   background-size: cover;
   background-image: url('/assets/main_back.jpg');
   box-shadow: inset 0 -220px 220px -20px rgba(50,50,50,.9);
+  min-height:40vh;
     h1{
       color: white;
-      margin-top: 15vh;
       @media screen and (max-width: 750px) {
        font-size:3rem;
       }
@@ -47,9 +69,11 @@
 
 
 a.hb.btn.btn-link {
-  color:  #F7A979;
+  color:  $orange;
   // font-family: 'Merriweather', serif;
   font-size: 1em;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
-  // font-weight: bold;
+  // text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  font-weight: bold;
+  text-transform:uppercase;
+  margin-left:-.5rem;
 }

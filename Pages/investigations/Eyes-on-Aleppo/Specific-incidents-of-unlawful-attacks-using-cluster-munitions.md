@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: Specific incidents of unlawful attacks using cluster munitions - Eyes on Aleppo
 date: 2017-03-29T00:01:21.055Z
 image: /assets/investigations/cluster-1.png

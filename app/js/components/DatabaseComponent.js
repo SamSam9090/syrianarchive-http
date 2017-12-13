@@ -102,7 +102,7 @@ export default class DatabaseComponent extends Component {
 
         <div className="columns stats">
           <div className="col-3">
-            {t('Filters')}
+            
           </div>
           <div className="col-6">
             {t('Results')}: {stats.current} ({t('Page')} {stats.page})

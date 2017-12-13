@@ -1,5 +1,5 @@
 ---
-layout: contentwithsiblings.html
+layout: investigation.html
 title: "ثلاثة هجمات على مستشفيات ادلب"
 date: 2017-09-19
 desc: "ثلاث منشآت طبية هوجمت بغارات جوية نُسبت للقوات السورية أو الروسية"
