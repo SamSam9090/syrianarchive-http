@@ -1,7 +1,17 @@
+.padright{
+  padding-right: 2rem;
+}
+
+.margright{
+  margin-right: 2rem;
+}
+
 .maintext{
   background-color:white;
   padding: 2rem;
   margin-left:-2rem;
+    margin-right:2rem;
+
 }
 
 .container{
@@ -11,7 +21,7 @@
 
 .flx{
   column-count: 2;
-  column-gap: 0;
+  column-gap: 2rem;
   @media screen and (max-width: 750px) {
     column-count: 1;
     float: none;
@@ -37,7 +47,7 @@
 
 .flxx{
   column-count: 4;
-  column-gap: 0;
+  column-gap: 2rem;
   @media screen and (max-width: 750px) {
     column-count: 1;
     float: none;

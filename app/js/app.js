@@ -7,6 +7,8 @@ import history from './history';
 
 import '../scss/main.scss';
 
+import './bullshit';
+
 import App from './containers/App';
 
 import {store} from './store';

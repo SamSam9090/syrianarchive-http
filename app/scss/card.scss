@@ -8,7 +8,20 @@
   background-color:white;
   border: 0rem solid black;
   font-size: 1rem;
-  margin-top: 0rem;
+  margin:0rem;
+  margin-bottom:2rem;
+
+  &:after{
+       border: 0;
+    height: 1px;
+    /* background: #333; */
+    background-image: linear-gradient(to right, #fb8520, #2a98b7, #fb8520);
+    /* position: relative; */
+    content: "";
+    /* margin-bottom: -2rem; */
+    display: block;
+    opacity:.2;
+  }
 
   .card-header, .card-body{
     padding-top:0rem;
@@ -57,6 +70,9 @@
     margin:0;
     overflow: hidden;
     z-index:3;
+    img{
+      border: 0px solid red !important;
+    }
     
   }
 

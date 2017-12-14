@@ -6,13 +6,13 @@ article.contents {
   
 }
 
-article .maincontent{
+article .maincontent{  
   p, ul, h1, h2, h3, h4, h5, h6 {
-    max-width: 70rem;
+    max-width: 40em;
   }
 
   p, ul {
-    margin-bottom: 2em;
+    margin-bottom: 3rem;
     font-family: 'Merriweather', serif;
     color:#333;
 
@@ -58,6 +58,14 @@ article.contents .container.maincontent{
   padding-bottom: 2rem;
 }
 
-article.contents img{
+article.contents .maincontent img{
   max-width:100%;
+  margin-bottom:3rem;
+  border:2px solid $background;
+    border-bottom:6px solid $background;
+
+}
+
+article.contents p > img{
+  margin-top:2em;
 }

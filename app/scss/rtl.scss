@@ -50,12 +50,38 @@ article.contents ul li:before {
 }
 
 .investigation {
-    margin-left:0rem;
+    margin-left:2rem;
         margin-right:-2rem;
 
 }
 
 .maintext{
-    margin-left:0rem;
+    margin-left:2rem;
         margin-right:-2rem;
+}
+
+.padright{
+  padding-right: 0rem;
+    padding-left: 2rem;
+
+}
+
+.margright{
+  margin-right: 0rem;
+    margin-left: 2rem;
+
+}
+
+  .clist {
+    .col-6:nth-child(even) {
+       padding-right: 0rem;
+    padding-left: 2rem;
+  }
+  }
+
+
+a.hb.btn.btn-link {
+  margin-left:0rem;
+    margin-right:-.9rem;
+
 }

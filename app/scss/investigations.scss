@@ -3,6 +3,8 @@
     background-color: white;
     padding: 2rem;
     margin-left:-2rem;
+        margin-right:2rem;
+
 }
 
 .investigations{
@@ -24,8 +26,16 @@
   }
 
 
+
+
   .clist > .col-6:first-child{
     display:none;
+  }
+
+  .clist {
+    .col-6:nth-child(even) {
+     padding-right:2rem;
+  }
   }
 
   .supercard .card a .card-title .tcontent{
