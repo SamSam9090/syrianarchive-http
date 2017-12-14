@@ -134,6 +134,6 @@ Once the visual content is verified and reviewed, it's then published on the Syr
 
 [1]: http://www.edrm.net/frameworks-and-standards/edrm-model/
 [2]: /assets/workflow.png
-[3]: https://syrianarchive.org/p/page/metadata_schema/
+[3]: https://syrianarchive.org/en/tools_methods/methodology/metadata_schema/
 [4]: https://gitlab.com/littlefork
 [5]: https://syrianarchive.org/p/blog/

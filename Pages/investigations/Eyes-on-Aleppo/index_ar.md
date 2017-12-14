@@ -35,9 +35,9 @@ image: /assets/investigations/index-eoa.png
 
 #### سيتوزّع التقرير على الأقسام التالية:
 
-*   [منهجية البحث.](https://syrianarchive.org/p/page/visual_evidence_Aleppo_methodology/)
-*   [موجز وصفي للنتائج حسب نوع الانتهاك، الذخيرة المستخدمة، والموقع الجغرافي.](https://syrianarchive.org/p/page/visual_evidence_aleppo_findings/)
-*   [تحليل لحوادث معيّنة حول هجمات الأسلحة الحارقة](https://syrianarchive.org/p/page/visual_evidence_aleppo_incendiary/)
-*   [تحليل لحوادث معيّنة حول الهجمات بالقنابل العنقودية](https://syrianarchive.org/p/page/visual_evidence_aleppo_cluster/)
-*   [نمط الهجمات ضد الأشخاص والأعيان المحميون على وجه التحديد](https://syrianarchive.org/p/page/visual_evidence_aleppo_pattern/)
-*   [مجالات للبحث المستقبلي](https://syrianarchive.org/p/page/visual_evidence_aleppo_feedback/)
+*   [منهجية البحث.](https://syrianarchive.org/ar/investigations/Eyes-on-Aleppo/Research-Methodology.html)
+*   [موجز وصفي للنتائج حسب نوع الانتهاك، الذخيرة المستخدمة، والموقع الجغرافي.](https://syrianarchive.org/ar/investigations/Eyes-on-Aleppo/Summary-of-Findings.html)
+*   [تحليل لحوادث معيّنة حول هجمات الأسلحة الحارقة](https://syrianarchive.org/ar/investigations/Eyes-on-Aleppo/Specific-incidents-of-attacks-using-incendiary-munitions.html)
+*   [تحليل لحوادث معيّنة حول الهجمات بالقنابل العنقودية](https://syrianarchive.org/ar/investigations/Eyes-on-Aleppo/Specific-incidents-of-unlawful-attacks-using-cluster-munitions.html)
+*   [نمط الهجمات ضد الأشخاص والأعيان المحميون على وجه التحديد](https://syrianarchive.org/ar/investigations/Eyes-on-Aleppo/Pattern-of-attacks-against-specifically-protected-persons-and-objects.html)
+*   [مجالات للبحث المستقبلي](https://syrianarchive.org/ar/investigations/Eyes-on-Aleppo/Further-research.html)

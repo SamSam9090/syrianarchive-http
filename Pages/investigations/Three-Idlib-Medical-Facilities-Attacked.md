@@ -222,7 +222,7 @@ Through comparing where flights were observed, the time they were observed, and 
 
 [1]: http://www.aljazeera.com/news/2017/09/final-de-escalation-zones-agreed-astana-170915102811730.html
 [2]: http://webtv.un.org/live-now/watch/commission-of-inquiry-on-the-syrian-arab-republic-press-conference/4473491386001
-[3]: https://syrianarchive.org/p/page/medical-facilities-under-fire-syria-incident-2/
+[3]: https://syrianarchive.org/en/investigations/Medical-Facilities-Under-Fire/Incident-2.html
 [4]: https://www.youtube.com/watch?v=srgCm-W_gqM
 [5]: https://www.facebook.com/HamaHealthDirectorate/photos/a.491994577596716.1073741829.473950772734430/1334949736634525/?type=3&theater
 [6]: https://lh5.googleusercontent.com/beg_zFTfkcyiUWu86LCR5IWI1JKTIszfhknq4RqH5Pi4qklIc7vW-xhc-9LrtcrA7R1kTvFPtdC4GPMCKdv7TZ0V6HHHv9XAgTt_-ubzRNPew_MRCKr5XBtmYFV6j0Tb-1Uv3bqg

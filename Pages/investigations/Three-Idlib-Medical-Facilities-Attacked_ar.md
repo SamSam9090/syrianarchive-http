@@ -8,7 +8,7 @@ image: /assets/cover-photo-web.width-800.png
 
 في 19 سبتمبر - أيلول 2017،  وبعد أربعة أيام فقط من مؤتمر[ أستانة الدولي لتفعيل مناطق تخفيف التوتر في أماكن عديدة](http://www.aljazeera.com/news/2017/09/final-de-escalation-zones-agreed-astana-170915102811730.html) من سوريا، وبعد عدة أيام فحسب من تقديم[ لجنة التحقيق التابعة للأمم المتحدة نتائج بعثة تقصي الحقائق](http://webtv.un.org/live-now/watch/commission-of-inquiry-on-the-syrian-arab-republic-press-conference/4473491386001) والتي أكّدت الاستخدام غير المشروع للأسلحة الكيماوية والاستهداف العام للمنشآت الطبية من قبل الحكومة السورية في نيسان - أبريل 2017،  زُعم أن ثلاث منشآت طبية هوجمت بغارات جوية نُسبت للقوات السورية أو الروسية، تقدّم هذه المنشآت خدماتها الطبية لما مجموعه أكثر من 100,000 شخص سنويا.
 
-إحدى هذه المنشآت، مستشفى الرحمة في خان شيخون، هي المنشأة نفسها التي استهدفتها الغارات الجوية مباشرة عقب الهجوم الكيميائي في 4 نيسان - أبريل 2017. وقد أجرى الأرشيف السوري[ تحليلا معمقًا ومفتوح المصدر حول هذه الحادثة](https://syrianarchive.org/p/page/medical-facilities-under-fire-syria-incident-2/). وكان مستشفى كفرنبل قد هوجم سابقًا في[ 25 مارس - آذار 2017](https://www.youtube.com/watch?v=srgCm-W_gqM). المنشآت الثلاث جميعها بعيدة عن مناطق الصراع، وتقع تمامًا ضمن[ مناطق تخفيف التوتّر](http://www.aljazeera.com/news/2017/09/final-de-escalation-zones-agreed-astana-170915102811730.html) المحدّدة بموجب اتفاق بين روسيا وتركيا وإيران.
+إحدى هذه المنشآت، مستشفى الرحمة في خان شيخون، هي المنشأة نفسها التي استهدفتها الغارات الجوية مباشرة عقب الهجوم الكيميائي في 4 نيسان - أبريل 2017. وقد أجرى الأرشيف السوري[ تحليلا معمقًا ومفتوح المصدر حول هذه الحادثة](https://syrianarchive.org/ar/investigations/Medical-Facilities-Under-Fire/Incident-2.html). وكان مستشفى كفرنبل قد هوجم سابقًا في[ 25 مارس - آذار 2017](https://www.youtube.com/watch?v=srgCm-W_gqM). المنشآت الثلاث جميعها بعيدة عن مناطق الصراع، وتقع تمامًا ضمن[ مناطق تخفيف التوتّر](http://www.aljazeera.com/news/2017/09/final-de-escalation-zones-agreed-astana-170915102811730.html) المحدّدة بموجب اتفاق بين روسيا وتركيا وإيران.
 
 يُقّدم هذا التقرير نظرة عامّة معمّقة على المحتوى البصري المتعلّق بالحوادث الثلاث. ولمقاطعة المعلومات مع نتائج تحليل المحتوى البصري، تم تزويد "الأرشيف السوري" ببيانات مراقبة الرحلات الجوية من قبل منظمة تستخدم شبكة متطورة من المراصد (مراقبي الرحلات الجوية) للطائرات. من خلال دراسة مجموعة متنوعة من مصادر المعلومات لكل هجوم، تمكّن "الأرشيف السوري" من إثبات النتائج وتعزيزها. تم تحليل المحتوى البصري المجموع والمحقق منه من قبل الأرشيف السوري بشكل موسّع، بما في ذلك التحديد الدقيق للموقع الجغرافي باستخدام صور الأقمار الصناعية. حُدّدت كل الأوقات المذكورة وفقًا للتوقيت المحلي لمحافظة دمشق، وبصيغة 24 ساعة.
 
@@ -46,7 +46,7 @@ image: /assets/cover-photo-web.width-800.png
 
 ![mf2.png][12]
 
-[نشر "الأرشيف السوري" تحقيقًا عن الهجوم السابق](https://syrianarchive.org/p/page/medical-facilities-under-fire-syria-incident-2/) على المستشفى في 4 نيسان - أبريل 2017، فيما يلي الموقع الجغرافي للهجوم السابق:
+[نشر "الأرشيف السوري" تحقيقًا عن الهجوم السابق](https://syrianarchive.org/ar/investigations/Medical-Facilities-Under-Fire/Incident-2.html) على المستشفى في 4 نيسان - أبريل 2017، فيما يلي الموقع الجغرافي للهجوم السابق:
 
 ![Screen Shot 2017-05-11 at 8.15.33 AM.png][13]
 
@@ -229,7 +229,7 @@ image: /assets/cover-photo-web.width-800.png
 
 [1]: http://www.aljazeera.com/news/2017/09/final-de-escalation-zones-agreed-astana-170915102811730.html
 [2]: http://webtv.un.org/live-now/watch/commission-of-inquiry-on-the-syrian-arab-republic-press-conference/4473491386001
-[3]: https://syrianarchive.org/p/page/medical-facilities-under-fire-syria-incident-2/
+[3]: https://syrianarchive.org/ar/investigations/Medical-Facilities-Under-Fire/Incident-2.html
 [4]: https://www.youtube.com/watch?v=srgCm-W_gqM
 [5]: https://www.facebook.com/HamaHealthDirectorate/photos/a.491994577596716.1073741829.473950772734430/1334949736634525/?type=3&theater
 [6]: https://lh5.googleusercontent.com/beg_zFTfkcyiUWu86LCR5IWI1JKTIszfhknq4RqH5Pi4qklIc7vW-xhc-9LrtcrA7R1kTvFPtdC4GPMCKdv7TZ0V6HHHv9XAgTt_-ubzRNPew_MRCKr5XBtmYFV6j0Tb-1Uv3bqg

@@ -52,9 +52,9 @@ While attacks and violations have been committed by all parties including the [I
 [3]: https://www.bellingcat.com/?s=syria
 [4]: https://airwars.org/civilian-casualty-claims/
 [5]: Research-Methodology.md
-[6]: https://syrianarchive.org/p/page/visual_evidence_aleppo_findings/
-[7]: https://syrianarchive.org/p/page/visual_evidence_aleppo_incendiary/
-[8]: https://syrianarchive.org/p/page/visual_evidence_aleppo_cluster/
-[9]: https://syrianarchive.org/p/page/visual_evidence_aleppo_pattern/
-[10]: https://syrianarchive.org/p/page/visual_evidence_aleppo_feedback/
+[6]: https://syrianarchive.org/en/investigations/Eyes-on-Aleppo/Summary-of-Findings.html
+[7]: https://syrianarchive.org/en/investigations/Eyes-on-Aleppo/Specific-incidents-of-attacks-using-incendiary-munitions.html
+[8]: https://syrianarchive.org/en/investigations/Eyes-on-Aleppo/Specific-incidents-of-unlawful-attacks-using-cluster-munitions.html
+[9]: https://syrianarchive.org/en/investigations/Eyes-on-Aleppo/Pattern-of-attacks-against-specifically-protected-persons-and-objects.html
+[10]: https://syrianarchive.org/en/investigations/Eyes-on-Aleppo/Pattern-of-attacks-against-specifically-protected-persons-and-objects.html
 [11]: https://media.syrianarchive.org/blog/5th_blog/Eyes%20on%20Aleppo.pdf
