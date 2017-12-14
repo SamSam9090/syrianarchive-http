@@ -4,7 +4,7 @@ import collections from 'metalsmith-collections';
 import markdown from 'metalsmith-markdown';
 // import permalinks from 'metalsmith-permalinks';
 import multiLanguage from 'metalsmith-multi-language';
-import {each, merge, omit, concat, compact, keys, filter} from 'lodash';
+import {each, find, merge, omit, concat, compact, keys, filter} from 'lodash';
 import filetree from 'metalsmith-filetree';
 
 import nunjucks from 'nunjucks';
@@ -17,6 +17,30 @@ const nun = new nunjucks.Environment(new nunjucks.FileSystemLoader('layouts'));
 
 nun.addFilter('t', t);
 nun.addFilter('l', lo);
+
+nun.addFilter('split', function(str, seperator) {
+    return str.split(seperator);
+});
+
+nun.addFilter('splitminuslast', function(str, seperator) {
+    return str.split(seperator).slice(0, -1);
+});
+
+
+nun.addFilter('jointill', function(url, stop) {
+    return `${url.substring(0, url.indexOf(stop))}${stop}`;
+});
+
+nun.addFilter('findtitle', function(url, siblings) {
+  const bbb = find(siblings,
+    s => 
+      s.url === url ||
+      s.url === `${url}.html` ||
+      s.url === `${url}/` ||
+      s.url === `${url}/index.html`
+    );
+  return bbb ? bbb.title : url;
+});
 
 const LOCALES = { default: 'en', locales: ['en', 'ar'] };
 
@@ -84,7 +108,8 @@ Metalsmith(__dirname)
           ff.push(f[b2f]);
         });
         console.log(ff);
-        v.siblings = filter(compact(ff), gg => gg.path !== 'en/404.html');; //eslint-disable-line
+        v.siblings = filter(compact(ff), gg => gg.path !== 'en/404.html'); //eslint-disable-line
+        v.all = f;
       }
     });
     d();

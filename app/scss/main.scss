@@ -36,3 +36,27 @@ hr {
    margin-top:2rem;
    margin-bottom:2rem;
 }
+
+.breadcrumbs{
+  margin-top:-1rem;
+  margin-bottom:1rem;
+  font-style: oblique;
+  font-style: italic;
+  .bc{
+    a{
+      font-size:1.3rem;
+      color:#666;
+    }
+    &:after{
+      font-size:1.3rem;
+      color:#666;
+      content:">";
+    }
+    &:last-child:after{
+      content:":";
+    }
+    &:last-child{
+      font-weight:bold;
+    }
+  }
+}
