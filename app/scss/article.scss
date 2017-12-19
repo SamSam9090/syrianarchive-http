@@ -3,10 +3,10 @@ article.contents {
   box-shadow: 0px 9px 5px 9px black;
   background-color: $background;
   border-top: 1px solid $orange;
-  
+
 }
 
-article .maincontent{  
+article .maincontent{
   p, ul, h1, h2, h3, h4, h5, h6 {
     max-width: 40em;
   }
@@ -53,11 +53,6 @@ article.contents ol{
   }
 }
 
-
-article.contents .container.maincontent{
-  padding-top:1rem;
-  padding-bottom: 2rem;
-}
 
 article.contents .maincontent img{
   max-width:100%;
