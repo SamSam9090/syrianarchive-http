@@ -113,3 +113,209 @@ Two dashcam camera videos were published,  on the Facebook page of “The Syrian
 Using openly available satellite imagery, it is possible to confirm the location the car is driving southward towards [a junction](http://wikimapia.org/#lang=de&lat=36.140117&lon=36.825512&z=19&m=b&show=/37462730/Building-bottom-floors-destroyed-) in central Atarib. At 8 seconds into the video, the impact of an apparent airstrike on this building at 8 seconds, which is said to be the [Free Police building](http://wikimapia.org/#lang=de&lat=36.139608&lon=36.825335&z=19&m=b&show=/37462730/Building-bottom-floors-destroyed-).
 
 ![atarib-12.png] [13]
+
+[The second dashcam video](https://www.facebook.com/mohammad.saber.311/videos/822800251223338/), uploaded to Facebook by “Mouhammed Saber”, also shows a timestamp: 2017/11/13 at 15:12, suggesting that if the time is correct it shows the moment of impact three minutes after the first airstrike on the Free Police building. This is also the time reported of the second airstrike in Atarib that day.
+
+<iframe src="https://giphy.com/embed/3o751QWigWq0Z0w3aE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3o751QWigWq0Z0w3aE">via GIPHY</a></p>
+
+Using openly available satellite imagery, the Syrian Archive has determined that it is highly probable the car was standing in the road in front of the damaged building at the time of filming. At 24 seconds into the video, we can see the fire as a result of the airstrike that targeted the building behind the car. See below:
+
+![atarib-13.png] [14]
+
+To corroborate this analysis, the Syrian Archive team interviewed the source of the video who reaffirmed the location in which the video was filmed matched the geolocation seen above.
+
+To verify the time of the [second dashcam video](https://www.facebook.com/mohammad.saber.311/videos/822800251223338/), an analysis of sun shadows was conducted [using the SunCalc tool](https://www.suncalc.org/#/36.1403,36.8262,19/2017.11.13/14:12/1/2). The time of the airstrikes at 14:12 Damascus time, is consistent with the shadow of the building that appears where the car is parked.
+
+![atarib-14.png] [15]
+
+[Al Jazeera has published a video](https://twitter.com/AJArabic/status/930276622694891520) about the first moment of the attack when the air-to-surface munitions being dropped into the market.
+
+![atarib-15.png] [16]
+
+## Geolocation of Al Jazeera video
+
+The following objects have been identified from Al Jazeera video reported by Suhaib Al Khalaf. Four munitions being dropped immediately before the explosion can be seen in the following image.
+
+![atarib-16.png] [17]
+
+A light green mosque dome and a mosque minaret can be seen in the  video from Al Jazeera as well.
+
+![atarib-17.png] [18]
+
+As the same minaret can be seen in multiple frames of the video from multiple perspectives, and in other videos when civilians are being rescued in the aftermath of the the attack, it becomes possible to use this as a reference location for geolocation purposes.
+
+![atarib-18.png] [19]
+
+## Geolocating the mosque minaret:
+
+The Syrian Archive team got in touch with [citizen reporter Muhammad Shakrdy](https://www.facebook.com/shaf3y90?ref=content_filter) who lives in Atarib. On 9 December 2017, Muhammad Shakrdy took pictures of the newly built mosque, which, when compared with recent satellite imagery from DigitalGlobe, was geolocated as seen below:
+
+![atarib-19.png] [20]
+
+## Geolocating the mosque dom:
+
+The location of the light green dome appearing in Al Jazeera video has been geolocated to be in Atarib, as shown below. As a result, it possible to verify that the Al Jazeera video in which four objects were being dropped in the direction of the market was in fact filmed in Atarib, as was reported.
+
+![atarib-20.png] [21]
+
+The Syrian Archive has estimated the location of the camera as well as the direction the camera faced (towards the impact site) using Google Earth. See below:
+
+![atarib-21.png] [22]
+
+To verify the time that the Al Jazeera video was filmed, an analysis of sun shadows was conducted using the SunCalc tool. The time of the airstrikes, between 14:08 and 14:12 Damascus time, is consistent with the shadow of the mosque’s dome shadow that appears in the Al Jazeera video. This corroborates reports by civilians and reporters in Atarib that the attack took place on 13 November, around 14:08pm. See screenshot from the SunCalc analysis below:
+
+![atarib-22.png] [23]
+
+## Visual information (After the Attack):
+
+Thiqa news agency [published a drone video showing](https://www.youtube.com/watch?v=0X128QHTd3k) the destruction in the market as well as the police station building on Nov 14th, 2017.
+
+The Syrian Archive team was able to geolocate six damaged buildings using the above video and Google Earth. This included four buildings in the market street and one at the police station building which is located at the start of the market street and one in front of the police station building. Four of the buildings in the market street can be seen in the image below:
+
+![atarib-23.png] [24]
+
+Thiqa news agency has also [published a drone video](https://www.youtube.com/watch?v=AM0BgZVQGwk) on 31 August 2017 showing the market before the attack. This  allowed the Syrian Archive to identify objects in the market before and after the attack. See below:
+
+![atarib-24.png] [25]
+
+The two frames below show the same market before and after the attack - the first [video frame, taken by RFS media office](https://www.youtube.com/watch?v=FFb8c8N-Au0) with a drone and the second, taken by [Thiqa news agency](https://www.youtube.com/watch?v=0X128QHTd3k) of the same building after the airstrike.
+
+![atarib-25.png] [26]
+
+Two other buildings can be identified from the drone frames video before and after the attack. See below:
+
+
+![atarib-26.png] [27]
+
+RFS media office also [published a video showing](https://www.youtube.com/watch?v=E6veK2FeGt4) the civilians killed as a result of the airstrikes, as well as of the destruction in the police station building as a result of the same attack. See below:
+
+![atarib-27.png] [28]
+
+The Syrian Archive team was able to geolocate the police station building shown in the drone video of Thiqa news agency through Google Earth which makes it the fifth destroyed building as a result of the attack.
+
+![atarib-28.png] [29]
+
+The sixth damaged building was located in front of the police station building as see below. The Syrian Archive team was able to geolocate this building using a photo [published by Muhammad Shakrdy](https://www.facebook.com/shaf3y90?ref=content_filter), and a video published by RFS media office on 13 November 2017.
+
+![atarib-29.png] [30]
+
+## Craters:
+
+RFS news agency [published a video documenting](https://www.youtube.com/watch?v=E6veK2FeGt4) a crater formed as a result of the airstrike that targeted Al Atarib. [AFP published a separate video showing](https://www.youtube.com/watch?v=Fdm3YmUopWc) the same crater next to the police building as geolocated below. Using the AFP video, the Syrian Archive was able to geolocate the crater formed as a result of the attack. See below:
+
+![atarib-30.png] [31]
+
+## Flight Analysis Data
+
+To provide a further layer of verification, the Syrian Archive cross-referenced findings from the videos and witness testimony with flight observation data from a spotter organisation. This process necessitated analysing observation data for flights between 14:00 and 14:30, the period directly before and after the reported attack at 14:07 and 14:12 as was claimed by media activists and seen in the dashcam videos. See below:
+
+![atarib-31.png] [32]
+
+Through comparing where flights were observed, the type of aircraft observed, the time flights were observed, and the direction flights were heading, and comparing this data to geolocation conducted in earlier steps, the Syrian Archive was able to identify several flights potentially responsible for the attack (several fixed-wing Russian aircraft), seen circling in the immediate vicinity of the geolocated attack site. Previous research has found that circling flights typically indicate target acquisition and/or preparation for imminent attack.
+
+While there is no direct evidence available that one of the observed aircrafts was involved in the attack on Atarib, the presence of these aircrafts increase the likelihood that an air attack occurred at this location and the time stated by the citizen reporters as well as humanitarian groups, and estimated also using imagery from the attack.
+
+## Killed civilians names-pictures-numbers:
+
+[The Atarib coordination committee published 64 names](https://www.facebook.com/alatareb.l.c.c2011/) of the civilians that has been killed as a result of this attack. They also posted 4 names of missing persons after the attack.
+
+![atarib-32.png] [33] ![atarib-33.png] [34]
+
+Another list of 69 names of the civilians that has been killed as a result of this attack was also published by [the Syrians for truth and justice](https://stj-sy.com/en/view/318) as can be seen below:
+
+
+### Names of the Civilians Killed Due to Shelling the Main Market in Atarib
+
+- Rashad Mohammed Abdrrahim, a civilian.
+- Ali Shereqi, a civilian.
+- Omar Ali Rasheed, a civilian.
+- Abdulqader Mohammed Eid al-Badawi, a civilian.
+- Mohammed Khalid Mesto, a civilian.
+- Hussein Mar’ei, a civilian.
+- Abdullah Abdrrahim, a civilian.
+- Omar Abdo Rasheed, a civilian.
+- Yousef as-Saleet, a civilian.
+- Ali Hallaq, a civilian.
+- As’ad Haj Taher, a civilian.
+- Mohammed Ammar Deebo, a civilian.
+- Hazim Khaled Deebo Ibrahim, a civilian.
+- Nasir Haj Mar’ei, a civilian.
+- Mohammed Nasir Hej Mar’ei, a civilian.
+- Mohammed Mahmoud Abian, a civilian.
+- The laboratory physician, Ahmad Omar Isa, a civilian.
+- Abdelazeem Ahmad Jaqoum, a civilian.
+- Aref Jbraeel, a civilian.
+- Yousef Bakrish, a civilian.
+- Hamoudeh Faisal Ibrahim, a civilian.
+- Deebo Abdulqader Deebo, a civilian.
+- Hasan Ibrahim Shweif, a civilian.
+- Ghassan Ayoub, a civilian.
+- Hussam Zreiq, a civilian.
+- Abderrazaq Ali al-Ameer, a civilian.
+- Mohammed Hussein Hijazi, a civilian.
+- Ali Faker Rasheed, a civilian.
+- Nasir Ahmad Hajer, a civilian.
+- Mohammed Sultan, a civilian.
+- Mostafa Ahmad Da’doush, a civilian.
+- Anas Hayed, a civilian.
+- Hasan Khalifa, a civilian.
+- Hussein Qasim, a civilian.
+- Khalloq Hallaq, a civilian.
+- Ahmad Hussein Jablawi, a civilian.
+- Mohammed Nour Hayed, a civilian.
+- Khalid Mearzaf, a civilian.
+- Ammar Hussam Barakat, a civilian.
+- Mostafa Hamdan, a civilian.
+- Redwan Ayoub Haj Hamada, a civilian.
+- Mohammed Munir Saleh, a civilian.
+- Mohammed Abdo Haj Mar’ei, a civilian.
+- Murshid al-Mahrouq, a civilian.
+- Naji Sheikh Ibrahim, a civilian.
+- Ahmad Othman, a civilian.
+- Ahmad Othman’s wife, a woman.
+- Asma Riyad Khalil, a woman.
+- Zanoub Sheikh Abdel hay, a woman.
+- Hiba Othman, a woman from al-Leramon.
+- Rowaida Shawa, a woman.
+- Zahra Hussein Jablawi, a woman from Kefr Nouran town.
+- Moayad Abdo Waheeba, a child,.
+- The daughter of Mohammed Qayes Haj Mar’ei, a child.
+- Ayman Abdo Karbo Zarzor, a handicapped child with polio.
+- Ahmad Saied Ibrahim, a missing child.
+
+### List of Police Officers Killed in Shelling the Free Police Station Located at the Entrance to the Main Market in Atarib
+- Mohammed Abderrazaq al-Faj, a police officer.
+- Yamen Saeed ash-Shon, a police officer.
+- Hamdo Saeed ash-Shon, a police officer.
+- Omar Mohammed Deeb Shahoud, a police officer.
+- Hussein Sha’alan Abderrazaq, a police officer.
+- Mostafa Mohammed Othman, a police officer.
+- Jbraeel AbdlWahid Jbraeel, a police officer.
+- Ibrahim Mohammed Ibrahim, a police officer.
+- Ahmad Abdo Taher, a police officer.
+- Hamdi Ways al-Ali, a police officer.
+- Mohammed Hamdo Hamdo, a police officer.
+- Fadl Mohammed Eid Abdurrahman, a police officer.
+- Basil Mohammed Shahid al-Hussein as-Sawadi.
+
+## Prior attacks on this market
+
+This is not the first time the Atarib market has been targeted. On 25 July 2016, Smart News Agency published a video showing destruction of a building located on the market street claimed to be as a result of airstrikes. Eight civilians reported killed as a result of this attack. Thiqa News Agency and Qasion News Agency published videos on 25 July 2016 showing the destruction in Atarib market as a result of the attacks.
+
+The Syrian Archive team has matched objects from Smart News Agency video with objects seen in the drone video taken by RFS media office before the attack. The destruction in the building through the video published by Smart News Agency can clearly be seen.
+
+![atarib-34.png] [35]
+
+An earlier attack on the Atarib market has also been reported on 24 April 2014. The Violation Documentation Center published a report about this attack. VDC has documented 31 names of civilians killed during this attack. The YouTube channel of “Omar Ez El Deen” published a video about the Atarib market attack showing killed civilians in the streets as a result of airstrikes as mentioned in the VDC report. Another video about this attack was published by Amer Alfaj showing civilians killed as a result of the attack.
+
+## About the authors
+The Syrian Archive is a Syrian-led initiative striving to promote sustainable peace and respect for human rights within Syrian society through facilitating justice and accountability efforts. This includes evidence gathering and documentation of incidents; the acknowledgment that war crimes and human rights violations have been committed by all parties to the conflict; the identification of perpetrators to end the cycle of impunity; and the development of a process of justice and reconciliation. Through collecting, verifying, curating and investigating visual content, the Syrian Archive aims to preserve data as a digital memory to establish a database of human rights violations, and to act as a tool for legally implementing justice and accountability efforts as concept and practice in Syria.
+
+Since its founding in 2014, the Syrian Archive have collaborated with organisations including Human Rights Watch (HRW), Amnesty International, Berkeley University and Essex University, Witness, Bellingcat and various agencies of the United Nations (UN), specifically the Independent International Commission of Inquiry on the Syrian Arab Republic.
+
+## Errors, corrections and feedback
+The authors of this report have strived for accuracy and transparency of process in reporting and presentation, while balancing the need to protect the safety of those providing documentation in some instances. With these interests in mind, detailed methodologies for some information deemed sensitive have not been published.
+
+With that said, while all efforts have been made to present our best understanding of alleged incidents, it is recognised that the publicly available information for specific events can at times be limited.
+
+If readers have new information about particular events; find an error in our work - or have concerns about the way we are reporting our data - please do engage with us. You can reach us at info@syrianarchive.org.
