@@ -18,7 +18,7 @@ _This article was collaboratively done by the Syrian Archive Team and Bellingcat
 - Reported injured: 100 injured
 - Missing: 4 persons
 - Munitions identified: Not available
-- Potentially responsible: Russian or Syrian Air Force*
+- Potentially responsible: Russian or Syrian Air Force
 
 ![Drone image before and after the attack](/assets/investigations/atarib-1.png)
 
@@ -307,7 +307,7 @@ The Syrian Archive team has matched objects from Smart News Agency video with ob
 
 ![Damages building - matching drone video with video captured after the attack](/assets/investigations/atarib-34.png)
 
-An earlier attack on the Atarib market has also been reported on 24 April 2014. The Violation Documentation Center published a report about this attack. VDC has documented 31 names of civilians killed during this attack. The YouTube channel of “Omar Ez El Deen” published a video about the Atarib market attack showing killed civilians in the streets as a result of airstrikes as mentioned in the VDC report. Another video about this attack was published by Amer Alfaj showing civilians killed as a result of the attack.
+An earlier attack on the Atarib market has also been reported on 24 April 2014. The Violation Documentation Center [published a report](http://www.vdc-sy.info/index.php/en/reports/1398687645#.Wjwt5hIrLt6) about this attack. VDC has documented 31 names of civilians killed during this attack. The YouTube channel of [“Omar Ez El Deen” published a video](https://www.youtube.com/watch?v=yVARN31iSDU) about the Atarib market attack showing killed civilians in the streets as a result of airstrikes as mentioned in the VDC report. Another [video about this attack was published by Amer Alfaj](https://www.youtube.com/watch?v=yVARN31iSDU) showing civilians killed as a result of the attack.
 
 ## About the authors
 [The Syrian Archive](https://syrianarchive.org/en/about) is a Syrian-led initiative striving to promote sustainable peace and respect for human rights within Syrian society through facilitating justice and accountability efforts. This includes evidence gathering and documentation of incidents; the acknowledgment that war crimes and human rights violations have been committed by all parties to the conflict; the identification of perpetrators to end the cycle of impunity; and the development of a process of justice and reconciliation. Through collecting, verifying, curating and investigating visual content, the Syrian Archive aims to preserve data as a digital memory to establish a database of human rights violations, and to act as a tool for legally implementing justice and accountability efforts as concept and practice in Syria.
