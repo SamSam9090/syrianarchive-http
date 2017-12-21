@@ -2,23 +2,23 @@
 layout: investigation.html
 title: Targeting civilians in public market in Al Atarib
 date: 2017-12-20
-desc: 69 dead as a result of airstrikes that attacked Atarib market
-image: /assets/investigations/atarib-1.png
+desc: 69 civilians dead as a result of airstrikes that attacked Atarib market
+image: /assets/investigations/atarib-25.png
 ---
 
 _This article was collaboratively done by the Syrian Archive Team and Bellingcat Investigation Team_
 
-*Location: Atarib (Aleppo governorate, Syria)
-*Claimed targets: Public market and police building
-*Date: 13 November 2017
-*First airstrike: ~14:07 local time (UTC/GMT plus 2)
-*Second airstrike: ~14:12 local time (UTC/GMT plus 2)
-*Attacks: 3 alleged airstrikes, 6 thermometric bombs
-*Reported killed: 69 killed
-*Reported injured: 100 injured
-*Missing: 4 persons
-*Munitions identified: Not available
-*Potentially responsible: Russian or Syrian Air Force*
+- Location: Atarib (Aleppo governorate, Syria)
+- Claimed targets: Public market and police building
+- Date: 13 November 2017
+- First airstrike: ~14:07 local time (UTC/GMT plus 2)
+- Second airstrike: ~14:12 local time (UTC/GMT plus 2)
+- Attacks: 3 alleged airstrikes, 6 thermometric bombs
+- Reported killed: 69 killed
+- Reported injured: 100 injured
+- Missing: 4 persons
+- Munitions identified: Not available
+- Potentially responsible: Russian or Syrian Air Force*
 
 ![Drone image before and after the attack](/assets/investigations/atarib-1.png)
 
@@ -319,4 +319,4 @@ The authors of this report have strived for accuracy and transparency of process
 
 With that said, while all efforts have been made to present our best understanding of alleged incidents, it is recognised that the publicly available information for specific events can at times be limited.
 
-If readers have new information about particular events; find an error in our work - or have concerns about the way we are reporting our data - please do engage with us. You can reach us at *info@syrianarchive.org.
+If readers have new information about particular events; find an error in our work - or have concerns about the way we are reporting our data - please do engage with us. You can reach us at *info@syrianarchive.org*.
