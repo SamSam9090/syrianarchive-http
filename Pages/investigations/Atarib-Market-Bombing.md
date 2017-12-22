@@ -24,7 +24,7 @@ _This article was collaboratively done by the Syrian Archive Team and Bellingcat
 
 ## Introduction
 
-On 13 November 2017 between 14:07 and 14:11, the Atarib market and police station were targeted by three airstrikes resulting in the death of 69 civilians, significant damage to several buildings on the Atarib market street, and to the Free Syrian police building. Open source materials indicates this attack was conducted by either the Russian or Syrian airforce.
+On 13 November 2017 between 14:07 and 14:11, the Atarib market and police station were targeted by three airstrikes resulting in the death of 69 civilians, significant damage to several buildings on the Atarib market street, and to the Free Syrian police building. Open source materials indicate this attack was conducted by either the Russian or Syrian airforce.
 
 On November 13, Alexander Ivanov, the spokesman for the Khmeimim airbase used by Russia, denied that Russian aircraft committed a “massacre” at a civilian site in Atarib. This was posted also on the official Telegram channel of Khmeimim airbase. See blow:
 
@@ -32,30 +32,30 @@ On November 13, Alexander Ivanov, the spokesman for the Khmeimim airbase used by
 
 ![Telegram post](/assets/investigations/atarib-36.png)
 
-Atarib city is included in the de-escalation zone memorandum signed by the sponsoring states of the Astana Talks (Russia, Turkey and Iran) and has no military headquarters for ISIS neither Jabhat AL Nusra. The Atarib market has been attacked two times previously, in 2014 and in 2016, according to open source materials and reports from human rights monitoring groups. If the Russian-Syrian alliance was targeting a populated area with no apparent military presence or target, it would violate international humanitarian law.
+Atarib city is included in the de-escalation zone memorandum signed by the sponsoring states of the Astana Talks (Russia, Turkey and Iran) and has no military headquarters for ISIS neither Jabhat AL Nusra. The Atarib market has been attacked twice previously, in 2014 and in 2016, according to open source materials and reports from human rights monitoring groups. If the Russian-Syrian alliance was targeting a populated area with no apparent military presence or target, it would violate international humanitarian law.
 
 To better understand what happened in this regional town, [the Syrian Archive used open source investigative techniques](https://syrianarchive.org/en/tools_methods), spoke with sources on the ground, and analysed flight observation data to better examine uploaded user generated content documenting the incident. By examining a variety of sources of information, the Syrian Archive was able to corroborate and strengthen findings. Visual content gathered and verified by the Syrian Archive was extensively analysed - including in-depth geolocation with satellite imagery. All times provided are in Damascus local time, and in 24-hour format. The findings are presented in the following report, structured by the questions of the who, what, where, and why of this incident.
 
-Findings regarding this attack were characterized by repeated bombardments, lack of warnings, and an absence of active military hostilities in the vicinity of the attack. Through collecting, verifying and reporting investigative findings from these incidents, the authors hopes to preserve critical information that may be used for advocacy purposes or as evidence in future proceedings seeking legal accountability.
+Findings regarding this attack were characterized by repeated bombardments, lack of warnings, and an absence of active military hostilities in the vicinity of the attack. Through collecting, verifying and reporting investigative findings from these incidents, the authors hope to preserve critical information that may be used for advocacy purposes or as evidence in future proceedings seeking legal accountability.
 
 This report complements and supports recent efforts by human rights organisations to report violations targeting Atarib on 13 November 2017. Those efforts include:
 1. [Syrians for Truth and Justice: “A Horrific Massacre Kills Up To 65 People in Atarib, Aleppo Countryside”](https://stj-sy.com/en/view/318)
 2. [Pax: “Why was Al-Atareb attacked?”](https://blogs.paxvoorvrede.nl/2017/11/21/why-was-al-atareb-attacked/)
 3. [Human Rights Watch: Syria in Talks focus on protecting civilians.](https://www.hrw.org/news/2017/11/22/syria-talks-focus-protecting-civilians).
 
-The added value of this report to the efforts mentioned above includes *damage identification*, as well as cross referencing and contextualising *visual content (20 verified videos) with satellite imagery* and with *flight observation data* provided by a spotter organisation of aircraft in the immediate vicinity of hospitals at the time of attacks. *Geolocation of visual content was done in collaboration with the Bellingcat Investigation Team.*
+The added value of this report to the efforts mentioned above includes *damage identification*, as well as cross referencing and contextualising *visual content (20 verified videos) with satellite imagery* and *flight observation data* provided by a spotter organisation of aircraft in the immediate vicinity of market at the time of attacks. *Geolocation of visual content was done in collaboration with the Bellingcat Investigation Team.*
 
 ## Background of Atarib
 
-Located some 25 kilometers west of Aleppo city, Atarib is a small regional town with an estimated population  of 30,000 mostly Sunni Arabs in 2011 before the Syrian war started. The city has historically served as a strategic transport hub between the governorate capital of Aleppo's northern countryside, and the Bab al-Hawa border crossing with Turkey.
+Located some 25 kilometers west of Aleppo city, Atarib is a small regional town with an estimated population of 30,000 mostly Sunni Arabs in 2011 before the Syrian war started. The city has historically served as a strategic transport hub between the governorate capital of Aleppo's northern countryside, and the Bab al-Hawa border crossing with Turkey.
 
 [Anti Assad regime demonstrations](https://www.youtube.com/watch?v=A0LvV9UrH5o) took place in Atarib as early as April 2011, and the city swiftly became an important hub for organizing protests in the wider district, as well as in Aleppo city itself. Atarib also assumed military significance against the Syrian regime following the establishment of the Free Syrian Army (FSA) and was among the first urban centres to [host local military officers who defected from the Syrian regime in early 2012.](https://www.youtube.com/watch?v=cPhgK3xXL6U)
 
 The city soon had one of the [largest numbers of defected officers](https://www.youtube.com/watch?v=5AAOBI8O-aI) in rural Aleppo, and the local FSA groups that were subsequently formed there went on to establish the [al-Mutasem Bi’ allah brigade](https://www.youtube.com/watch?v=trtKeqypKp8), who played a crucial role in driving Assad’s forces out of most of rural Aleppo, part of the city of Aleppo and rural Idlib.
 
-After the Syrian regime was forced out of Atarib in July 2012, a council of notables was formed – including elders and other influential figures (e.g.  doctors, lawyers, intellectuals and religious scholars) – to facilitate decision-making through consensus and ensure the wider representation of different families. In October of that year,  [the council of notables agreed to establish a revolutionary council](https://www.youtube.com/watch?v=JqEuY2IRl_I), part of a network of local administration councils in opposition-held areas intended to serve as an alternative to the Syrian regime. This includes taking responsibility for  running the city and providing public services, including the establishment and supervision of a local court system and police service, active until the date of the publishing of this report.
+After the Syrian regime was forced out of Atarib in July 2012, a council of notables was formed – including elders and other influential figures (e.g. doctors, lawyers, intellectuals and religious scholars) – to facilitate decision-making through consensus and ensure the wider representation of different families. In October of that year, [the council of notables agreed to establish a revolutionary council](https://www.youtube.com/watch?v=JqEuY2IRl_I), part of a network of local administration councils in opposition-held areas intended to serve as an alternative to the Syrian regime. This includes taking responsibility for running the city and providing public services, including the establishment and supervision of a local court system and police service, active until the date of this report's publishing.
 
-In late 2013, IS came to town, but was considered as “uninvited guest,” as Haid Haid writes in his article [“How My Syrian Hometown Fought the Islamic State and Won”](http://archive.is/7a1Zh), published in Middle East Eye. Local resistance managed to oust the group from Atarib, and it did the same with al-Qaeda-linked Jabhat al-Nusra in early 2015 when they tried to capture the city, as Haid Haid writes in a [Chatham House report](https://www.chathamhouse.org/sites/files/chathamhouse/publications/research/2017-06-01-local-community-resistance-syria-atarib-haid.pdf). Many [videos were posted](https://www.youtube.com/watch?v=UQG_sg9S2JQ&feature=youtu.be) showing the residents in Atarib city protesting against Jabhat al-Nusra. Currently the Atarib civilian council is managing the city and providing services to civilians. As can be seen in [the 13 November 2017 from LiveUMap](https://syria.liveuamap.com/en/time/13.11.2017)  provided below showing areas of control in northern Syria, at the time Atarib was attacked it was far from any frontline or clashes (In red: Syrian government - in green: Syrian opposition forces - in yellow: SDF forces - in black: ISIS).
+In late 2013, IS came to town, but was considered as “uninvited guest,” as Haid Haid writes in his article [“How My Syrian Hometown Fought the Islamic State and Won”](http://archive.is/7a1Zh), published in Middle East Eye. Local resistance managed to oust the group from Atarib, and it did the same with al-Qaeda-linked Jabhat al-Nusra in early 2015 when they tried to capture the city, as Haid Haid writes in a [Chatham House report](https://www.chathamhouse.org/sites/files/chathamhouse/publications/research/2017-06-01-local-community-resistance-syria-atarib-haid.pdf). Many [videos were posted](https://www.youtube.com/watch?v=UQG_sg9S2JQ&feature=youtu.be) showing the residents in Atarib city protesting against Jabhat al-Nusra. Currently the Atarib civilian council is managing the city and providing services to civilians. As can be seen in [the 13 November 2017 post from LiveUMap](https://syria.liveuamap.com/en/time/13.11.2017) provided below showing areas of control in northern Syria, at the time Atarib was attacked it was far from any frontline or clashes (In red: Syrian government - in green: Syrian opposition forces - in yellow: SDF forces - in black: ISIS).
 
 ![LiveUMap screenshot](/assets/investigations/atarib-2.png)
 
@@ -75,11 +75,11 @@ A zoomed in look at the Russian Ministry of Defense’s map (above) clearly show
 
 ## What Happened?
 
-On 13 November 2017, [Atarib’s public commercial market and a nearby police station](http://wikimapia.org/#lang=de&lat=36.139079&lon=36.825367&z=19&m=b&show=/25873693/ar/مسجد&search=atarib) were targeted by three air strikes, according to reports from media activists, humanitarian groups, news agencies, and the Syrian Civil Defense in the Aleppo governorate. The claimed damage of these airstrikes were filmed and photographed and uploaded to social media platforms.
+On 13 November 2017, [Atarib’s public commercial market and a nearby police station](http://wikimapia.org/#lang=de&lat=36.139079&lon=36.825367&z=19&m=b&show=/25873693/ar/مسجد&search=atarib) were targeted by three air strikes, according to reports from media activists, humanitarian groups, news agencies, and the Syrian Civil Defense in the Aleppo governorate. The claimed damage of these airstrikes was filmed and photographed and uploaded to social media platforms.
 
 The same day, Syrian Civil Defense [published a video showing](https://www.youtube.com/watch?v=p1ZI5zX3yrw) the first moment of attacks claimed to be targeting Al Atarib city. At 0:06 an explosion from a far while the civil defense team are driving towards the impact site can be seen, then at 0:33 an explosion that happened close to a market can be seen. Women and children can be seen in the impact site. At the end of the video we see injured including children were being transferred into a medical facility to be treated.
 
-The video has been geolocated through using available satellite imagery, as shown below. Four buildings can be identified as well as the blue building. The two roads leading east are also clearly visible in the video.
+The video has been geolocated using available satellite imagery, as shown below. Four buildings can be identified as well as the blue building. The two roads leading east are also clearly visible in the video.
 
 ![geolocation through DigitalGlobe sattelite imagery](/assets/investigations/atarib-6.png)
 
@@ -103,7 +103,7 @@ Shortly thereafter, at 12:13 local time, Atarib24 indicated that a [third airstr
 
 ![Timestamp screenshot](/assets/investigations/atarib-11.png)
 
-Two dashcam camera videos were published,  on the Facebook page of “The Syrian Revolution Coordination in Atarib City and Its Villages.”
+Two dashcam camera videos were published, on the Facebook page of “The Syrian Revolution Coordination in Atarib City and Its Villages.”
 
 [The first video](https://www.facebook.com/alatareb0/videos/1621197111266483/), published on Facebook by “The Syrian Revolution Coordination in Atarib City and its Villages”, claims to show the first airstrike attacking the Free Police building in Atarib. The moment of impact is visible The video is timestamped 2017/11/13 at 15:07, which is consistent with the timing of the other attacks.
 
@@ -137,7 +137,7 @@ The following munitions have been identified from Al Jazeera video reported by S
 
 ![Munitions identified in Al Jazeera Video](/assets/investigations/atarib-16.png)
 
-A light green mosque dome and a mosque minaret can be seen in the  video from Al Jazeera as well.
+A light green mosque dome and a mosque minaret can be seen in the video from Al Jazeera as well.
 
 ![Dome and mosque minaret identified](/assets/investigations/atarib-17.png)
 
@@ -173,7 +173,7 @@ The Syrian Archive team was able to geolocate six damaged buildings using the ab
 
 ![before and after buildings damage](/assets/investigations/atarib-23.png)
 
-Thiqa news agency has also [published a drone video](https://www.youtube.com/watch?v=AM0BgZVQGwk) on 31 August 2017 showing the market before the attack. This  allowed the Syrian Archive to identify objects in the market before and after the attack. See below:
+Thiqa news agency has also [published a drone video](https://www.youtube.com/watch?v=AM0BgZVQGwk) on 31 August 2017 showing the market before the attack. This allowed the Syrian Archive to identify objects in the market before and after the attack. See below:
 
 ![before and after drone image](/assets/investigations/atarib-24.png)
 
